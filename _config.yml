@@ -1,5 +1,9 @@
 auto: true # your config file will keep Jekyll running, watching your project folder for changes and regenerating the site on the fly.
 
+port: 80
+safe: true
+server: true
+
 # source: If your source files are in a different directory than the one you’re running Jekyll from, you’ll want to set that directory with the source property.
 
 # destination: By default, the destination for your generated site is ./_site. If you’d like something different, set it here.
