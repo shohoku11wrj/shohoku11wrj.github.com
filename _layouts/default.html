@@ -2,7 +2,10 @@
 <html>
     <head>
         <meta charset=utf-8 />
-        <title> {% if page.title %} {{ page.title }} | {% endif %} John Doe, Photographer </title>
+        {% if page.url == "/404.html" %}
+            <meta http-equiv="refresh" content="5; url=/">
+        {% endif %}
+        <title> {% if page.title %} {{ page.title }} | {% endif %} </title>
         <link rel="stylesheet" href="/css/styles.css" />
     </head>
     <body>
@@ -10,22 +13,21 @@
         <div id="main">
 
             <header>
-            <h1> Ranger's Way </h1>
+            <h1> {% if page.title %} {{ page.title }} | {% endif %} </h1>
             <header>
 
             <nav role="navigation">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/portfolio/">Portfolio</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/way.html">Blog Way</a></li>
+                <li><a href="/ranger">About Ranger</a></li>
             </ul>
             </nav>
 
             {{ content }}
 
             <footer>
-            <p>@copy; John Doe Photography 2011 | All Rights Reserved. </p>
+            <p>@copy; Renjie Weng 2013 | All Rights Reserved. </p>
             </footer>
 
         </div>

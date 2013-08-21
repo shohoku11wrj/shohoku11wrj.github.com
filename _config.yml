@@ -2,12 +2,15 @@ auto: true # your config file will keep Jekyll running, watching your project fo
 
 port: 80
 safe: true
-server: true
+markdown: rdiscount
+pygments: true
+paginate: 17
 
 # source: If your source files are in a different directory than the one you’re running Jekyll from, you’ll want to set that directory with the source property.
 
 # destination: By default, the destination for your generated site is ./_site. If you’d like something different, set it here.
 
-# permalink: The permalink is the path to your posts. By default, that’s /year/month/day/title.html. However, you can customize that if you want. Among others, you can use the variables :year, :month, :day, :title, and :categories. :categories comes from the front matter; all the others come from the post file name. Then, you can set permalink to things like /:year/:month/:title/ or /:categories/:title.html. Bonus tip: if you have a permalink property in the post front matter, it will override the site-wide default.
+permalink: /way/:year/:month/:day/:title
+#The permalink is the path to your posts. By default, that’s /year/month/day/title.html. However, you can customize that if you want. Among others, you can use the variables :year, :month, :day, :title, and :categories. :categories comes from the front matter; all the others come from the post file name. Then, you can set permalink to things like /:year/:month/:title/ or /:categories/:title.html. Bonus tip: if you have a permalink property in the post front matter, it will override the site-wide default.
 
 # exclude: Like I said above, Jekyll won’t generate files in directories starting with an underscore. But, if you have folders that you want it to ignore, but that don’t start with an underscore, you can do it with exclude in your config file.
