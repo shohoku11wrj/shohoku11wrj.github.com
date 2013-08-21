@@ -6,29 +6,61 @@
             <meta http-equiv="refresh" content="5; url=/">
         {% endif %}
         <title> {% if page.title %} {{ page.title }} | {% endif %} </title>
-        <link rel="stylesheet" href="/css/styles.css" />
+        <link rel="stylesheet" href="/css/default.css" type="text/css" />
+        <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
     </head>
     <body>
 
         <div id="main">
 
             <header>
-            <h1> {% if page.title %} {{ page.title }} | {% endif %} </h1>
+                <br />
+                <h1 align="center"> Ranger Way </h1>
+                <ul class="navigation">
+                    <li ><a href="/"><span>Home</span></a></li>
+                    <li class="on" style="text-align:center"><a href="/way"><span>blog Way</span></a></li>
+                    <li style="text-align:right"><a href="/ranger"><span>about Ranger</span></a></li>
+                </ul>
+
             <header>
 
-            <nav role="navigation">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/way.html">Blog Way</a></li>
-                <li><a href="/ranger">About Ranger</a></li>
-            </ul>
-            </nav>
+            <div class="index-content blog">
+                <div class="section">
+                    {{ content }}
+                </div>
 
-            {{ content }}
+                <div class="aside">
+                    <img src="http://en.gravatar.com/userimage/16765519/6749bab910ffe48b932e56a89366b9cc.jpg?size=200" />
+                    <p>
+                        <a href="http://twitter.com/gaga_ek" class="sb flat blue twitter">Twitter</a>
+                        <a href="https://github.com/shohoku11wrj" class="sb flat light-green github">Github</a>
+                        <a href="http://www.linkedin.com/pub/renjie-roger-weng/55/511/463" class="sb min linkedin">LinkedIn</a>
+                        <a href="http://stackoverflow.com/users/832659/gaga-ek" class="sb min stackoverflow">StackOverFlow</a>
+                        <a href="http://weibo.com/shohku11wrj" class="sb min weibo">Weibo</a>
+                    </p>
+                    <p>
+                        My name is Renjie Weng.
+                        <br />
+                        I like programming, physics, and cycling.
+                        <br />You can contact me via <a href="#">rweng@stevens.edu</a>
+                    </p>
+                    <ul class="category-list">
+                    <h4>Category</h4>
+                    {% for cat in site.categories %}
+                        <li><a href="/way/{{ cat[0] }}">{{ cat[0] }} </a></li>
+                    {% endfor %}
 
-            <footer>
-            <p>@copy; Renjie Weng 2013 | All Rights Reserved. </p>
-            </footer>
+                    <br/>
+
+                    <ul class="category-list">
+                    <h4>Tags</h4>
+                    {% for tag in site.tags %}
+                        <li>{{ tag[0] }}</li>
+                    {% endfor %}
+
+                </div>
+
+            </div>
 
         </div>
     </body>

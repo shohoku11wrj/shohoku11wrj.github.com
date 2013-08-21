@@ -1,46 +1,67 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: first
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<link rel="stylesheet" href="/js/prettify/prettify.css" />
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+<div>
+{% highlight ruby %}
+find_me = {
+  "Email"   => "rweng@stevens.edu",
+  "GitHub"  => "http://github.com/shohoku11wrj",
+  "Twitter" => "http://twitter.com/gaga_ek"
+  "Weibo"   => "http://weibo.com/shohku11wrj"
+}
+{% endhighlight %}
+</div>
 
-## Update Author Attributes
+<script type="text/javascript">
+$(document).ready(function(){
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+    var isMobile = {
+        Android: function() {
+            return navigator.userAgent.match(/Android/i);
+        }
+        ,BlackBerry: function() {
+            return navigator.userAgent.match(/BlackBerry/i);
+        }
+        ,iOS: function() {
+            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+        }
+        ,Opera: function() {
+            return navigator.userAgent.match(/Opera Mini/i);
+        }
+        ,Windows: function() {
+            return navigator.userAgent.match(/IEMobile/i);
+        }
+        ,any: function() {
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+        }
+    };
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+    $('pre').addClass('prettyprint'); //添加Google code Hight需要的class
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+    $('.entry a').each(function(index,element){
+        var href = $(this).attr('href');
+        if(href){
+            if(href.indexOf('#') == 0){
+            }else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('beiyuu.com')>-1 ){
+            }else if ($(element).has('img').length){
+            }else{
+                $(this).attr('target','_blank');
+                $(this).addClass('external');
+            }
+        }
+    });
 
-    $ rm -rf _posts/core-samples
+    $.getScript('/js/prettify/prettify.js',function(){
+        prettyPrint();
+        menuIndex();
+    });
 
-Here's a sample "posts list".
+    if(/\#comment/.test(location.hash)){
+        $('#disqus_container .comment').trigger('click');
+    }
+});
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+</script>
