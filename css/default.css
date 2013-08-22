@@ -96,8 +96,12 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background: url(/images/noisy_texture_d8d3b6.png);
 }
 
-.index-content .artical-list { width:80%; margin:0 auto; }
-.index-content .artical-list li { margin-bottom:70px; }
+.index-content .artical-list {
+    width: 80%; 
+    height: 100%; 
+    margin: 0px auto; 
+}
+.index-content .artical-list li { margin-bottom:30px; }
 .index-content h2 { font-size:20px; margin-bottom:15px; }
 .index-content h2 a { color:#444 }
 .index-content h2 a:hover { color:#00f; text-decoration:none; }
