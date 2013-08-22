@@ -502,6 +502,11 @@ a.sb.weibo,
     background-image: url(/images/Weibo-32.png);
 }
 
+a.sb.foursquare,
+.sb a.foursquare {
+    background-image: url(/images/FourSquare-32.png);
+}
+
 /* white icons */
 a.sb.blue.twitter,
 .sb.blue a.twitter {
