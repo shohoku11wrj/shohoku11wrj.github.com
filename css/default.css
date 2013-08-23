@@ -56,7 +56,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 /************layout style*****************/
 #content {
     width:70%;
-    margin:30px 0px 0px 25%;
+    margin:30px 0px 50px 25%;
     min-height:400px;
     height:auto !important;
     height: 100%;
@@ -72,15 +72,50 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .entry blockquote{margin-left:25px;font-size:14px;font-style:italic}
 .entry img{max-width:670px;display:block;margin:10px auto;}
 
+.index-content .dao {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    text-align: left;
+}
+
+.index-content .ren {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    text-align: right;
+}
+
+.index-content .dao img,
+.index-content .ren img {
+    width: auto;
+    height: auto;
+    max-height: 150px
+}
+
+img.shadow {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+img.shadow:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
 .index-content .aside {
     float: right;
-    position: fixed;
+    position: absolute;
     top: 150px;
     left: 80%;
     right: 0;
+    bottom: auto;
     padding: 5px;
     width: 20%;
-    height: 100%;
     max-width: 500px;
     color:#000;
     background: url(/images/noisy_texture_c0ecef.png);
@@ -92,7 +127,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     padding-top:20px; 
     width: 80%;
     height: 100%;
-    color:#000;
+    color: #000;
     background: url(/images/noisy_texture_d8d3b6.png);
 }
 
