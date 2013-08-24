@@ -84,7 +84,7 @@ $(document).ready(function(){
             }
             tmpl += '</ul>';
 
-            $('body').append('<div id="menuIndex"></div>');
+            $('#main').append('<div id="menuIndex"></div>');
             $('#menuIndex').append($(tmpl)).delegate('a','click',function(e){
                 e.preventDefault();
                 var scrollNum = $(this).attr('data-top') || $('#'+$(this).attr('data-id')).offset().top;
@@ -136,6 +136,10 @@ $(document).ready(function(){
 
             //用js计算屏幕的高度
             $('#menuIndex').css('max-height',$(window).height()-80);
+            var left = $('#menuIndex').offset().left;
+            $('#menuIndex').css('position', 'fixed');
+            $('#menuIndex').css('left', left);
+
         }
     };
 
@@ -143,6 +147,7 @@ $(document).ready(function(){
         prettyPrint();
         menuIndex();
     });
+
 
     if(/\#comment/.test(location.hash)){
         $('#disqus_container .comment').trigger('click');

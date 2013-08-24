@@ -1,8 +1,4 @@
 /* 重置浏览器CSS */
-html{
-    color:#000;
-    background: url(/images/noisy_texture_c0ecef.png);
-}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
 body,button,input,select,textarea{font-size:12px/1.5;}
@@ -35,7 +31,24 @@ footer {
 }
 
 /***********default settings**********/
-body {font-family: "微软雅黑","Arial","Helvetica","sans-serif";font-size:16px;}
+html, body {
+    color:#000;
+    background: url(/images/noisy_texture_c0ecef.png);
+    margin: 0;
+}
+body {
+    position: relative;
+    font-family: "微软雅黑","Arial","Helvetica","sans-serif";
+    font-size:16px;
+    text-align: center;
+}
+#main{
+    position: relative;
+    max-width: 1200px;
+    text-align: left;
+    margin: 0 auto;
+    /*width: expression(document.body.clientWidth > 800? "800px": "auto");*/
+}
 a {color:#4A75B5;text-decoration:none;outline:none;}
 a:hover {text-decoration:underline}
 a.external {padding-right:13px;background:url('/images/icons.gif') no-repeat right 1px;}
@@ -115,11 +128,16 @@ img.shadow:hover {
     right: 0;
     bottom: auto;
     padding: 5px;
-    width: 20%;
+    width: auto;
     max-width: 500px;
     color:#000;
     background: url(/images/noisy_texture_c0ecef.png);
     border: dotted #000;
+    text-align: center;
+}
+
+.index-content .aside p {
+    text-align: left;
 }
 
 .index-content .section { 
@@ -178,14 +196,17 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 */
 
 /**************目录导航**************/
+/*#menuIndex {position:fixed;top:60px;right:20px;width:200px;overflow:auto}*/
 #menuIndex {
-    position:fixed;
-    top:150px;
-    left:20px;
-    width:15%;
-    overflow:auto;
+    float: left;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 18%;
+    max-width: 200px;
     border: solid 2px #DDD;
     background: #B8EFD0;
+    text-align: left;
 }
 #menuIndex a {display:block; padding:2px 0; }
 #menuIndex a:hover {text-decoration:none;}
