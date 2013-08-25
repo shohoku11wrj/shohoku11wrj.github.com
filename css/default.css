@@ -225,6 +225,11 @@ header a:hover {
 .navigation li a:visited { display:inline-block; zoom:1; color: gray; width:100%; }
 .navigation li a:hover { text-decoration:none; color: orange; }
 .navigation li.on span{ color: white; }
+.navigation li.space {
+    width: 30px;
+    text-align: center;
+    color: green;
+}
 .navigation li.on a:hover span{ color: orange; }
 
 /***************Wiki Style*****************/
