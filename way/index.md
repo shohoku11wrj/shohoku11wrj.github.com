@@ -4,7 +4,6 @@ title: Bolg Way
 ---
 
 <ul class="artical-list">
-<h4>Recently:</h4>
 {% for post in site.posts %}
     <li>
         <h2>

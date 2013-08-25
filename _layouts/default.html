@@ -14,28 +14,32 @@
         <div id="main">
 
             <header>
-                <br />
-                <h1 align="center"> Ranger Way </h1>
-                <ul class="navigation">
-                    <li ><a href="/"><span>Home</span></a></li>
-                    <li class="on" style="text-align:center"><a href="/way"><span>blog Way</span></a></li>
-                    <li style="text-align:right"><a href="/ranger"><span>about Ranger</span></a></li>
-                </ul>
-
+                <h1><a href="/"> Ranger Way </a></h1>
             </header>
 
+            <div class="navigation">
+                <ul>
+                <li class="on" style="text-align:left"><a href="/way"><span>Way => blog</span></a></li>
+                <li style="color:green;"> | </li>
+                <li style="text-align:right"><a href="/ranger"><span>Ranger => about me</span></a></li>
+                </ul>
+            </div>
+
+            <hr size="2px" color="#000" >
+
             <div class="index-content blog">
+                <div class="category">
+                    <ul class="category-list">
+                    <h4>Category</h4>
+                    {% for cat in site.categories %}
+                        <li><a href="/way/{{ cat[0] }}">{{ cat[0] }} </a></li>
+                    {% endfor %}
+                </div>
+
                 <div class="section">
                     {{ content }}
                 </div>
 
-                <!-- <div class="dao">
-                    <img src="/images/dao.jpeg" />
-                </div>
-
-                <div class="ren">
-                    <a href="/ranger"><img src="/images/ren.png" class="shadow" /></a>
-                </div> -->
 
                 <div class="aside">
                     <table width="100%">
@@ -69,15 +73,8 @@
                         I like programming, physics, and cycling.
                         <br />You can contact me via <a href="#">rweng@stevens.edu</a>
                     </p>
-                    <ul class="category-list">
-                    <h4>Category</h4>
-                    {% for cat in site.categories %}
-                        <li><a href="/way/{{ cat[0] }}">{{ cat[0] }} </a></li>
-                    {% endfor %}
-
-                    <br/>
-
-                    <ul class="category-list">
+                    
+                    <ul class="tag-list">
                     <h4>Tags</h4>
                     {% for tag in site.tags %}
                         <li>{{ tag[0] }}</li>
