@@ -129,15 +129,25 @@ img.shadow:hover {
 }
 
 
-.indent-content .category {
-    width: 80%;
-    height: 100%;
+.category {
+    position: relative;
+    height: 50px;
+    margin: 20px 25% 20px 25%;
     text-align: center;
 }
 
-.indent-content .category li {
+.category h4 {
+    display: inline-block;
+}
+
+.category ul {
+    position: relative;
+    text-align: center;
+}
+
+.category li {
     text-align: left;
-    background-color: #252525;
+    display: inline-block;
 }
 
 .index-content .aside {
@@ -161,8 +171,7 @@ img.shadow:hover {
 }
 
 .index-content .section { 
-    margin: 20px 20% 0 0; 
-    padding-top: 50px; 
+    margin: 10px 20% 0 0; 
     width: 80%;
     height: 100%;
     color: #000;
@@ -178,7 +187,14 @@ img.shadow:hover {
 .index-content h2 { font-size:20px; margin-bottom:15px; }
 .index-content h2 a { color:#444 }
 .index-content h2 a:hover { color:#00f; text-decoration:none; }
-.index-content .title-desc {color:#999;font-size:14px;line-height:1.6em;}
+.index-content .title-desc {color:#252525;font-size:14px;line-height:1.6em;}
+
+.index-content .artical-list h.post_date {
+    color: gray;
+    font-size: 16px;
+    font-style: normal;
+    font-family: cursive;
+}
 
 header {
     position: relative;

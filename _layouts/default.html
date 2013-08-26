@@ -30,7 +30,9 @@
             <div class="index-content blog">
                 <div class="category">
                     <ul class="category-list">
-                    <h4>Category</h4>
+                    <h4>Category: </h4>
+                    <li><a href="/way">all</a></li>
+                    <li>&gt;</li>
                     {% for cat in site.categories %}
                         <li><a href="/way/{{ cat[0] }}">{{ cat[0] }} </a></li>
                     {% endfor %}

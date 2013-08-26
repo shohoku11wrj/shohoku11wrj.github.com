@@ -8,7 +8,7 @@ title: Bolg Way
     <li>
         <h2>
             <a href="{{ post.url }}">
-            {{ post.date|date:"%Y-%m-%d" }} {{ post.title }}</a>
+            <h class="post_date">{{ post.date|date:"%Y-%m-%d" }} >> </h><h>{{ post.title }}</h></a>
         </h2>
         <div class="title-desc">{{ post.description }}</div>
     </li>
