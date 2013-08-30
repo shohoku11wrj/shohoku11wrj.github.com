@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: way
 title: Bolg Way
 ---
 

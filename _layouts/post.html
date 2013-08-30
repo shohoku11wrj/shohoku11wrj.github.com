@@ -3,8 +3,30 @@ layout: page
 ---
 <div class="entry">
     <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
-    <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
+    <!-- <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p> -->
+    <div class="bd">
+        <div class="entry-content">
+            <div class="meta">
+              <p class="date-publish">
+                  Published: <time itemprop="datePublished" class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time> by 
+                  <a rel="author" href="/">
+                      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                          <span itemprop="name">
+                              {% if page.author == null %}
+                                  {{ site.author.name }}
+                              {% else %}
+                                  {{ page.author }}
+                              {% endif %}
+                          </span>
+                      </span>
+                  </a>
+              </p>
+            </div>
+        </div>
+    </div>
     {{ content }}
+    
+
 </div>
 
 <div id="disqus_container">
