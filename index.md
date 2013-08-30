@@ -9,7 +9,7 @@ layout: first
 find_me = {
   "Email"   => "rweng@stevens.edu",
   "GitHub"  => "http://github.com/shohoku11wrj",
-  "Twitter" => "http://twitter.com/gaga_ek"
+  "Twitter" => "http://twitter.com/#!/gaga_ek"
   "Weibo"   => "http://weibo.com/230125141"
 }
 {% endhighlight %}
