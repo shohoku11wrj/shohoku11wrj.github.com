@@ -263,6 +263,11 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 .about-link a {margin-right:10px;font-weight:bold;font-style:italic;font-size:13px;color:#E50053}
 */
 
+/***************Post Properities*************/
+div.entry-content {
+    border: dotted 1px #FFF;
+}
+
 /**************目录导航**************/
 /*#menuIndex {position:fixed;top:60px;right:20px;width:200px;overflow:auto}*/
 #menuIndex {

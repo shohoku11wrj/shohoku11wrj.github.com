@@ -8,18 +8,16 @@ layout: page
         <div class="entry-content">
             <div class="meta">
               <p class="date-publish">
-                  Published: <time itemprop="datePublished" class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time> by 
-                  <a rel="author" href="/">
-                      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                          <span itemprop="name">
-                              {% if page.author == null %}
-                                  {{ site.author.name }}
-                              {% else %}
-                                  {{ page.author }}
-                              {% endif %}
-                          </span>
-                      </span>
-                  </a>
+                  Published: <time itemprop="datePublished" class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time>
+              </p>
+              <p class="post-category">
+                Category: {{ page.categories }}
+              </p>
+              <p class="post-tag">
+                Tags: 
+                {% for tag in page.tags %}
+                    <a>{{ tag }} {{ site.tags[tag].size }}</a>
+                {% endfor %}
               </p>
             </div>
         </div>
