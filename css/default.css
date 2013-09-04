@@ -265,7 +265,40 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 
 /***************Post Properities*************/
 div.entry-content {
-    border: dotted 1px #FFF;
+    border-bottom: dashed;
+    margin-bottom: 10px;
+}
+
+div.entry-content div p {
+    height: auto;
+    line-height: auto;
+    margin-bottom: 0;
+}
+
+a.post-tag-link {
+    text-decoration: none;
+}
+
+span.post-tag-name {
+    color: gray;
+    border: dotted 1px gray;
+}
+
+span.post-tag-count {
+  background-color: #FF9900;
+  padding: 0px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  margin: 0 6px 0 0;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  top: -2px;
+  font-weight: bold;
+  font-size: 0.875em;
 }
 
 /**************目录导航**************/
