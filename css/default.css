@@ -233,14 +233,13 @@ header a:hover {
     display: inline-block; 
     float:left; 
     zoom:1; 
-    font-size:18px; 
     width: auto; 
     cursor:pointer; 
     background: #252525;
     text-align: left;
 }
 .navigation li a,
-.navigation li a:visited { display:inline-block; zoom:1; color: gray; width:100%; }
+.navigation li a:visited { display:inline-block; zoom:1; color: gray; width:100%; text-decoration:none;}
 .navigation li a:hover { text-decoration:none; color: orange; }
 .navigation li.on span{ color: white; }
 .navigation li.space {
@@ -281,6 +280,9 @@ a.post-tag-link {
 
 span.post-tag-name {
     color: gray;
+}
+
+span.post-tag-name:hover {
     border: dotted 1px gray;
 }
 
@@ -644,6 +646,14 @@ a.sb.flat:before,
 
 /* ICONS
 ================================================ */
+a.sb {
+    opacity: 0.7;
+}
+
+a.sb:hover {
+    opacity: 1.0;
+}
+
 a.sb.twitter,
 .sb a.twitter {
     background-image: url(/images/twitter_bird.png);
@@ -678,4 +688,44 @@ a.sb.foursquare,
 a.sb.blue.twitter,
 .sb.blue a.twitter {
     background-image: url(/images/white_twitter_bird.png);
+}
+
+/************* Ranger => about me **************/
+#ranger p,span,div {
+    font-size: 20px;
+}
+
+#ranger div {
+    vertical-align: top;
+    line-height:1.8em;
+}
+
+span.email {
+    color: green;
+}
+
+table.courses {
+    display: inline-block;
+    background-color: #E9E9E9;
+    border: solid 1px #000;
+    padding: 5px;
+    margin: 0;
+}
+
+table.courses td.semester {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+div.collapse {
+    display: none;
+}
+
+div.expand {
+    display: block;
+}
+
+span.paragraph {
+    font: bold 20px/30px Georgia, serif;
 }
