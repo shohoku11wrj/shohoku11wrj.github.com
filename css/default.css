@@ -691,7 +691,9 @@ a.sb.blue.twitter,
 }
 
 /************* Ranger => about me **************/
-#ranger p,span,div {
+#ranger p,
+#ranger span,
+#ranger div {
     font-size: 20px;
 }
 
@@ -728,4 +730,19 @@ div.expand {
 
 span.paragraph {
     font: bold 20px/30px Georgia, serif;
+}
+
+p.event {
+    font: bold 16px Georgia, serif;;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+p.detail{
+    font: 12px Georgia, serif;;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    color: #202020;
 }
