@@ -9,4 +9,4 @@ category: way
 
 
 
-[BeiYuu]:    http://beiyuu.com  "BeiYuu"
+[RangerWay]:    http://rangerway.com  "RangerWay"

@@ -7,16 +7,10 @@ layout: page
     <div class="bd">
         <div class="entry-content">
             <div class="meta">
-              <p class="date-publish">
-                  Published: <time itemprop="datePublished" class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time>
-              </p>
-              <p class="post-category">
-                Category: {{ page.categories }}
-              </p>
-              <p class="post-tag">
-                Tags: 
-                {% for tag in page.tags %}
-                    <a>{{ tag }} {{ site.tags[tag].size }}</a>
+              <p class="date-publish">Published: <time itemprop="datePublished" class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time></p>
+              <p class="post-category">Category: {{ page.categories | sanitize_str }}</p>
+              <p class="post-tag">Tags: {% for tag in page.tags %}
+                    <a class="post-tag-link" href="/tags/index.html#{{ tag }}"><span class="post-tag-name">{{ tag }}</span>&nbsp;<span class="post-tag-count">{{ site.tags[tag].size }}</span></a>
                 {% endfor %}
               </p>
             </div>
