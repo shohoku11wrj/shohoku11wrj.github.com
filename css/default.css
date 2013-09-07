@@ -43,6 +43,7 @@ body {
     font-family: "微软雅黑","Arial","Helvetica","sans-serif";
     font-size:16px;
     text-align: center;
+    margin: auto 10px;
 }
 #main{
     position: relative;
@@ -730,10 +731,17 @@ div.expand {
 
 span.paragraph {
     font: bold 20px/30px Georgia, serif;
+    color: gray;
+    display: block;
+    background-color: #E5E5E5;
+    width: 50%;
+    border-radius: 0 10px 0 0;
+    padding-left: 10px;
 }
 
 p.event {
-    font: bold 16px Georgia, serif;;
+    font: bold 16px Georgia, serif;
+    margin-top: 5px;
     margin-left: 20px;
     margin-bottom: 0px;
     display: inline-block;
@@ -743,6 +751,6 @@ p.event {
 p.detail{
     font: 12px Georgia, serif;;
     margin-left: 100px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     color: #202020;
 }
