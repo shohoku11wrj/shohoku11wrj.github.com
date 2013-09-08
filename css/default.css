@@ -719,6 +719,7 @@ table.courses td.semester {
     padding-left: 10px;
     padding-right: 10px;
     font-style: italic;
+    vertical-align: text-top;
 }
 
 div.collapse {
