@@ -1,6 +1,7 @@
 ---
 layout: way
 title: Bolg Way
+type: way
 ---
 
 <ul class="artical-list">
