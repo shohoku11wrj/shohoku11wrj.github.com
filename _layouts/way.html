@@ -9,10 +9,14 @@ type: way
                     <ul class="category-list">
                     <h4>Category: </h4>
                     <li><a href="/way">All</a></li>
-                    <li>&gt;</li>
+                    <li> = [ </li>
                     {% for cat in site.categories %}
-                        <li><a href="/way/{{ cat[0] }}">{{ cat[0] | capitalize }} </a></li>
+                        <li>
+                            <a href="/way/{{ cat[0] }}">{{ cat[0] | capitalize }}</a>
+                            , 
+                        </li>
                     {% endfor %}
+                    <li> ] </li>
                 </div>
 
                 <div class="section">
