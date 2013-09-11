@@ -8,7 +8,8 @@ layout: page
         <div class="entry-content">
             <div class="meta">
               <p class="date-publish">Published: <time itemprop="datePublished" class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time></p>
-              <p class="post-category">Category: {{ page.categories | sanitize_str }}</p>
+              {% assign category = page.category | downcase %}
+              <p class="post-category">Category: <a class="post-cat-link" href="/way/{{ page.category | downcase }}/"><span class="post-cat-name">{{ page.category }}</span></a>&nbsp;<span class="post-cat-count">{{ site.categories[category].size }}</span></a></p>
               <p class="post-tag">Tags: {% for tag in page.tags %}
                     <a class="post-tag-link" href="/tags/index.html#{{ tag }}"><span class="post-tag-name">{{ tag }}</span>&nbsp;<span class="post-tag-count">{{ site.tags[tag].size }}</span></a>
                 {% endfor %}

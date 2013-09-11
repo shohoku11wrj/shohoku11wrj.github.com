@@ -73,9 +73,11 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 #content {
     width:70%;
     margin:30px 0px 50px 25%;
+    padding: 15px;
     min-height:400px;
     height:auto !important;
     height: 100%;
+    border-left: solid 2px;
 }
 
 /****************entry style**************/
@@ -278,15 +280,19 @@ a.post-tag-link {
     text-decoration: none;
 }
 
-span.post-tag-name {
+span.post-tag-name,
+span.post-cat-name {
     color: gray;
 }
 
-span.post-tag-name:hover {
+span.post-tag-name:hover,
+span.post-cat-name:hover {
     border: dotted 1px gray;
+    color: #000;
 }
 
-span.post-tag-count {
+span.post-tag-count,
+span.post-cat-count {
   background-color: #FF9900;
   padding: 0px 10px;
   -webkit-border-radius: 10px;
@@ -700,6 +706,20 @@ a.sb.blue.twitter,
 #ranger div {
     vertical-align: top;
     line-height:1.8em;
+}
+
+div.self_intro {
+    padding: 20px 20px auto;
+}
+
+div.left_col {
+    display: inline-block;
+}
+
+div.right_col {
+    display: inline;
+    width: 150px;
+    float: right;
 }
 
 span.email {
