@@ -23,21 +23,6 @@ body .hide{display:none;}
 .left,.right{display:inline;}
 .left{float:left;}
 .right{float:right;}
-html, body {
-  height: 100%;
-}
-footer {
-  position: relative;
-  bottom: 0;
-  width: 40%;
-  max-width: 600px;
-  margin: 0 auto 0;
-  margin-top: 100px;
-}
-footer div{
-  text-align: left;
-  min-width: 450px;
-}
 
 /***********default settings**********/
 body {font-family: "微软雅黑","Arial","Helvetica","sans-serif";font-size:16px;}
@@ -59,6 +44,20 @@ pre code{background-color:transparent;border:none;padding:0;word-wrap:normal;}
 pre ol{margin-left:25px;list-style-type:decimal;}
 
 /* layout */
+html, body {
+  height: 100%;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 40%;
+  max-width: 600px;
+  margin: 100px auto 0;
+}
+footer div{
+  text-align: left;
+  min-width: 450px;
+}
 div.middle {
     margin-top: 100px;
 }

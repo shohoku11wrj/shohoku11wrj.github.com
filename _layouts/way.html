@@ -13,7 +13,9 @@ type: way
                     {% for cat in site.categories %}
                         <li>
                             <a href="/way/{{ cat[0] }}">{{ cat[0] | capitalize }}</a>
+                            {% if forloop.index != site.categories.size %}
                             , 
+                            {% endif %}
                         </li>
                     {% endfor %}
                     <li> ] </li>
@@ -27,19 +29,11 @@ type: way
                 <div class="aside">
                     <table width="100%">
                         <tr>
-                            <td>My name is <a href="/ranger/">Renjie Weng</a>. I'm interested in programming, physics, and cycling.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://twitter.com/gaga_ek" class="sb flat blue twitter" target="_blank">Twitter</a>
-                                <a href="https://github.com/shohoku11wrj" class="sb flat light-green github" target="_blank">Github</a>
-                                <a href="http://www.linkedin.com/pub/renjie-roger-weng/55/511/463" class="sb min linkedin" target="_blank">LinkedIn</a>
-                                <a href="http://stackoverflow.com/users/832659/gaga-ek" class="sb min stackoverflow" target="_blank">StackOverFlow</a>
-                                <a href="http://weibo.com/shohku11wrj" class="sb min weibo" target="_blank">Weibo</a>
-                                <a href="https://foursquare.com/gaga_ek/photos" class="sb min foursquare" target="_blank">FourSquare</a>
-                            </td>
+                            <td>My name is <b>Renjie Weng</b>. I'm interested in physics, programming, and cycling. Learn more <a href="/ranger/">about me</a>.</td>
                         </tr>
                     </table>
+                    
+                    <br />
                     
                     <ul class="tag-list">
                     <h4>Tags</h4>

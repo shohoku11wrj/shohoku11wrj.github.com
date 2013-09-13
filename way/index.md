@@ -6,11 +6,23 @@ type: way
 
 <ul class="artical-list">
 {% for post in site.posts %}
-    <li>
-        <h2>
-            <a href="{{ post.url }}">
-            <h class="post_date">{{ post.date|date:"%Y-%m-%d" }} >> </h><h>{{ post.title }}</h></a>
-        </h2>
+    <li class="post_item">
+        <span class="post_line">
+            <a class="post_title_link" href="{{ post.url }}"><span class="post_title"><b>{{ post.title }}</b></span></a>
+            <h class="post_date"><time itemprop="datePublished" class="date-pub" title="{{ post.date | date_to_xmlschema }}" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B' }} {{ post.date | date: '%d' }}, {{ post.date | date: '%Y' }} </time></h>
+        </span>
+        <div class="post_prop">
+          <span><img class="icon_cat" src="/images/category.ico" alt="category" title="category" /><a href="/way/{{ post.category | downcase }}">{{ post.category }}</a></span> 
+          <span><img class="icon_tag" src="/images/tag.ico" alt="tags" title="tags" /></span>
+          <span>
+            {% for tag in post.tags %}
+                <a href="/tags/index.html#{{ tag }}"><span>{{ tag }}</span></a>
+                {% if forloop.index != post.tags.size %}
+                  , 
+                {% endif %}
+            {% endfor %}
+          </span>
+        </div>
         <div class="title-desc">{{ post.description }}</div>
     </li>
 {% endfor %}

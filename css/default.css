@@ -24,13 +24,6 @@ body .hide{display:none;}
 .left{float:left;}
 .right{float:right;}
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 50%;
-    margin: 0 25% 0 25%;
-}
-
 /***********default settings**********/
 html, body {
     color:#000;
@@ -45,13 +38,7 @@ body {
     text-align: center;
     margin: auto 10px;
 }
-#main{
-    position: relative;
-    max-width: 1200px;
-    text-align: left;
-    margin: 0 auto;
-    /*width: expression(document.body.clientWidth > 800? "800px": "auto");*/
-}
+
 a {color:#4A75B5;text-decoration:none;outline:none;}
 a:hover {text-decoration:underline}
 a.external {padding-right:13px;background:url('/images/icons.gif') no-repeat right 1px;}
@@ -70,6 +57,26 @@ pre code{background-color:transparent;border:none;padding:0;word-wrap:normal;}
 pre ol{margin-left:25px;list-style-type:decimal;}
 
 /************layout style*****************/
+#main{
+    position: relative;
+    max-width: 1200px;
+    text-align: left;
+    margin: 0 auto;
+    /*width: expression(document.body.clientWidth > 800? "800px": "auto");*/
+}
+
+footer {
+    position: relative;
+    display: block;
+    float: right; /* float important here for layout the footer's top side */
+    width: 50%;
+    height: 50px;
+    bottom: 0;
+    margin: 100px 25% 0 25%;
+    color: #252525;
+    border-top: solid 1px #252525;
+}
+
 #content {
     width:70%;
     margin:30px 0px 50px 25%;
@@ -89,30 +96,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .entry blockquote{margin-left:25px;font-size:14px;font-style:italic}
 .entry img{max-width:670px;display:block;margin:10px auto;}
 
-.index-content .dao {
-    float: left;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20%;
-    text-align: left;
-}
 
-.index-content .ren {
-    float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 20%;
-    text-align: right;
-}
-
-.index-content .dao img,
-.index-content .ren img {
-    width: auto;
-    height: auto;
-    max-height: 150px
-}
 
 img.shadow {
     opacity: 0.5;
@@ -124,8 +108,7 @@ img.shadow:hover {
     filter: alpha(opacity=100);
 }
 
-
-.index-content .blog {
+div.index-content div.blog {
     position: relative;
     padding-top: 20px; 
     top: 20px;
@@ -154,9 +137,10 @@ img.shadow:hover {
 }
 
 .index-content .aside {
+    display: inline;
     float: right;
     position: absolute;
-    top: 150px;
+    margin: 10px 0 0 0;
     left: 80%;
     right: 0;
     bottom: auto;
@@ -173,6 +157,8 @@ img.shadow:hover {
 }
 
 .index-content .section { 
+    display: inline;
+    float: left;
     margin: 10px 20% 0 0; 
     width: 80%;
     height: 100%;
@@ -189,13 +175,11 @@ img.shadow:hover {
 .index-content h2 { font-size:20px; margin-bottom:15px; }
 .index-content h2 a { color:#444 }
 .index-content h2 a:hover { color:#00f; text-decoration:none; }
-.index-content .title-desc {color:#252525;font-size:14px;line-height:1.6em;}
-
-.index-content .artical-list h.post_date {
-    color: gray;
-    font-size: 16px;
-    font-style: normal;
-    font-family: cursive;
+.index-content .title-desc {
+    color:#252525;
+    font-size:16px;
+    line-height:1.6em;
+    margin: 0 0 10px 0;
 }
 
 header {
@@ -241,7 +225,13 @@ header a:hover {
     text-align: left;
 }
 .navigation li a,
-.navigation li a:visited { display:inline-block; zoom:1; color: gray; width:100%; text-decoration:none;}
+.navigation li a:visited {
+    display:inline-block; 
+    zoom:1; 
+    color: gray; 
+    width:100%; 
+    text-decoration:none;
+}
 .navigation li a:hover { text-decoration:none; color: orange; }
 .navigation li.on span{ color: white; }
 .navigation li.space {
@@ -250,6 +240,64 @@ header a:hover {
     color: green;
 }
 .navigation li.on a:hover span{ color: orange; }
+
+/***************Post List******************/
+
+span.post_line {
+    display: inline-block;
+    width: 100%;
+    min-width: 600px;
+}
+
+a.post_title_link {
+    display: inline;
+    float: left;
+}
+
+span.post_title {
+    display: inline;
+}
+
+
+span.post_line a span.post_title{
+    display: inline;
+    font-size: 22px;
+    color: #000;
+}
+
+span.post_line a:hover span.post_title {
+    color: #00F;
+}
+
+span.post_line:hover h.post_date {
+    background-color: #E5E5E5;
+}
+
+h.post_date {
+    display: inline;
+    float: right;
+    color: gray;
+    font-size: 16px;
+    font-style: normal;
+    font-family: cursive;
+    width: 22%;
+    min-width: 150px;
+    padding: 5px 0 5px 0;
+    text-align: right;
+}
+
+img.icon_cat,
+img.icon_tag {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    padding: 0;
+}
+
+/*li.post_item {
+    padding: 5px;
+    border: solid 1px #000;
+    border-radius: 0 10px 0 0;
+}*/
 
 /***************Wiki Style*****************/
 /*.wiki h2{cursor:pointer;}
@@ -307,6 +355,19 @@ span.post-cat-count {
   top: -2px;
   font-weight: bold;
   font-size: 0.875em;
+}
+
+/* footer items */
+span.fotter_copyright {
+    float: left;
+    display: inline-block;
+}
+ul.footer_icons {
+    float: right;
+    display: inline-block;
+}
+li.footer-icon-item {
+    display: inline-block;
 }
 
 /**************目录导航**************/
@@ -694,6 +755,41 @@ a.sb.foursquare,
 a.sb.blue.twitter,
 .sb.blue a.twitter {
     background-image: url(/images/white_twitter_bird.png);
+}
+
+/************* footer icons *************/
+a.footer-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+}
+
+a.icon-footer-twitter {
+    background-color: #252525;
+    background-image: url(/images/white_twitter_bird.png);
+}
+a.icon-footer-twitter:hover {
+    background-color: #4d7de1;
+}
+a.icon-footer-github {
+    background-color: #fff;
+    background-image: url(/images/github_cat.png);
+}
+a.icon-footer-github:hover {
+    background-color: #b3ef16;    
+    border-color: #294c89;
+}
+a.icon-footer-weibo {
+    background-color: #fff;
+    background-image: url(/images/weibo-24-icon-black.png);
+}
+a.icon-footer-weibo:hover {
+    background-image: url(/images/weibo-24-icon.png);
 }
 
 /************* Ranger => about me **************/
