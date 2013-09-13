@@ -16,7 +16,7 @@
                 <TR>
                     <TD width="60%"><h1>Ranger Way 仁 道</h1>
                     </TD>
-                    <TD width="40%"><h3>moto:&nbsp;&nbsp;&nbsp;self-control, low-key, humility</h3>
+                    <TD width="40%"><h3>motto:&nbsp;&nbsp;self-control, low-key, humility</h3>
                     <h3>座右铭: 阿古就是嘎老率</h3></TD>
                 </TR>
             </TABLE>
@@ -106,8 +106,8 @@
         $("#char_dao").hide();
 
         // hover
-        $("#black").hover(function(){$("#char_ren").show();},function(){$("#char_ren").hide();});
-        $("#white").hover(function(){$("#char_dao").show();},function(){$("#char_dao").hide();});
+        $("#black").hover(function(){$("#char_ren").show();},function(){$("#char_ren").fadeOut(300);});
+        $("#white").hover(function(){$("#char_dao").show();},function(){$("#char_dao").fadeOut(300);});
    
      };
     window.onload = orchestral;
