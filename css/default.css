@@ -893,19 +893,26 @@ span.paragraph {
     padding-left: 10px;
 }
 
-p.event {
+img.event {
+    display: inline-block;
+    vertical-align: baseline;
+    float: left;
+}
+
+p.event,
+span.event {
     font: bold 16px Georgia, serif;
     margin-top: 5px;
     margin-left: 20px;
     margin-bottom: 0px;
-    display: inline-block;
-    vertical-align: top;
+    display: inline;
+    vertical-align: baseline;
 }
 
 p.detail,
 div.detail {
     font: 12px Georgia, serif;;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-bottom: 10px;
     color: #202020;
 }
