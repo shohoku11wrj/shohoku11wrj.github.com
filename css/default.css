@@ -78,8 +78,8 @@ footer {
 }
 
 #content {
-    width:70%;
-    margin:30px 0px 50px 25%;
+    width: 70%;
+    margin: 0px 0px 50px 25%;
     padding: 15px;
     min-height:400px;
     height:auto !important;
@@ -88,7 +88,7 @@ footer {
 }
 
 /****************entry style**************/
-#content .entry{margin-bottom:80px;}
+#content .entry{margin-bottom:40px;}
 .entry ul{margin-bottom:25px;margin-left:25px;}
 .entry ul li{margin-bottom:5px;list-style:disc;line-height:1.8em;}
 .entry ol{margin-bottom:25px;margin-left:25px;}
@@ -115,10 +115,10 @@ div.index-content div.blog {
 }
 
 
-.category {
+div.category {
     position: relative;
     height: 50px;
-    margin: 20px 25% 20px 25%;
+    margin: 20px 0 20px 0;
     text-align: center;
 }
 
@@ -183,28 +183,34 @@ div.index-content div.blog {
 }
 
 header {
+    width: 100%;
+    height: 50px;
+    min-width: 400px;
+}
+
+div.site-name {
     position: relative;
     float: left;
-    text-align: left;
-    display: block;
-    width: 30%;
+    display: inline-block;
+    width: 190px;
     height: 50px;
 }
 
-header a {
+div.site-name h1 a {
     position: absolute;
     bottom: 0;
     color: #000;
 }
 
-header a:hover {
+div.site-name h1  a:hover {
     color: #000;
 }
 
-.navigation { 
+div.navigation { 
     float: right;
     position: relative;
-    width: 70%; 
+    display: inline-block;
+    width: 270px; 
     height: 50px;
     /*background: url(/images/noisy_texture_c0ecef.png);*/
 }
@@ -246,7 +252,6 @@ header a:hover {
 span.post_line {
     display: inline-block;
     width: 100%;
-    min-width: 600px;
 }
 
 a.post_title_link {
@@ -400,9 +405,19 @@ li.footer-icon-item {
 .home-contact a { width:30px; display:inline-block; }
 .home-contact img { width:18px; }
 
-@media screen and (max-width: 750px){
-    body {font-size:14px}
-    #content {width:85%;margin:100px auto 50px; }
+@media screen and (max-width: 750px) {
+    body {font-size:16px}
+
+    div.index-content.blog div.section { 
+        width: 90%;
+        margin-left: 5%; 
+        margin-right: 5%;
+    }
+    #content { 
+        width: 90%; 
+        margin-left: 5%; 
+        margin-right: 5%; 
+    }
 
     h2{font-size:20px;}
     h3{font-size:16px;}
@@ -415,7 +430,6 @@ li.footer-icon-item {
     .entry pre code{line-height:1em;font-size:12px;}
 
     .index-content .aside { position:relative; width:100%; height:300px; max-width:none; }
-    .index-content .section { margin-left:0; padding-right:0; }
     .index-content .section ul { width:85%; }
     .index-content .cate-bar { width:85%; }
     .index-content .artical-cate { margin-top:50px; }
@@ -424,18 +438,57 @@ li.footer-icon-item {
     .project .aside,
     .opinion .aside {
         float: right;
-        display:none;
-        background-image:none;
+        display: none;
+        background-image: none;
     }
+
+    div.site-name h2 {
+        display: inline;
+        width: 180px;
+        font-size: 14px;
+    }
+    div.navigation {
+        display: inline;
+    }
+    footer { width: 80%; margin-left: 10%; margin-right: 10%;}
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
+    div.index-content.blog div.section { 
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #content { 
+        width: 100%; 
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .weibo-con { float:none; }
-    .contact-more { margin-top:15px; }
-    .contact-more a { margin-left:0; margin-right:40px; }
+    div.site-name {
+        display: inline;
+        width: 140px;
+        font-size: 12px;
+    }
+    div.navigation { 
+        display: inline-block;
+        font-size: 14px;
+        width: 240px;
+    }
+    footer { width: 100%; margin-left: 0; margin-right: 0;}
 }
 
 @media (max-width: 1020px){
+    .index-content .section { 
+        width: 80%;
+        margin-left: 5px; 
+        margin-right: 5px;
+    }
+    #content { 
+        width: 90%; 
+        margin-left: 5px; 
+        margin-right: 5px; 
+    }
     #menuIndex {display:none;}
     .home-menu { position:absolute; }
     .index-content .cate-bar ,

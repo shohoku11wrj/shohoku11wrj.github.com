@@ -13,40 +13,41 @@
     <body>
         <div id="main">
         <header>
-            <h1><a href="/"> Ranger Way </a></h1>
+            <div class="site-name">
+                <h1><a href="/"> Ranger Way </a></h1>
+            </div>
+
+            <div class="navigation">
+                <ul>
+                {% if page.type == "way" %}
+                <li class="on" style="text-align:left"><a href="/way"><span>Way => blog</span></a></li>
+                {% else %}
+                <li style="text-align:left"><a href="/way"><span>Way => blog</span></a></li>
+                {% endif %}
+
+                <li class="space">&nbsp;|&nbsp;</li>
+
+                {% if page.type == "ranger" %}
+                <li class="on" style="text-align:right"><a href="/ranger"><span>Ranger => about me</span></a></li>
+                {% else %}
+                <li style="text-align:right"><a href="/ranger"><span>Ranger => about me</span></a></li>
+                {% endif %}
+                </ul>
+            </div>
         </header>
 
-        <div class="navigation">
-            <ul>
-            {% if page.type == "way" %}
-            <li class="on" style="text-align:left"><a href="/way"><span>Way => blog</span></a></li>
-            {% else %}
-            <li style="text-align:left"><a href="/way"><span>Way => blog</span></a></li>
-            {% endif %}
+        <hr size="2px" color="#000" style="min-width: 400px;">
 
-            <li class="space">&nbsp;|&nbsp;</li>
-
-            {% if page.type == "ranger" %}
-            <li class="on" style="text-align:right"><a href="/ranger"><span>Ranger => about me</span></a></li>
-            {% else %}
-            <li style="text-align:right"><a href="/ranger"><span>Ranger => about me</span></a></li>
-            {% endif %}
-            </ul>
-        </div>
-
-        <hr size="2px" color="#000" >
-
-
-            {{ content }}
+        {{ content }}
 
 
         <footer>
             <div>
                 <span class="fotter_copyright">© 2013 Renjie Weng. All rights reserved.</span>
                 <ul class="footer_icons"> 
-                    <li class="footer-icon-item"> <a class="footer-icon icon-footer-twitter" href="http://twitter.com/#!/gaga_ek" title="Follow me on Twitter"></a> </li> 
-                    <li class="footer-icon-item"> <a class="footer-icon icon-footer-github" href="http://github.com/shohoku11wrj" title="Follow me on GitHub"></a> </li> 
-                    <li class="footer-icon-item"> <a class="footer-icon icon-footer-weibo" href="http://weibo.com/230125141" title="Follow me on Weibo"></a> </li> 
+                    <li class="footer-icon-item"> <a class="footer-icon icon-footer-twitter" href="http://twitter.com/#!/gaga_ek" title="@gaga_ek"></a> </li> 
+                    <li class="footer-icon-item"> <a class="footer-icon icon-footer-github" href="http://github.com/shohoku11wrj" title="my GitHub entry"></a> </li> 
+                    <li class="footer-icon-item"> <a class="footer-icon icon-footer-weibo" href="http://weibo.com/230125141" title="@翼灵贰駟"></a> </li> 
                 </ul>
             </div>
         </footer>
