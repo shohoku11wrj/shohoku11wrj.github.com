@@ -69,10 +69,10 @@ footer {
     position: relative;
     display: block;
     float: right; /* float important here for layout the footer's top side */
-    width: 50%;
+    width: 60%;
     height: 50px;
     bottom: 0;
-    margin: 100px 25% 0 25%;
+    margin: 100px 20% 0 20%;
     color: #252525;
     border-top: solid 1px #252525;
 }
