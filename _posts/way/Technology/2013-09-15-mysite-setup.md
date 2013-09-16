@@ -2,7 +2,7 @@
 layout: post
 title: 我的博客基本建成
 description: 之前就想用Ruby建自己的博客，学了点Rails后发现基于Ruby的jekyll已经很好地和github融合了，而且成为了一种主流。于是经过1个月的陆陆续续参考修改，就基本建成了我的个人网站。
-category: Others
+category: Technology
 tag: ['blog', 'jekyll']
 ---
 
@@ -12,7 +12,7 @@ tag: ['blog', 'jekyll']
 正式进入master阶段学CS后又有了写博客的欲望。<br />
 `一方面`是为自己做知识的积累，可以主动地去总结一下学习到的内容，或者有些心得也能分享一下。<br />
 `另一方面`对自己的生活做一个记录。<br />
-`还有一方面`是个人网站对自己以后找工作或许有点帮助吧。不仅仅是学习建网站的过程，还包括整理自己的资料，发布简历，让别人知道你在做的一些项目，技术方面的积累和兴趣。
+`还有一方面`是个人网站对自己以后的工作有帮助。不仅仅是学习建网站的过程，还包括整理自己的资料，发布简历，让别人知道你在做的一些项目，技术方面的积累和兴趣。
 
 
 
@@ -25,9 +25,10 @@ tag: ['blog', 'jekyll']
 * comments 评论 -- 会加入Disqus云评论，非常喜欢，也正在成为主流；
 
 
-网站设计[First Page](/index.html "网站首页")是我自己想的，其他的设计部分参考了很多，基本框架是参考[beiyuu](http://beiyuu.com/ "一个豆瓣员工")的，也不是他的网站比别人设计得有多好，主要是大致框架符合我的预想。
-当然还参考了很多很多，比如jschauma老师那天带来给我们讲Puppet的[James Turnbull](http://www.kartar.net/about.html "kartar.net")，还有[yizeng](http://yizeng.me/ "yizeng")，[连城](http://blog.liancheng.info/ "blog.liancheng.info")等各路英雄豪杰的网站设计。
+网站设计[First Page](/index.html "网站首页")是我自己想的，其他的设计部分参考了很多，基本框架是参考[BeiYuu](http://beiyuu.com/ "一个豆瓣员工")的，也不是他的网站比别人设计得有多好，主要是大致框架符合我的预想。
+当然还参考了很多很多，比如jschauma老师那天带来给我们讲Puppet的[James Turnbull](http://www.kartar.net/about.html "kartar.net")，还有[yizeng](http://yizeng.me/ "yizeng")，[连城](http://blog.liancheng.info/ "blog.liancheng.info")等许多IT界人士的网站设计。
 
 
 我的个人网站分为两个版块，<b>[Ranger 仁](/ranger "about me")</b> 和 <b>[Way 道](/way "blog")</b>。<br />
-<b>仁</b>取自我的名字中；<b>道</b>是我对blog的一种译法，用blog来记录我走过的路，表达我的想法和情绪，以及学习的积累和分享。
+<b>仁</b>取自我的名字中；<b>道</b>是我对blog的一种译法，用blog来记录我走过的路，
+表达我的想法和情绪，以及学习的积累和分享。

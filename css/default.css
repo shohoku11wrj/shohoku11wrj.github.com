@@ -755,7 +755,7 @@ a.sb.flat:before,
 /* ICONS
 ================================================ */
 a.sb:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 a.sb.twitter,
