@@ -754,12 +754,8 @@ a.sb.flat:before,
 
 /* ICONS
 ================================================ */
-a.sb {
-    opacity: 0.7;
-}
-
 a.sb:hover {
-    opacity: 1.0;
+    opacity: 0.7;
 }
 
 a.sb.twitter,
