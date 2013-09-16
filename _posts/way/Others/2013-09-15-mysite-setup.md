@@ -6,7 +6,7 @@ category: Others
 tag: ['blog', 'jekyll']
 ---
 
-高中毕业拿会开始就喜欢写写博客，无非是讲讲废话发发牢骚赶赶时髦，偶尔有点闲情逸致写写思路或影评。<br />
+高中毕业那会开始就开始写写博客，无非是讲讲废话发发牢骚赶赶时髦，偶尔有点闲情逸致写写思路或影评。<br />
 用了很长一段时间msn space，在msn space关掉之后把他迁移到了wordpress主站。由于要翻墙，看得人也少了，准备出国兼上班工作也很繁忙，就让博客在wordpress那里歇息了。
 
 正式进入master阶段学CS后又有了写博客的欲望。<br />
@@ -29,5 +29,5 @@ tag: ['blog', 'jekyll']
 当然还参考了很多很多，比如jschauma老师那天带来给我们讲Puppet的[James Turnbull](http://www.kartar.net/about.html "kartar.net")，还有[yizeng](http://yizeng.me/ "yizeng")，[连城](http://blog.liancheng.info/ "blog.liancheng.info")等各路英雄豪杰的网站设计。
 
 
-我的个人网站分为两大块，<b>[Ranger 仁](/ranger "about me")</b> 和 <b>[Way 道](/way "blog")</b>。<br />
+我的个人网站分为两个版块，<b>[Ranger 仁](/ranger "about me")</b> 和 <b>[Way 道](/way "blog")</b>。<br />
 <b>仁</b>取自我的名字中；<b>道</b>是我对blog的一种译法，用blog来记录我走过的路，表达我的想法和情绪，以及学习的积累和分享。
