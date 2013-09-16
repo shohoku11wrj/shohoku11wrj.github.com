@@ -139,15 +139,15 @@ div.category {
 .index-content .aside {
     display: inline;
     float: right;
-    position: absolute;
+    position: relative;
     margin: 10px 0 0 0;
-    left: 80%;
+    /*left: 80%;*/
     right: 0;
-    bottom: auto;
+    /*bottom: auto;*/
     padding: 5px;
-    width: auto;
+    width: 17%;
     max-width: 500px;
-    color:#000;
+    color: #000;
     /*background: url(/images/noisy_texture_c0ecef.png);*/
     border: dotted #000;
 }
@@ -159,7 +159,8 @@ div.category {
 .index-content .section { 
     display: inline;
     float: left;
-    margin: 10px 20% 0 0; 
+    position: relative;
+    margin: 10px 0 0 0; 
     width: 80%;
     height: 100%;
     color: #000;
@@ -411,7 +412,7 @@ li.footer-icon-item {
     div.index-content.blog div.section { 
         width: 90%;
         margin-left: 5%; 
-        margin-right: 5%;
+        margin-right: 5%; 
     }
     #content { 
         width: 90%; 
@@ -450,6 +451,9 @@ li.footer-icon-item {
     div.navigation {
         display: inline;
     }
+    #menuIndex {
+        display: none;
+    }
     footer { width: 80%; margin-left: 10%; margin-right: 10%;}
 }
 
@@ -478,23 +482,7 @@ li.footer-icon-item {
     footer { width: 100%; margin-left: 0; margin-right: 0;}
 }
 
-@media (max-width: 1020px){
-    .index-content .section { 
-        width: 80%;
-        margin-left: 5px; 
-        margin-right: 5px;
-    }
-    #content { 
-        width: 90%; 
-        margin-left: 5px; 
-        margin-right: 5px; 
-    }
-    #menuIndex {display:none;}
-    .home-menu { position:absolute; }
-    .index-content .cate-bar ,
-    .index-content .artical-list,
-    .index-content .artical-cate { width:85%; }
-}
+
 
 /************************************************************************************
 SOCIAL LINK a.sb
