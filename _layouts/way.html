@@ -8,11 +8,26 @@ type: way
                 <div class="category">
                     <ul class="category-list">
                     <h4>Category: </h4>
-                    <li><a href="/way">All</a></li>
+                    <li>
+                        {% if page.url == "/way/index.html" %}
+                        <span>
+                            All *{{ site.posts.size }}
+                        </span>
+                        {% else %}
+                        <a href="/way">All</a>
+                        {% endif %}
+                    </li>
                     <li> = [ </li>
                     {% for cat in site.categories %}
                         <li>
+                            {% if page.url contains cat[0] %}
+                            <span>
+                                {% assign category = cat[0] | downcase %}
+                                {{ cat[0] | capitalize }} *{{ site.categories[category].size }}
+                            </span>
+                            {% else %}
                             <a href="/way/{{ cat[0] }}">{{ cat[0] | capitalize }}</a>
+                            {% endif %}
                             {% if forloop.index != site.categories.size %}
                             , 
                             {% endif %}

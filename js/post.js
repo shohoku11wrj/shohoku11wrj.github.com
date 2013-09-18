@@ -22,7 +22,7 @@ $(document).ready(function(){
     };
 
     $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
-
+    $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto'); // avoid the conflict between prettify.js and Markdown
     // //***********************
     // //**评论的代码也删掉哦***
     // window.disqus_shortname = 'beiyuu'; // required: replace example with your forum shortname

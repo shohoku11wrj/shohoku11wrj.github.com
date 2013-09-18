@@ -4,6 +4,7 @@ title: 我的博客基本建成
 description: 之前就想用Ruby建自己的博客，学了点Rails后发现基于Ruby的jekyll已经很好地和github融合了，而且成为了一种主流。于是经过1个月的陆陆续续参考修改，就基本建成了我的个人网站。
 category: Technology
 tag: ['blog', 'jekyll']
+lan: CH
 ---
 
 高中毕业那会开始就开始写写博客，无非是讲讲废话发发牢骚赶赶时髦，偶尔有点闲情逸致写写思路或影评。<br />

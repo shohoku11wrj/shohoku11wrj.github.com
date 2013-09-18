@@ -248,6 +248,11 @@ div.navigation {
 }
 .navigation li.on a:hover span{ color: orange; }
 
+/*************Category List****************/
+ul.category-list a.on {
+    color: #0f0;
+}
+
 /***************Post List******************/
 
 span.post_line {
@@ -361,6 +366,21 @@ span.post-cat-count {
   top: -2px;
   font-weight: bold;
   font-size: 0.875em;
+}
+
+/******************** Post Content ***************/
+blockquote {
+  margin: 1em 16px;
+  border-left: .7em solid #DDDDDD;
+  padding-left: 1em;
+  background-color: #EEEEEE;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+blockquote p {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* footer items */
@@ -856,7 +876,7 @@ div.right_col {
 }
 
 span.email {
-    color: green;
+    color: #25900c;
 }
 
 div.collapse {
@@ -915,3 +935,41 @@ table.courses td.semester {
     font-style: italic;
     vertical-align: text-top;
 }
+
+/* The custom Gist styles */
+.gist .gist-file {
+  border: none !important;
+  font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace, serif !important;
+}
+.gist .gist-file .gist-data {
+  font-size: .9em !important;
+  background-color: #393939 !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.gist .gist-file .gist-data table {
+  background-color: #393939 !important
+}
+.gist .gist-file .gist-data .line-numbers {
+  background-color: #4b4b4b !important;
+  border-right: none !important;
+}
+.gist .gist-file .gist-data .line-pre {
+  font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace, serif !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.gist .gist-file .gist-meta {
+  display: none !important;
+  visibility: hidden;
+}
+.gist .gist-file .gist-meta a {
+  color: #FF9900
+}
+.gist .gist-file .gist-meta a:visited {
+  color: #CC6633
+}
+
+/************ custom jekyll style ************/
