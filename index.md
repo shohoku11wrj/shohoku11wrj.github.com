@@ -8,7 +8,7 @@ layout: first
 {% highlight ruby %}
 find_me = {
   "Email"   => "rweng@stevens.edu",
-  "Twitter" => "http://twitter.com/#!/gaga_ek"
+  "Twitter" => "http://twitter.com/#!/gaga_ek",
   "GitHub"  => "http://github.com/shohoku11wrj",
   "Weibo"   => "http://weibo.com/230125141"
 }
