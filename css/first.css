@@ -215,7 +215,7 @@ html, body {
 footer {
     position: relative;
     bottom: 0;
-    width: 40%;
+    width: 600px;
     max-width: 600px;
     min-width: 450px;
     margin: 100px auto 0;

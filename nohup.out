@@ -1,0 +1,10 @@
+Configuration file: /root/Ruby/shohoku11wrj.github.com/_config.yml
+[33m       Deprecation: Auto-regeneration can no longer be set from your configuration file(s). Use the --watch/-w command-line option instead.[0m
+            Source: /root/Ruby/shohoku11wrj.github.com
+       Destination: /root/Ruby/shohoku11wrj.github.com/_site
+      Generating... done.
+ Auto-regeneration: enabled
+[2013-09-18 16:26:37] INFO  WEBrick 1.3.1
+[2013-09-18 16:26:37] INFO  ruby 1.9.3 (2013-06-27) [x86_64-linux]
+[2013-09-18 16:26:37] WARN  TCPServer Error: Address already in use - bind(2)
+error: Address already in use - bind(2). Use --trace to view backtrace
