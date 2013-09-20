@@ -28,7 +28,7 @@ type: way
                             {% else %}
                             <a href="/way/{{ cat[0] }}">{{ cat[0] | capitalize }}</a>
                             {% endif %}
-                            {% if forloop.index != site.categories.size %}
+                            {% if forloop.last == false %}
                             , 
                             {% endif %}
                         </li>

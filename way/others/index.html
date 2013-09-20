@@ -5,25 +5,30 @@ type: way
 ---
 
 <ul class="artical-list">
+{% assign colors  = "#000000|#e53b36|#f37421|#4bb648|#377fc2|#0937fc|#5a4ed1" | split: "|" %}
 {% for post in site.categories.others %}
+    {% assign cur = forloop.index | minus: 1 %}
     <li class="post_item">
         <span class="post_line">
-            <a class="post_title_link" href="{{ post.url }}"><span class="post_title"><b>{{ post.title }}</b></span></a>
+            <a class="post_title_link" href="{{ post.url }}"><span class="post_title" style="color:{{ colors[cur] }};"><b>{{ post.title }}</b></span></a>
             <h class="post_date"><time itemprop="datePublished" class="date-pub" title="{{ post.date | date_to_xmlschema }}" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B' }} {{ post.date | date: '%d' }}, {{ post.date | date: '%Y' }} </time></h>
         </span>
         <div class="post_prop">
-          <span><img class="icon_cat" src="/images/category.ico" alt="category" title="category" /><a href="/way/{{ post.category | downcase }}">{{ post.category }}</a></span> 
+          <span><img class="icon_cat" src="/images/category.ico" alt="category" title="category" /><a class="cat_btn" href="/way/{{ post.category | downcase }}">{{ post.category }}</a></span> 
           <span><img class="icon_tag" src="/images/tag.ico" alt="tags" title="tags" /></span>
           <span>
             {% for tag in post.tags %}
-                <a href="/tags/index.html#{{ tag }}"><span>{{ tag }}</span></a>
+                <a class="tag_btn" href="/tags/index.html#{{ tag }}"><span>{{ tag }}</span><span class="tag_size"> {{ site.tags[tag].size }}</span></a>
                 {% if forloop.index != post.tags.size %}
                   , 
                 {% endif %}
             {% endfor %}
           </span>
         </div>
-        <div class="title-desc">{{ post.description }}</div>
+        {% if post.content contains '<!--preview-->' %}
+          <div class="post_preview">{{ post.content | split:'<!--preview-->' | first }}</div>
+        {% endif %}
+        <a class="more_btn" href="{{ post.url }}" style="border:2px solid {{ colors[cur] }};">More...</a>
     </li>
 {% endfor %}
 </ul>

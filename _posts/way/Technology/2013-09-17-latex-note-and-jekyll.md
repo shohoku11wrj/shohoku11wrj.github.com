@@ -1,14 +1,14 @@
 ---
 layout: post
 title: LaTeX Notes & MathJax in Jekyll
-description: I want to input formulars in my posts.
-
 category: Technology
 tag: ['TeX', 'jekyll']
 lan: EN
 ---
 
 I take `Math of Cryptography` and `Machine Learning` this semester. So I guess it is important for me to be able to input mathematics formular in blog posts when I want to write somthing about math. 
+
+<!--preview-->
 
 And I like physics. LaTeX will also be awesome when I write some post in `Physics` category.
 
