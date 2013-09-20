@@ -317,6 +317,7 @@ div.right {
     /*border: dotted #000;*/
     box-shadow: 0 2px 6px #ccc;
     background: #fff;
+    line-height: 1.35em;
 }
 
 .index-content .aside p {
@@ -325,6 +326,16 @@ div.right {
 
 li.tag-list-item {
     display: inline-block;
+    vertical-align: text-top;
+}
+
+li.tag-list-item span{
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+li.tag-list-item span.tag_size {
+    font-size: 15px;
 }
 
 .index-content div.poem {
