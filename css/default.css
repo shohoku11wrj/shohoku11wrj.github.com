@@ -295,16 +295,22 @@ div.category {
 
 /***************** aside ******************/
 
+div.right {
+    display: inline;
+    float: right;
+    right: 0;
+    width: 17%;
+}
+
 .index-content .aside {
     display: inline;
     float: right;
     position: relative;
     margin: 10px 0 0 0;
     /*left: 80%;*/
-    right: 0;
     /*bottom: auto;*/
     padding: 5px;
-    width: 17%;
+    width: 100%;
     max-width: 500px;
     color: #000;
     /*background: url(/images/noisy_texture_c0ecef.png);*/
@@ -323,6 +329,20 @@ li.tag-list-item {
 
 .index-content div.poem {
     /*background-image: url(/images/noisy_texture_d8d3b6.png);*/
+}
+
+span.blogger {
+    color: #fff;
+    display: none;
+}
+
+li.blogger-list-item:hover {
+    background-color: #E5E5E5;
+}
+
+li.blogger-list-item:hover span.blogger {
+    color: #000;
+    display: inline-block;
 }
 
 /*********** main section ***********/
