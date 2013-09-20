@@ -41,27 +41,81 @@ type: way
                 </div>
 
 
-                <div class="aside">
+                <div class="aside poem">
                     <center>
                     <span>一去二三里<br />烟村四五家<br />亭台六七座<br />八九十枝花</span>
                     </center>
                 </div>
 
                 <div class="aside">
+                    <h4><a href="/ranger/">About me</a>
+                        <ul class="footer_icons"> 
+                        <li class="footer-icon-item"> <a class="footer-icon icon-footer-twitter" href="http://twitter.com/#!/gaga_ek" title="@gaga_ek"></a> </li> 
+                        <li class="footer-icon-item"> <a class="footer-icon icon-footer-github" href="http://github.com/shohoku11wrj" title="my GitHub entry"></a> </li> 
+                        <li class="footer-icon-item"> <a class="footer-icon icon-footer-weibo" href="http://weibo.com/230125141" title="@翼灵贰駟"></a> </li> 
+                        </ul>
+                    </h4>
                     <table width="100%">
                         <tr>
-                            <td>My name is <b>Renjie Weng</b>. I like physics, programming, and cycling. <br />Learn more <a href="/ranger/">about me</a>.</td>
+                            <td>My name is <b>Renjie Weng</b>. I like physics, programming, and cycling.
+                            </td>
                         </tr>
+                        <tr><td>
+                            I'm an <b class="space">[</b> Android , .Net , Java <b class="space">]</b> Developer.
+                        </td></tr>
+                        <tr><td>
+                            interested in <b class="space">[</b> Distributed Systems , Cryptography <b class="space">]</b>.
+                        </td></tr>
                     </table>
                     
-                    <br />
+                </div>
                     
-                    <ul class="tag-list">
+                <div class="aside">
                     <h4>Tags</h4>
+                    <ul class="tag-list">
                     {% for tag in site.tags %}
-                        <li>{{ tag[0] }}</li>
+                        <li class="tag-list-item">
+                            <a class="tag_btn" href="/tags/index.html#{{ tag[0] }}"><span>{{ tag[0] }}</span><span class="tag_size"> {{ tag[1].size }}</span></a>
+                        </li>
                     {% endfor %}
+                    </ul>
 
+                </div>
+
+                <div class="aside">
+                    <h4>Favorite Bloggers</h4>
+                    <ul class="bloger-list">
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://www.ruanyifeng.com/blog/" target="_blank" title="www.ruanyifeng.com/blog">阮一峰</a>
+                        </li>
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://stevelosh.com/" target="_blank" title="stevelosh.com">Steve Losh</a>
+                        </li>
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://www.changhai.org" target="_blank" title="www.changhai.org">卢昌海</a>
+                        </li>
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://jordanscales.com/" target="_blank" title="jordanscales.com">Jordan Scales</a>
+                        </li>
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://basiccoder.com/" target="_blank" title="basiccoder.com">basic coder</a>
+                        </li>
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://zerowidth.com/" target="_blank" title="zerowidth.com">zerowidth</a>
+                        </li>
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://beiyu.com/" target="_blank" title="beiyuu.com">BeiYuu</a>
+                        </li>
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://yizeng.me/" target="_blank" title="yizeng.me">Yi Zeng</a>
+                        </li>
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://coolshell.cn/" target="_blank" title="coolshell.cn">酷壳</a>
+                        </li>
+                        <li class="blogger-list-item">
+                            <a class="blogger" href="http://www.netmeister.org/" target="_blank" title="www.netmeister.org">Prof. Jan Schauma</a>
+                        </li>
+                    </ul>
                 </div>
 
             </div>

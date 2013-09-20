@@ -97,11 +97,15 @@ body .hide {
 }
 
 /***********default settings**********/
+html {
+    background-color: #FDFDFD;
+}
 html, body {
     color: #000;
     /*background: url(/images/noisy_texture_c0ecef.png);*/
-    background-color: #fdfdfd;
+    /*background-image: url(/images/noisy_texture_d8d3b6.png);*/
     margin: 0;
+    background-color: #FDFDFD;
 }
 
 body {
@@ -289,6 +293,8 @@ div.category {
     display: inline-block;
 }
 
+/***************** aside ******************/
+
 .index-content .aside {
     display: inline;
     float: right;
@@ -310,6 +316,16 @@ div.category {
 .index-content .aside p {
     text-align: left;
 }
+
+li.tag-list-item {
+    display: inline-block;
+}
+
+.index-content div.poem {
+    /*background-image: url(/images/noisy_texture_d8d3b6.png);*/
+}
+
+/*********** main section ***********/
 
 .index-content .section { 
     display: inline;
@@ -404,7 +420,8 @@ div.navigation {
 }
 .navigation li a:hover { text-decoration:none; color: orange; }
 .navigation li.on span{ color: white; }
-.navigation li.space {
+.navigation li.space,
+b.space {
     width: 30px;
     text-align: center;
     color: green;
@@ -484,6 +501,7 @@ span.tag_size {
     font-size: 13px; 
     vertical-align: top;
     font-weight: bold;
+    font-style: italic;
 }
 
 .more_btn {

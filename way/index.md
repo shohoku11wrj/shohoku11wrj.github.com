@@ -12,7 +12,7 @@ type: way
     <li class="post_item">
         <span class="post_line">
             <a class="post_title_link" href="{{ post.url }}"><span class="post_title" ><b>{{ post.title }}</b></span></a>
-            <h class="post_date" style="border-color:{{ colors[cur] }};"><time itemprop="datePublished" class="date-pub" title="{{ post.date | date_to_xmlschema }}" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B' }} {{ post.date | date: '%d' }}, {{ post.date | date: '%Y' }} </time></h>
+            <h class="post_date" style="border-color:{{ colors[cur] }};"><time itemprop="datePublished" class="date-pub" title="{{ post.date | date: '%Y' }}年{{ post.date | date: '%m' }}月{{ post.date | date: '%d' }}日 " datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B' }} {{ post.date | date: '%d' }}, {{ post.date | date: '%Y' }} </time></h>
         </span>
         <div class="post_prop">
           <span><img class="icon_cat" src="/images/category.ico" alt="category" title="category" /><a class="cat_btn" href="/way/{{ post.category | downcase }}">{{ post.category }}</a></span> 
