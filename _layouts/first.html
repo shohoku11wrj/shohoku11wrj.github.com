@@ -47,7 +47,7 @@
                         </defs>
                         <g transform="translate(17.2,-617.2)">
                             <g transform="matrix(0.28267752,0,0,0.28267752,-12.337947,622.06205)">
-                                <path transform="translate(25,25)" d="M 800,400 C 800,620.9139 620.9139,800 400,800 179.0861,800 0,620.9139 0,400 0,179.0861 179.0861,0 400,0 620.9139,0 800,179.0861 800,400 z" style="opacity:0.5;fill:#7f7f7f;stroke:#7f7f7f;stroke-width:25;filter:url(#f)"/>
+                                <path id="margin" transform="translate(25,25)" d="M 800,400 C 800,620.9139 620.9139,800 400,800 179.0861,800 0,620.9139 0,400 0,179.0861 179.0861,0 400,0 620.9139,0 800,179.0861 800,400 z" style="opacity:0.5;fill:#7f7f7f;stroke:#7f7f7f;stroke-width:25;filter:url(#f)"/>
                                 <g transform="matrix(-1,0,0,-1,850,850)">
                                     <g id="black" fill="#000" transform="matrix(-1,0,0,-1,825,825)">
                                         <use xlink:href="#y" transform="translate(-25,-25)"/>
@@ -118,8 +118,8 @@
         $("#char_dao").hide();
 
         // hover
-        $("#black").hover(function(){$("#char_ren").show();},function(){$("#char_ren").hide();});
-        $("#white").hover(function(){$("#char_dao").show();},function(){$("#char_dao").hide();});
+        $("#black").hover(function(){$("#char_ren").show();$("#margin").css("stroke","orange")},function(){$("#char_ren").hide();$("#margin").css("stroke","#7f7f7f")});
+        $("#white").hover(function(){$("#char_dao").show();$("#margin").css("stroke","blue")},function(){$("#char_dao").hide();$("#margin").css("stroke","#7f7f7f")});
    
      };
     window.onload = orchestral;
