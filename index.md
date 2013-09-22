@@ -6,7 +6,7 @@ layout: first
 
 <div>
 {% highlight ruby %}
-Hello, I am Ranger 仁杰.
+Hello, I am Ranger 仁杰. GaGa
 I am a programmer, physics amateur & bicycler from Shanghai, China.
 
 find_me = {
