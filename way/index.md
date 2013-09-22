@@ -11,7 +11,7 @@ type: way
     {% assign cur = forloop.index | minus: 1 %}
     <li class="post_item">
         <span class="post_line">
-            <a class="post_title_link" href="{{ post.url }}"><span class="post_title" ><b>{{ post.title }}</b></span></a>
+            <a class="post_title_link" href="{{ post.url }}"><span class="post_title" >{{ post.title }}</span></a>
             <h class="post_date" style="border-color:{{ colors[cur] }};"><time itemprop="datePublished" class="date-pub" title="{{ post.date | date: '%Y' }}年{{ post.date | date: '%m' }}月{{ post.date | date: '%d' }}日 " datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B' }} {{ post.date | date: '%d' }}, {{ post.date | date: '%Y' }} </time></h>
         </span>
         <div class="post_prop">

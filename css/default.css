@@ -109,12 +109,8 @@ html, body {
 }
 
 html, body, * {
-    font-family: "Microsoft YaHei" ! important; 
+    font-family: "Microsoft YaHei" ! important;
 }   
-
-code {
-    font-family: "Consolas" ! important; 
-} 
 
 body {
     position: relative;
