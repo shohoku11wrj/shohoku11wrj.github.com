@@ -133,7 +133,7 @@ a:hover {
 
 a.external {
     padding-right: 13px;
-    background: url('/images/icons.gif') no-repeat right 1px;
+    background: url('/images/icons.gif') no-repeat right 3px;
 }
 
 a.external:hover {
