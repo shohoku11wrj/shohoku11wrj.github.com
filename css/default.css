@@ -407,7 +407,7 @@ div.site-name {
     position: relative;
     float: left;
     display: inline-block;
-    width: 210px;
+    width: 250px;
     height: 50px;
 }
 
@@ -425,7 +425,7 @@ div.navigation {
     float: right;
     position: relative;
     display: inline-block;
-    width: 300px; 
+    width: 350px; 
     height: 50px;
     /*background: url(/images/noisy_texture_c0ecef.png);*/
 }
