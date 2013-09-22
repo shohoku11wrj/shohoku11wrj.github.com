@@ -10,10 +10,10 @@ Hello, My name is Ranger 仁杰.
 I am a programmer, physics amateur & bicycler from Shanghai, China.
 
 find_me = {
-  "Email"   => "rweng@stevens.edu",
-  "Twitter" => "http://twitter.com/#!/gaga_ek",
-  "GitHub"  => "http://github.com/shohoku11wrj",
-  "Weibo"   => "http://weibo.com/230125141"
+  "email"   => "rweng@stevens.edu",
+  "twitter" => "http://twitter.com/#!/gaga_ek",
+  "github"  => "http://github.com/shohoku11wrj",
+  "weibo"   => "http://weibo.com/230125141"
 }
 {% endhighlight %}
 </div>
