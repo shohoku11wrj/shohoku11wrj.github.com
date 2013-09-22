@@ -6,6 +6,9 @@ layout: first
 
 <div>
 {% highlight ruby %}
+Hello, I am Ranger 仁杰.
+I am a programmer, physics amateur & bicycler from Shanghai, China.
+
 find_me = {
   "Email"   => "rweng@stevens.edu",
   "Twitter" => "http://twitter.com/#!/gaga_ek",

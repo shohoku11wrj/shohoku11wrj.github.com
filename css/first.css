@@ -109,7 +109,7 @@ body {
 }
 
 a {
-    color: #4A75B5;
+    color: #000;
     text-decoration: none;
     outline: none;
 }
@@ -253,4 +253,15 @@ div.chr_dao {
     display: inline-block;
     float: left;
     width: 30%;
+}
+
+span.intro_way {
+    position: relative;
+    display: inline;
+    float: left;
+}
+img.img-way {
+    position: relative;
+    display: inline;
+    float: right;
 }

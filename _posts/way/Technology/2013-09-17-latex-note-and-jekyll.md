@@ -43,5 +43,31 @@ Here are some notes when learning Tex syntax.<br />
                 $\displaystyle\frac{2}{3}$  ==> enlarge the upper formular to better display
                 $$\sprt{\frac{x}{x^2+x+1}}$$
 
+    $$\{a,b,c\}$$  ==> {a,b,c}
+
+    $$\$12.55$$
+
+    $3\left(\frac{2}{5}\right)$
+
+    $$\left|\frac{x}{x+1}\right|$$
+
+    $$\left\{$x^2\right.$$  ==>  {x^2
+
+    $$\left| \frac{dy}{dx} \right|_{x=1}$$  ==>  |dy/dx|_x=1
+
+    \begin{tabular}{cccccc}
+
+    $x$ & 1 & 2 & 3 & 4 & 5 \\ \hline                  x    1  2  3  4  5 
+    $f(x)$ & 10 & 11 & 12 & 13 & 14 \\ \hline     ==>  f(x) 10 11 12 13 14
+
+    \end{tabular}
+
+    \begin{eqnarray}         ==>   右侧对其，每行末尾有(1)(2)等行号
+    5x^2-9=x+3\\                   所有的等号上下对齐
+    4x^2=12\\
+    x^3=3\\
+    x\approx\pm1.732             x 约等于 +-1.732
+    \end{eqnarray}
+
     \end{document}
 {% endraw %}
