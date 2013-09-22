@@ -102,10 +102,12 @@ body .hide {
 
 
 /***********default settings**********/
+html, body {
+    font-family: "Microsoft YaHei","Helvetica","Arial" ! important;
+}   
 
-body {
-    font-family: "微软雅黑","Arial","Helvetica","sans-serif";
-    font-size: 16px;
+code {
+    font-family: "Lucida Console","courier","monospace";
 }
 
 a {
@@ -172,7 +174,6 @@ code {
     background: #eee;
     border: 1px solid #ccc;
     padding: 0 5px;
-    font-family: "Courier";
     line-height: 14px;
     font-size: 14px;
     word-wrap: break-word;
