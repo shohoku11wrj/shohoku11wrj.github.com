@@ -97,18 +97,12 @@ body .hide {
 }
 
 /***********default settings**********/
-html {
-    background-color: #FDFDFD;
-}
 html, body {
     color: #000;
     /*background: url(/images/noisy_texture_c0ecef.png);*/
     /*background-image: url(/images/noisy_texture_d8d3b6.png);*/
     margin: 0;
-    background-color: #FDFDFD;
-}
-
-html, body {
+    background-color: #f3fbf0;
     font-family: "Microsoft YaHei","Helvetica","Arial" ! important;
     position: relative;
     /*font-family: "微软雅黑","Arial","Helvetica","sans-serif";*/
@@ -342,6 +336,7 @@ li.tag-list-item span.tag_size {
 }
 
 .index-content div.poem {
+    font-family: SimSun;
     /*background-image: url(/images/noisy_texture_d8d3b6.png);*/
 }
 

@@ -103,6 +103,7 @@ body .hide {
 
 /***********default settings**********/
 html, body {
+    background-color: #f3fbf0;
     font-family: "Microsoft YaHei","Helvetica","Arial" ! important;
 }   
 
