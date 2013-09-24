@@ -32,10 +32,48 @@ PriorityQueue is NOT necessarily a Heap. Heap is a good implementation of Priori
 
 I have implemented the algorithm of a [BST](https://github.com/shohoku11wrj/algorithms/blob/master/src/backup_20130616/BinarySearchTree.cpp) without the `RemoveElement` method. And the `RemoveElement` is the most complicated among those common methods of BST. 
 
+Here is a good [ code example of BST](http://www.cplusplus.com/forum/general/1551/). Where I found a bug in `remove` method.
+In `Node with 2 children` scenario, after we copied the data from the leftMost_node of right_subTree to the deleted node position, we should preserve leftMost_node's right_subTree. This means, the leftMost_node should not be strightly deleted, we need to link its right_subTree to its' parent's left_child_pointer beforehand.
+
+    void BinarySearchTree::remove(int d)
+    {
+        ...
+        //Node with 2 children
+        // replace node with smallest value in right subtree
+        if (curr->left != NULL && curr->right != NULL) {
+        ...
+            if((curr->right)->left != NULL) {
+                ...
+                while(lcurr->left != NULL)
+                {
+                   lcurrp = lcurr;
+                   lcurr = lcurr->left;
+                }
+        curr->data = lcurr->data;
+        lcurrp->left = lcurr->right;
+                delete lcurr;
+        //lcurrp->left = NULL;
+            }
+        ...
+    }
+
+\#16 and \#18 is what I fixed it.
+
+
+### BST VS. Heap
+
+I was used to mix BST and Heap up. Now I know they are both elementary trees, but totally different. BST is more well organized where every left_subtree < parent_node < right_subtree; Heap is a not necessary so, and Heap is a complete tree. 
+
+eg: In a MinHeap, root is the minimum of the whole tree. An new node is inserted at the last position at first, then rejust its final position through Up-Heap Bubbling.
+
+While in BST, a new node is compared from ROOT to its real position before it is inserted at the real position. And the real position of a new node must be a leaf.
+
+
 ## AVL
 
 Restructure BST to be balanced.
 
 <b>One rotation</b> (single or double) is sufficient to restore the height-balance in an AVL tree after an <b>insertion</b>. <br />
 A single trinode restructuring may <b>not</b> restore the height-balance property globally after a removal. <b>O(logn)</b> trinode restructurings are sufficient.
+
 

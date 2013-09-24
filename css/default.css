@@ -102,7 +102,7 @@ html, body {
     /*background: url(/images/noisy_texture_c0ecef.png);*/
     /*background-image: url(/images/noisy_texture_d8d3b6.png);*/
     margin: 0;
-    background-color: #f3fbf0;
+    background-color: #FDFDFD;
     font-family: "Microsoft YaHei","Helvetica","Arial" ! important;
     position: relative;
     /*font-family: "微软雅黑","Arial","Helvetica","sans-serif";*/
@@ -477,8 +477,9 @@ a.post_title_link {
 
 span.post_title {
     display: inline;
-    font-size: 25px;
+    font-size: 22px;
     color: #000;
+    word-wrap: break-word;
 }
 
 div.post_prop {
