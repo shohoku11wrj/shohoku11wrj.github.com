@@ -9,5 +9,5 @@ lan: CH
 Test the non-technology of chinese category 凉风秋月.
 <!--preview-->
 
-balabala...
+我想回家，用我自己的步伐。
 

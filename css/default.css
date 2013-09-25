@@ -84,7 +84,7 @@ body .hide {
     display: none;
 }
 
-.left,.right {
+.left,#right {
     display: inline;
 }
 
@@ -92,7 +92,7 @@ body .hide {
     float: left;
 }
 
-.right {
+#right {
     float: right;
 }
 
@@ -100,7 +100,7 @@ body .hide {
 html, body {
     color: #000;
     /*background: url(/images/noisy_texture_c0ecef.png);*/
-    /*background-image: url(/images/noisy_texture_d8d3b6.png);*/
+    /*background-image: url(/images/body_bg.jpg);*/
     margin: 0;
     background-color: #FDFDFD;
     font-family: "Microsoft YaHei","Helvetica","Arial" ! important;
@@ -228,16 +228,18 @@ footer {
     margin: 100px 20% 0 20%;
     color: #252525;
     border-top: solid 1px #252525;
+    box-shadow: 0 2px 6px #ccc;
+    padding: 5px;
+    background-color: #fff;
 }
 
 #content {
-    width: 70%;
-    margin: 0px 0px 50px 25%;
+    width: 80%;
+    margin: 0px 10% 50px 10%;
     padding: 15px;
-    min-height:400px;
+    min-height: 400px;
     height:auto !important;
     height: 100%;
-    border-left: solid 2px;
 }
 
 /****************entry style**************/
@@ -246,7 +248,7 @@ footer {
 .entry ul li{margin-bottom:5px;list-style:disc;line-height:1.8em;}
 .entry ol{margin-bottom:25px;margin-left:25px;}
 .entry ol li{margin-bottom:5px;list-style:decimal;line-height:1.1em;}
-.entry blockquote{margin-left:25px;font-size:14px;font-style:italic}
+/*.entry blockquote{margin-left:25px;font-size:14px;font-style:italic}*/
 .entry img{max-width:670px;display:block;margin:10px auto;}
 
 
@@ -291,14 +293,14 @@ div.category {
 
 /***************** aside ******************/
 
-div.right {
+#sidebar, div.right {
     display: inline;
     float: right;
     right: 0;
-    width: 17%;
+    width: 200px;
 }
 
-.index-content .aside {
+.aside {
     display: inline;
     float: right;
     position: relative;
@@ -673,23 +675,17 @@ li.footer-icon-item {
 }
 
 /**************目录导航**************/
-/*#menuIndex {position:fixed;top:60px;right:20px;width:200px;overflow:auto}*/
 #menuIndex {
-    float: left;
-    position: absolute;
-    top: 150px;
-    left: 0;
-    width: 18%;
+    position: relative;
     max-width: 200px;
-    border: solid 2px #DDD;
-    background: #e8e8e8;
+    /*background: #e8e8e8;*/
     text-align: left;
     overflow:auto
 }
-#menuIndex a {display:block; padding:2px 0; }
+#menuIndex a {display:block; padding:2px 0; color: #000; }
 #menuIndex a:hover {text-decoration:none;}
 #menuIndex ul li{font-size:12px;margin-bottom:5px;word-wrap:break-word;padding-left:10px;}
-#menuIndex ul li.on{background-color:#ffffff;}
+#menuIndex ul li.on{background-color:#E5E5E5;}
 #menuIndex li.h1{font-size:14px;font-weight:normal;padding-left:0;margin-bottom:10px;}
 #menuIndex li.h3{padding-left:25px;}
 
@@ -705,15 +701,8 @@ li.footer-icon-item {
 @media screen and (max-width: 750px) {
     body {font-size:18px}
 
-    div.index-content.blog div.section { 
-        width: 90%;
-        margin-left: 5%; 
-        margin-right: 5%; 
-    }
     #content { 
-        width: 90%; 
-        margin-left: 5%; 
-        margin-right: 5%; 
+        width: 100%; 
     }
 
     h2{font-size:20px;}
@@ -726,12 +715,6 @@ li.footer-icon-item {
     .entry pre ol li{margin-bottom:0;line-height:1em;}
     .entry pre code{line-height:1em;}
 
-    .index-content .aside { 
-        position:relative; 
-        width:100%; 
-        height:300px; 
-        max-width:none; 
-    }
     .index-content .section ul { width:85%; }
     .index-content .cate-bar { width:85%; }
     .index-content .artical-cate { margin-top:50px; }
@@ -758,28 +741,61 @@ li.footer-icon-item {
     footer { width: 80%; margin-left: 10%; margin-right: 10%;}
 }
 
-@media screen and (max-width: 540px){
-    div.index-content.blog div.section { 
+@media screen and (max-width: 1111px){
+    .index-content .section {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 910px){
+    .index-content .section {
+        width: 73%;
+    }
+}
+
+@media screen and (max-width: 860px){
+    html, body{
+        background-color: #fff;
+    }
+
+    .index-content .section {
         width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
     }
-    #content { 
-        width: 100%; 
-        margin-left: 0px;
-        margin-right: 0px;
+
+    .index-content .aside { 
+        display: none;
     }
+}
+
+@media screen and (max-width: 540px){
+    
+    body {
+        background-color: #fff;
+    }
+
+    .index-content .section {
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+    }
+
     .weibo-con { float:none; }
+
     div.site-name {
         display: inline;
         width: 160px;
         font-size: 12px;
     }
+
     div.navigation { 
         display: inline-block;
         font-size: 14px;
         width: 260px;
     }
+
     footer { width: 100%; margin-left: 0; margin-right: 0;}
 }
 
@@ -1131,6 +1147,12 @@ a.icon-footer-weibo:hover {
 }
 
 /************* Ranger => about me **************/
+#ranger {
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 2px 6px #ccc;
+}
+
 #ranger p,
 #ranger span,
 #ranger div {

@@ -32,8 +32,8 @@ PriorityQueue is NOT necessarily a Heap. Heap is a good implementation of Priori
 
 I have implemented the algorithm of a [BST](https://github.com/shohoku11wrj/algorithms/blob/master/src/backup_20130616/BinarySearchTree.cpp) without the `RemoveElement` method. And the `RemoveElement` is the most complicated among those common methods of BST. 
 
-Here is a good [ code example of BST](http://www.cplusplus.com/forum/general/1551/). Where I found a bug in `remove` method.
-In `Node with 2 children` scenario, after we copied the data from the leftMost_node of right_subTree to the deleted node position, we should preserve leftMost_node's right_subTree. This means, the leftMost_node should not be strightly deleted, we need to link its right_subTree to its' parent's left_child_pointer beforehand.
+Here is a good [ code example of BST](http://www.cplusplus.com/forum/general/1551/). But where I found a bug in `remove` method.
+In `Node with 2 children` scenario, after we copied the data from the `leftMost_node of right_subTree`(we call it `replace_node`) to replace the deleted node, we should preserve the `replace_node's right_subTree`. This means, the `replace_node` should not be straightly deleted, we need to link its parent's `*left_child` to its `right_subTree` beforehand.
 
     void BinarySearchTree::remove(int d)
     {
@@ -62,7 +62,7 @@ In `Node with 2 children` scenario, after we copied the data from the leftMost_n
 
 ### BST VS. Heap
 
-I was used to mix BST and Heap up. Now I know they are both elementary trees, but totally different. BST is more well organized where every left_subtree < parent_node < right_subtree; Heap is a not necessary so, and Heap is a complete tree. 
+I was used to mix BST and Heap up. Now I know they are both elementary trees, but totally different. BST is more well organized where every node satisfies: left_subtree < node < right_subtree; Heap is a not necessary so. Waht's more, Heap is a complete tree. 
 
 eg: In a MinHeap, root is the minimum of the whole tree. An new node is inserted at the last position at first, then rejust its final position through Up-Heap Bubbling.
 

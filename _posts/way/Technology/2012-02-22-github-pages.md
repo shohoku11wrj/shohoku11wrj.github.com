@@ -5,8 +5,6 @@ category: Technology
 tag: ['jekyll','github']
 lan: CH
 ---
-  
-from: [使用Github Pages建独立博客@beiyuu](http://beiyuu.com/github-pages/"使用Github Pages建独立博客@beiyuu")
 
 Github本身就是不错的代码社区，他也提供了一些其他的服务，比如Github Pages，使用它可以很方便的建立自己的独立博客，并且免费。
 
@@ -339,6 +337,11 @@ Google的高亮插件使用也比较方便，只需要在`<pre>`的标签上加�
 ##结语
 如果你跟着这篇不那么详尽的教程，成功搭建了自己的博客，恭喜你！剩下的就是保持热情的去写自己的文章吧。
 
+<blockquote>
+Forwarded from <br />
+Author: beiyuu <br />
+Link: http://beiyuu.com/github-pages/
+</blockquote>
 
 [BeiYuu]:    http://beiyuu.com  "BeiYuu"
 [Github]:   http://github.com "Github"

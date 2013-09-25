@@ -21,7 +21,6 @@ $(document).ready(function(){
         }
     };
 
-    $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
     $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto'); // avoid the conflict between prettify.js and Markdown
     // //***********************
     // //**评论的代码也删掉哦***
@@ -47,12 +46,15 @@ $(document).ready(function(){
         }
     });
 
-    var menuIndex = function(){
+    (function(){
         var ie6 = ($.browser.msie && $.browser.version=="6.0") ? true : false;
-        if($('h2',$('#content')).length > 2 && !isMobile.any() && !ie6){
-            var h2 = [],h3 = [],tmpl = '<ul>',h2index = 0;
 
-            $.each($('h2,h3',$('#content')),function(index,item){
+        function initHeading(){
+            var h2 = [];
+            var h3 = [];
+            var h2index = 0;
+
+            $.each($('.entry h2, .entry h3'),function(index,item){
                 if(item.tagName.toLowerCase() == 'h2'){
                     var h2item = {};
                     h2item.name = $(item).text();
@@ -71,11 +73,20 @@ $(document).ready(function(){
                 item.id = 'menuIndex' + index;
             });
 
-            //添加h1
-            tmpl += '<li class="h1"><a href="#" data-top="0">'+$('h1').text()+'</a></li>';
+            return {h2:h2,h3:h3}
+        }
+
+        function genTmpl(){
+            var h1txt = $('h1').text();
+            var tmpl = '<ul><li class="h1"><a href="#">' + h1txt + '</a></li>';
+
+            var heading = initHeading();
+            var h2 = heading.h2;
+            var h3 = heading.h3;
 
             for(var i=0;i<h2.length;i++){
                 tmpl += '<li><a href="#" data-id="'+h2[i].id+'">'+h2[i].name+'</a></li>';
+
                 if(h3[i]){
                     for(var j=0;j<h3[i].length;j++){
                         tmpl += '<li class="h3"><a href="#" data-id="'+h3[i][j].id+'">'+h3[i][j].name+'</a></li>';
@@ -84,40 +95,75 @@ $(document).ready(function(){
             }
             tmpl += '</ul>';
 
-            $('#main').append('<div id="menuIndex"></div>');
-            $('#menuIndex').append($(tmpl)).delegate('a','click',function(e){
-                e.preventDefault();
-                var scrollNum = $(this).attr('data-top') || $('#'+$(this).attr('data-id')).offset().top;
-                //window.scrollTo(0,scrollNum-30);
-                $('body, html').animate({ scrollTop: scrollNum-30 }, 400, 'swing');
-            });
+            return tmpl;
+        }
+
+        function genIndex(){
+            var tmpl = genTmpl();
+            var indexCon = '<div id="menuIndex" class="aside"></div>';
+
+            $('#sidebar').append(indexCon);
+
+            $('#menuIndex')
+                .append($(tmpl))
+                .delegate('a','click',function(e){
+                    e.preventDefault();
+
+                    var selector = $(this).attr('data-id') ? '#'+$(this).attr('data-id') : 'h1'
+                    var scrollNum = $(selector).offset().top;
+
+                    $('body, html').animate({ scrollTop: scrollNum-30 }, 400, 'swing');
+                });
+        }
+
+        var waitForFinalEvent = (function () {
+            var timers = {};
+            return function (callback, ms, uniqueId) {
+                if (!uniqueId) {
+                    uniqueId = "Don't call this twice without a uniqueId";
+                }
+                if (timers[uniqueId]) {
+                    clearTimeout (timers[uniqueId]);
+                }
+                timers[uniqueId] = setTimeout(callback, ms);
+            };
+        })();
+
+        if($('.entry h2').length > 2 && !isMobile.any() && !ie6){
+
+            genIndex();
 
             $(window).load(function(){
                 var scrollTop = [];
                 $.each($('#menuIndex li a'),function(index,item){
-                    if(!$(item).attr('data-top')){
-                        var top = $('#'+$(item).attr('data-id')).offset().top;
-                        scrollTop.push(top);
-                        $(item).attr('data-top',top);
-                    }
+                    var selector = $(item).attr('data-id') ? '#'+$(item).attr('data-id') : 'h1'
+                    var top = $(selector).offset().top;
+                    scrollTop.push(top);
                 });
 
-                var waitForFinalEvent = (function () {
-                    var timers = {};
-                    return function (callback, ms, uniqueId) {
-                        if (!uniqueId) {
-                            uniqueId = "Don't call this twice without a uniqueId";
-                        }
-                        if (timers[uniqueId]) {
-                            clearTimeout (timers[uniqueId]);
-                        }
-                        timers[uniqueId] = setTimeout(callback, ms);
-                    };
-                })();
+                var menuIndexTop = $('#menuIndex').offset().top;
+                var menuIndexLeft = $('#menuIndex').offset().left;
 
                 $(window).scroll(function(){
                     waitForFinalEvent(function(){
-                        var nowTop = $(window).scrollTop(),index,length = scrollTop.length;
+                        var nowTop = $(window).scrollTop();
+                        var length = scrollTop.length;
+                        var index;
+
+                        if(nowTop+20 > menuIndexTop){
+                            $('#menuIndex').css({
+                                position:'fixed'
+                                ,top:'20px'
+                                ,left:menuIndexLeft
+                            });
+                        }else{
+                            $('#menuIndex').css({
+                                position:'static'
+                                ,top:0
+                                ,left:0
+                            });
+                        }
+
                         if(nowTop+60 > scrollTop[length-1]){
                             index = length;
                         }else{
@@ -129,23 +175,36 @@ $(document).ready(function(){
                             }
                         }
                         $('#menuIndex li').removeClass('on');
-                        $('#menuIndex li').eq(index).addClass('on');
+                        $('#menuIndex li').eq(index-1).addClass('on');
                     });
                 });
-            });
+
+                $(window).resize(function(){
+                    $('#menuIndex').css({
+                        position:'static'
+                        ,top:0
+                        ,left:0
+                    });
+
+                    menuIndexTop = $('#menuIndex').offset().top;
+                    menuIndexLeft = $('#menuIndex').offset().left;
+
+                    $(window).trigger('scroll')
+                    $('#menuIndex').css('max-height',$(window).height()-80);
+                });
+            })
 
             //用js计算屏幕的高度
             $('#menuIndex').css('max-height',$(window).height()-80);
-            var left = $('#menuIndex').offset().left;
-            $('#menuIndex').css('position', 'fixed');
-            $('#menuIndex').css('left', left);
+            // var left = $('#menuIndex').offset().left;
+            // $('#menuIndex').css('position', 'fixed');
+            // $('#menuIndex').css('left', left);
 
         }
-    };
+    })();
 
     $.getScript('/js/prettify/prettify.js',function(){
         prettyPrint();
-        menuIndex();
     });
 
 
