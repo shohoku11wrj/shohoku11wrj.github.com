@@ -172,7 +172,7 @@ h4,h5,h6 {
 
 p {
     margin-bottom: 40px;
-    line-height: 1.8em;
+    line-height: 1.5em;
 }
 
 code {
@@ -244,8 +244,8 @@ footer {
 
 /****************entry style**************/
 #content .entry{margin-bottom:40px;}
-.entry ul{margin-bottom:25px;margin-left:25px;}
-.entry ul li{margin-bottom:5px;list-style:disc;line-height:1.8em;}
+.entry ul{margin-bottom:1.5em;margin-left:25px;line-height:1.5em;}
+.entry ul li{list-style: disc;line-height:1.5em;}
 .entry ol{margin-bottom:25px;margin-left:25px;}
 .entry ol li{margin-bottom:5px;list-style:decimal;line-height:1.1em;}
 /*.entry blockquote{margin-left:25px;font-size:14px;font-style:italic}*/

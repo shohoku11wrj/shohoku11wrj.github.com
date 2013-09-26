@@ -15,9 +15,10 @@ lan: CH
 有一个好的算法基础不仅仅是写好程序的必要条件，同时联系算法也是一件乐事。没有大程序的繁琐，同时也有研究逻辑、数理的乐趣。<br />
 PS: 虽然看算法书有点枯燥，但是这是学习算法的必经之路。
 
-这学期上Adv. Algorithms, 参考书有两本：<br />
-`Algorithm Design(Foundations, Analysis, and Intent Examples)`<br />
-`算法导论`
+这学期上Adv. Algorithms, 参考书有两本：
+
+* Algorithm Design(Foundations, Analysis, and Intent Examples)</li>
+* 算法导论(第3版)
 
 第一篇 包括以下几个算法：Heap, Binary Search Tree, AVL
 

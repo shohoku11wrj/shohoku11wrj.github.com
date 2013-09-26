@@ -6,8 +6,7 @@ layout: first
 
 <div>
 {% highlight ruby %}
-Hello, My name is Ranger 仁杰.
-I am a programmer, physics amateur & bicycler from Shanghai, China.
+Hello, I'm Ranger. Ranger's Way is my personal website.
 
 find_me = {
   "email"   => "rweng@stevens.edu",
