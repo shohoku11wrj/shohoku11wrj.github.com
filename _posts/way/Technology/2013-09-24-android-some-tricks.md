@@ -11,8 +11,7 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
 <!--preview-->
 
 
-##1. Get all Activity of applicaiton
-
+##1. Get all Activity of applicaiton<br /><br />
 
         public static ArrayList<String> getActivities(Context ctx) {
             ArrayList<String> result = new ArrayList<String>();
@@ -24,8 +23,7 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
             return result;
         }
 
-##2. Detect whether Chinese characters in string
-
+##2. Detect whether Chinese characters in string<br /><br />
 
         public static boolean checkChinese(String sequence) {
             final String format = "[\u4E00-\u9FA5\uF900-\uFA2D]";
@@ -36,7 +34,7 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
             return result;
         }
 
-##3. Verify a string only contains: Chinese, Number, underline(_), bar(-)
+##3. Verify a string only contains: Chinese, Number, underline(_), bar(-)<br /><br />
 
         public static boolean checkNickname(String sequence) {
             final String format = "[^\u4E00-\u9FA5\uF900-\uFA2D\w-_]";
@@ -45,7 +43,7 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
             return !matcher.find();
         }
 
-##4. Detect whether there is an applicaiton could handle my intent
+##4. Detect whether there is an applicaiton could handle my intent<br /><br />
 
         public static boolean isIntentAvailable(Context context, String action) {
             final PackageManager packageManager =context.getPackageManager();
@@ -54,7 +52,7 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
             return list.size() > 0;
         }
 
-##5. 使用TransitionDrawable实现渐变效果（比使用AlphaAnimation效果要好，可避免出现闪烁问题）
+##5. 使用TransitionDrawable实现渐变效果（比使用AlphaAnimation效果要好，可避免出现闪烁问题）<br /><br />
 
         private void setImageBitmap(ImageView imageView, Bitmap bitmap) {
             // Use TransitionDrawable to fade in.
@@ -112,7 +110,7 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
         return (int) (spValue * fontScale + 0.5f);
     }
 
-##7. 精确获取屏幕尺寸（例如：3.5、4.0、5.0寸屏幕）
+##7. 精确获取屏幕尺寸（例如：3.5、4.0、5.0寸屏幕）<br /><br />
 
     public static double getScreenPhysicalSize(Activity ctx) {
         DisplayMetrics dm = new DisplayMetrics();
@@ -121,13 +119,13 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
         return diagonalPixels / (160 * dm.density);
     }
 
-##8. 判断是否是平板（官方用法）
+##8. 判断是否是平板（官方用法）<br /><br />
 
     public static boolean isTablet(Context context) {
         return (context.getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE;
     }
 
-##9. 启动APK的默认Activity
+##9. 启动APK的默认Activity<br /><br />
 
     public static void startApkActivity(final Context ctx, String packageName) {
         PackageManager pm = ctx.getPackageManager();
@@ -149,7 +147,7 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
         }
     }
 
-##10. 计算字宽
+##10. 计算字宽<br /><br />
 
     public static float GetTextWidth(String text, float Size) {
         TextPaint FontPaint = new TextPaint();
@@ -158,7 +156,7 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
     }
     （注意如果设置了textStyle，还需要进一步设置TextPaint。）
 
-##11. 半角、全角字符转换
+##11. 半角、全角字符转换<br /><br />
 
     /**
      * 半角转全角
@@ -204,12 +202,12 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
         return returnString;
     }
 
-##12. 查看应用最高可用内存（转自：http://my.eoe.cn/sisuer/archive/5917.html）
+##12. 查看应用最高可用内存（转自：http://my.eoe.cn/sisuer/archive/5917.html）<br /><br />
 
     int maxMemory = (int) (Runtime.getRuntime().maxMemory() / 1024);  
     Log.d("TAG", "Max memory is " + maxMemory + "KB");
 
-##13. InputStream转换成字符串
+##13. InputStream转换成字符串<br /><br />
 
     /**
      * 将一个输入流转换成制定编码的字符串
@@ -236,9 +234,38 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
         return result;
     }
 
+##14. Html Style TextView<br /><br />
+
+    TextView textView = (TextView)findViewById(R.id.textview);  
+      
+    // Method 1:  
+    textView.setText(Html.fromHtml("<font color=\"#ff0000\">红色</font>其它颜色"));  
+      
+    // Method 2: 
+    String text = "获得银宝箱!";  
+    SpannableStringBuilder style=new SpannableStringBuilder(text);     
+    style.setSpan(new BackgroundColorSpan(Color.RED),2,5,Spannable.SPAN_EXCLUSIVE_INCLUSIVE);     //设置指定位置textview的背景颜色  
+    style.setSpan(new ForegroundColorSpan(Color.RED),0,2,Spannable.SPAN_EXCLUSIVE_INCLUSIVE);     //设置指定位置文字的颜色  
+    textView.setText(style);
+
+##15. C Language Style Output<br /><br />
+
+    String text = String.format(getResources().getString(R.string.baoxiang), 2,18,"银宝箱");
+
+in corresponding string.xml:
+
+    <string name="baoxiang">您今天打了%1$d局,还差%2$d局可获得%3$s!</string>  
+    %1$d表达的意思是整个name=”<span style="white-space: pre;">baoxiang</span>”字符串中，第一个整型%1$d表达的意思是整个name=”<span style="white-space: pre;">baoxiang</span>”字符串中，第一个整型
+
+Generally, `14` and `15` are used simultaneously to avoid using too much String concatenation
+
 
 <blockquote>
 声明：1-13条部分转载自<br />
 作者： lanxj0703<br />
-地址： http://my.eoe.cn/535140/archive/5889.html
+地址： http://my.eoe.cn/535140/archive/5889.html<br />
+<br />
+声明：14-15条部分转载自<br />
+作者： 我辛飞翔<br />
+地址： http://www.cnblogs.com/622698abc/archive/2013/04/26/3044363.html
 </blockquote>
