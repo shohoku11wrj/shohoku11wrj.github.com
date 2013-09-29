@@ -10,7 +10,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 body,button,input,select,textarea {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 input,select,textarea {
@@ -109,6 +109,12 @@ html, body {
 
 code {
     font-family: "courier","monospace";
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    line-height: 14px;
+    font-size: 14px;
+    word-wrap: break-word;
 }
 
 h2 {
@@ -131,15 +137,6 @@ h4,h5,h6 {
 p {
     margin-bottom: 40px;
     line-height: 1.8em;
-}
-
-code {
-    background: #eee;
-    border: 1px solid #ccc;
-    padding: 0 5px;
-    line-height: 14px;
-    font-size: 14px;
-    word-wrap: break-word;
 }
 
 pre {
