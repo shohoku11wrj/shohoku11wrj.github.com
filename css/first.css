@@ -241,7 +241,7 @@ div.site-name {
     position: relative;
     float: left;
     display: inline-block;
-    width: 300px;
+    width: 400px;
     height: 50px;
     text-align: left;
 }
@@ -265,7 +265,7 @@ div.navigation {
     float: right;
     position: relative;
     display: inline-block;
-    width: 350px; 
+    width: 400px; 
     height: 50px;
 }
 
