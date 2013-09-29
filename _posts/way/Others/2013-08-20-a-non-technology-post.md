@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 天马行空
-category: Others
+category: Miscellaneous
 tag: test
 lan: CH
 ---

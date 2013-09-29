@@ -111,44 +111,6 @@ code {
     font-family: "courier","monospace";
 }
 
-a {
-    color: #000;
-    text-decoration: none;
-    outline: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a.external {
-    padding-right: 13px;
-    background: url('/images/icons.gif') no-repeat right 1px;
-}
-
-a.external:hover {
-    background-position: right -15px;
-}
-
-.entry-title,.entry-title a {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 6px;
-    color: #000;
-    text-align: center;
-}
-
-.entry-title a:hover {
-    text-decoration: none;
-}
-
-.entry-date {
-    text-align: center;
-    color: #999;
-    margin-bottom: 60px;
-    font-size: 14px;
-}
-
 h2 {
     font-size: 22px;
     font-weight: bold;
@@ -229,7 +191,7 @@ footer div {
 }
 
 div.middle {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 div.geral {
@@ -267,3 +229,75 @@ img.img-way {
     display: inline;
     float: right;
 }
+
+/* header */
+header {
+    width: 1024px;
+    height: 50px;
+    border-bottom: solid 2px #000;
+}
+
+div.site-name {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    text-align: left;
+}
+div.site-name h1 {
+    position: absolute;
+    bottom: 0;
+}
+
+div.site-name h1 a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+div.site-name h1  a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+div.navigation { 
+    float: right;
+    position: relative;
+    display: inline-block;
+    width: 350px; 
+    height: 50px;
+}
+
+.navigation ul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.navigation li { 
+    float: right;
+    display: inline-block; 
+    float:left; 
+    zoom:1; 
+    width: auto; 
+    cursor:pointer; 
+    background: #252525;
+    text-align: left;
+}
+.navigation li a,
+.navigation li a:visited {
+    display:inline-block; 
+    zoom:1; 
+    color: gray; 
+    width:100%; 
+    text-decoration:none;
+}
+.navigation li a:hover { text-decoration:none; color: orange; }
+.navigation li.on span{ color: white; }
+.navigation li.space,
+b.space {
+    width: 30px;
+    text-align: center;
+    color: green;
+}
+.navigation li.on a:hover span{ color: orange; }

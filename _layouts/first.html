@@ -8,15 +8,27 @@
     </head>
     <body>
     <CENTER>
-        <div class="title_bar">
-            <TABLE width="1024px" style="border-bottom: solid #000000;">
+        <header>
+            <div class="site-name">
+                <h1><a href="/"> Ranger's Way </a></h1>
+            </div>
+
+            <div class="navigation">
+                <ul>
+                <li style="text-align:left"><a id="way" href="/way"><span>Way => blog</span></a></li>
+                <li class="space">&nbsp;|&nbsp;</li>
+                <li style="text-align:right"><a id="ranger" href="/ranger"><span>Ranger => about me</span></a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="title_bar" style="margin-top:20px;">
+            <TABLE width="1024px">
+                <!--<TR><TD colspan="2" align="right"><h>EN</h> | <h>CH</h></TD>
+                </TR> -->
                 <TR>
-                    <TD colspan="2" align="right"><h>EN</h> | <h>CH</h></TD>
-                </TR>
-                <TR>
-                    <TD width="60%"><h1>Ranger's Way <a href="/ranger">仁</a> <a href="/way">道</a></h1>
+                    <TD width="50%"><h3>motto:&nbsp;&nbsp;self-confident, self-strengthen</h3>
                     </TD>
-                    <TD width="40%"><h3>motto:&nbsp;&nbsp;self-confident, self-strengthen</h3>
+                    <TD width="50%" align="right">
                     <h3>座右铭: 自信 自强 &nbsp;&nbsp;&nbsp;&nbsp;-- 延安校训</h3></TD>
                 </TR>
             </TABLE>
@@ -30,7 +42,7 @@
                     <img class="img-way" src="/images/dao.jpeg" width="150"/>
                     <span style="float:right;font-size: 16px;">
                         Way 道 is my blog.<br />
-                        I share technical posts and thoughts here.<br />
+                        I share technical posts, opinions & thoughts here.<br />
                         Welcome to read and comment....
                     </span>
                     <div>
@@ -120,10 +132,31 @@
         $("#char_dao").hide();
 
         // hover
-        $("#black").hover(function(){$("#char_ren").show();$("#margin").css("stroke","#EC7600");},function(){$("#char_ren").hide();$("#margin").css("stroke","#7f7f7f");});
-        $("#white").hover(function(){$("#char_dao").show();$("#margin").css("stroke","#157db2");},function(){$("#char_dao").hide();$("#margin").css("stroke","#7f7f7f");});
+        $("#black").hover(showRen,hideRen);
+        $("#white").hover(showDao,hideDao);
+        $("#ranger").hover(function(){$("#char_ren").show();},function(){
+        $("#char_ren").hide();});
+        $("#way").hover(function(){$("#char_dao").show();},function(){$("#char_dao").hide();});
    
-     };
+    };
+
+    function showRen() {
+        $("#char_ren").show();
+        $("#margin").css("stroke","#EC7600");
+    }
+    function hideRen() {
+        $("#char_ren").hide();
+        $("#margin").css("stroke","#7f7f7f");
+    }
+    function showDao() {
+        $("#char_dao").show();
+        $("#margin").css("stroke","#157db2");
+    }
+    function hideDao() {
+        $("#char_dao").hide();
+        $("#margin").css("stroke","#7f7f7f");
+    }
+
     window.onload = orchestral;
     
     </script>        

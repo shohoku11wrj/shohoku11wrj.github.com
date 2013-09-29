@@ -10,7 +10,7 @@ I take `Math of Cryptography` and `Machine Learning` this semester. So I guess i
 
 <!--preview-->
 
-And I like physics. LaTeX will also be awesome when I write some post in `Physics` category.
+LaTeX will also be awesome when I write some post in `Physics` category.
 
 ## Notes
 

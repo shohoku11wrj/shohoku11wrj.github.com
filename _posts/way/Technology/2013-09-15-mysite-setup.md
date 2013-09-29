@@ -31,7 +31,7 @@ lan: CH
 
 网站设计[First Page](/index.html "网站首页")是我自己想的，其他的设计部分参考了很多，基本框架是参考[BeiYuu](http://beiyuu.com/ "一个豆瓣员工")的，也不是他的网站比别人设计得有多好，主要是大致框架符合我的预想。
 当然还参考了很多很多，比如jschauma老师那天带来给我们讲Puppet的[James Turnbull](http://www.kartar.net/about.html "kartar.net")，还有[yizeng](http://yizeng.me/ "yizeng")，[连城](http://blog.liancheng.info/ "blog.liancheng.info")等许多IT界人士的网站设计。<br />
-这里可以找到很多优秀的jekyll博客地址[mojobo/jekyll/wiki/sites](https://github.com/mojombo/jekyll/wiki/sites)。当然，由于Github Pages已经是融合了jekyll，说不定你经常关注的几个programmer的，尤其是在Github上活跃的，他们的blog都是用jekyll写的。
+这里可以找到很多优秀的jekyll博客地址[mojobo/jekyll/wiki/sites](https://github.com/mojombo/jekyll/wiki/sites)。由于Github Pages已经是融合了jekyll，说不定你经常关注的几个programmer的，尤其是在Github上活跃的，他们的blog都是用jekyll写的。当然，我的`favourite bloggers`列表中的博客也是相当推荐的。不仅仅是网页设计，更是内容。
 
 
 我的个人网站分为两个版块，<b>[Ranger 仁](/ranger "about me")</b> 和 <b>[Way 道](/way "blog")</b>。<br />

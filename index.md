@@ -12,7 +12,8 @@ find_me = {
   "email"   => "rweng@stevens.edu",
   "twitter" => "http://twitter.com/#!/gaga_ek",
   "github"  => "http://github.com/shohoku11wrj",
-  "weibo"   => "http://weibo.com/230125141"
+  "weibo"   => "http://weibo.com/230125141",
+  "GPG"     => "1024R/619F54B5"
 }
 {% endhighlight %}
 </div>
