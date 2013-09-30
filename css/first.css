@@ -176,13 +176,13 @@ html, body {
 footer {
     position: relative;
     bottom: 0;
-    width: 500px;
+    width: 520px;
     margin: 100px auto 0;
 }
 
 footer div {
     text-align: left;
-    width: 500px;
+    width: 520px;
 }
 
 div.middle {
