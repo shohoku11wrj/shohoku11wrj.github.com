@@ -1203,7 +1203,7 @@ span.paragraph {
 
 img.event {
     display: inline-block;
-    vertical-align: baseline;
+    vertical-align: bottom;
     float: left;
 }
 
