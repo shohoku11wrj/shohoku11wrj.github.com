@@ -16,6 +16,8 @@ That means, you can not implement infinite scroll with it.</li>
 <li><b>2. No Scrill Bar.</b><br/>
 So you don't know what the position you are at of the View.</li>
 <li><b>3. I want to add Pull To Refresh functions on it.</b></li>
+<li><b>4. This viewgroup doesn't remain at its current position after my adapter called notifyDataSetChanged() function.</b><br/>
+It's just scroll to Top.</li>
 </ul>
 
 The 1st flaw is partially overcome by [this post](http://www.ggkf.com/android/android-onscrolllistener-for-staggered-grid-view)

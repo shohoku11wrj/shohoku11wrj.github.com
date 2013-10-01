@@ -259,6 +259,23 @@ in corresponding string.xml:
 
 Generally, `14` and `15` are used simultaneously to avoid using too much String concatenation
 
+##16. ImageView click effect
+
+Set an OnTouchListener on the ImageView
+
+    @Override
+    public boolean onTouch(View v, MotionEvent event) {
+        if (event.getAction()==MotionEvent.ACTION_DOWN) {
+            categoryImageView.setAlpha(0.5f);
+        }
+        if (event.getAction()==MotionEvent.ACTION_UP || 
+                event.getAction()==MotionEvent.ACTION_CANCEL) {
+            categoryImageView.setAlpha(1.0f);
+        }
+        return true;
+    }
+
+
 
 <blockquote>
 声明：1-13条部分转载自<br />

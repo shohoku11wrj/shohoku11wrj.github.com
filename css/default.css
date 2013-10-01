@@ -476,6 +476,7 @@ span.post_line {
 a.post_title_link {
     display: inline;
     float: left;
+    width: 75%;
 }
 
 span.post_title {
@@ -483,6 +484,7 @@ span.post_title {
     font-size: 22px;
     color: #000;
     word-wrap: break-word;
+    word-break: normal; 
 }
 
 div.post_prop {
@@ -500,11 +502,12 @@ span.post_line:hover h.post_date {
 h.post_date {
     display: inline;
     float: right;
+    position: relative;
     color: gray;
     font-size: 16px;
     font-style: normal;
     font-family: cursive;
-    width: 22%;
+    width: 20%;
     min-width: 150px;
     padding: 5px 2px 5px 0;
     text-align: right;
