@@ -103,7 +103,10 @@ html, body {
     /*background-image: url(/images/body_bg.jpg);*/
     margin: 0;
     background-color: #FDFDFD;
-    /*background: #000 url(/images/background.jpg) fixed 100% 100%;*/
+    /*background-image: url(/images/woodway.jpg);*/
+/*    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;*/
     font-family: "Microsoft YaHei","Helvetica","Arial" ! important;
     position: relative;
     /*font-family: "微软雅黑","Arial","Helvetica","sans-serif";*/
@@ -111,6 +114,7 @@ html, body {
     text-align: center;
     margin: auto 10px;
 }   
+
 
 code, pre {
     font-family: "Lucida Console","courier","monospace";
