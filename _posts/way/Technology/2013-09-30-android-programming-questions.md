@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Frequent Question raised in Android programming
+title: Frequent Problems Raised in Android Programming
 category: Technology
 tag: Android
 lan: EN
 ---
 
-This post lists some questions or problems appears frequently during Android developing.
+This post lists some problems appears frequently during Android developing.
+
+<!--preview-->
 
 ##1. adb cannot run, adb server is out of date
 

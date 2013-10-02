@@ -103,6 +103,7 @@ html, body {
     /*background-image: url(/images/body_bg.jpg);*/
     margin: 0;
     background-color: #FDFDFD;
+    /*background: #000 url(/images/background.jpg) fixed 100% 100%;*/
     font-family: "Microsoft YaHei","Helvetica","Arial" ! important;
     position: relative;
     /*font-family: "微软雅黑","Arial","Helvetica","sans-serif";*/
@@ -229,7 +230,7 @@ footer {
     color: #252525;
     border-top: solid 1px #252525;
     padding: 5px;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 
 #content {
@@ -606,6 +607,10 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 */
 
 /***************Post Properities*************/
+div.meta {
+    color: gray;
+}
+
 div.entry-content {
     border-bottom: dashed;
     margin-bottom: 50px;
@@ -666,7 +671,7 @@ blockquote p {
 }
 
 /* footer items */
-span.fotter_copyright {
+span.footer_copyright {
     float: left;
     display: inline-block;
 }
@@ -1152,6 +1157,7 @@ a.icon-footer-weibo:hover {
 
 /************* Ranger => about me **************/
 #ranger {
+    margin-top: 10px;
     padding: 10px;
     background: #fff;
     box-shadow: 0 2px 6px #ccc;
