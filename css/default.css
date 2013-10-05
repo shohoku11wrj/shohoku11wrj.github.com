@@ -185,7 +185,7 @@ code {
     border: 1px solid #ccc;
     padding: 0 5px;
     line-height: 14px;
-    word-wrap: break-word;
+    /*word-wrap: break-word;*/
 }
 
 pre {
@@ -645,20 +645,20 @@ span.post-cat-name:hover {
 
 span.post-tag-count,
 span.post-cat-count {
-  background-color: #FF9900;
-  padding: 0px 10px;
+  background-color: #e25608;
+  padding: 3px 7px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   color: white;
   text-transform: uppercase;
   margin: 0 6px 0 0;
-  display: inline-block;
+  display: inline; /* Do not use inline-block, or your will get full-size background*/
   position: relative;
   vertical-align: middle;
   top: -2px;
   font-weight: bold;
-  font-size: 0.875em;
+  font-size: 13px;
 }
 
 /******************** Post Content ***************/

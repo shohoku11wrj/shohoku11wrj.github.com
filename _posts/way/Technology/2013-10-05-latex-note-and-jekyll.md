@@ -10,9 +10,16 @@ I take `Math of Cryptography` and `Machine Learning` this semester. So I guess i
 
 <!--preview-->
 
-LaTeX will also be awesome when I write some post in `Physics` category.
+TeX will also be awesome when I write some post in `Physics` category.
+
+[TeX](http://en.wikipedia.org/wiki/TeX) is a text complier which produce high-quality formatted document on its own syntax.
+There are many software based on Tex. A well-know of them is [LaTeX](http://latex-project.org/intro.html). 
+
+[MathJax](http://www.mathjax.org/) is a TeX tool purely based on javascript.
+
 
 ## Notes for LaTeX
+-----------------
 
 Here are some notes when learning Tex syntax.
 [Krummel's LaTeX Tutorials](http://mrskrummel.com/latex/ "GIFTED &TALENTED MATHEMATICS")
@@ -74,6 +81,8 @@ Here are some notes when learning Tex syntax.
 
 
 ## MathJax Guide
+-----------------
+
 Simple guide for enabling MathJax.js on your Jekyll posts.
 
 ###1. Reference MathJax Library
@@ -102,24 +111,54 @@ Simple guide for enabling MathJax.js on your Jekyll posts.
       });
     </script>
 
+We do this cause <strong>Markdown messes up MathJax!</strong>
+
 Official guide: [Using in-line configuration options](http://docs.mathjax.org/en/v1.1-latest/configuration.html#config-files)
 
 From other Blogger's: [LaTeX Math Magic][]
 
+###3. Custom the CSS
 
-###3. Try Your Own Formular from [Tex Samples](http://www.mathjax.org/demos/tex-samples/)
+Of course, the CSS of your formular text can be redefined:
+
+    code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+
+###4. Try Your Own Formulars
+
+Two approaches to insert your formulars in posts source file:
+
+You could use: `[](raw: put latex here)` But this only works partly.
+The markdown will interpret the first `)` as the closing tag for our raw-statement.
+
+Another approach is to use code blocks. So either using at least 4 spaces before you write something, or using the `acute` symbol: `.
 
 In case you can not figure out the true html source code of formulars, just take a glance at [cowoebker's_post_source_code](https://github.com/cwoebker/.com/blob/master/_posts/2011-10-27-latex-math-magic.markdown).
 
 Some formulars you can test with: [TeX Samples](http://www.mathjax.org/demos/tex-samples/)
 
-example: 
-<center><strong>Maxwell’s Equations</strong></center>
+example:
+
+- Maxwell’s Equations
 
 `\begin{aligned}
 \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\   \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
 \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
 \nabla \cdot \vec{\mathbf{B}} & = 0 \end{aligned}`
+
+- Binomial Formular
+
+The probability of getting `\( k \)`  heads when flipping `\( n \)` coins.
+
+`\[
+P(E)   = {n \choose k} p^k (1-p)^{ n-k}
+\]`
+
+- Kinetic Energy Equation
+
+Kinetic energy of rigid bodies: `\[ E_k = \frac{1}{2}mv^2 \]`
+
+Rotating bodies: `\[ E_r = \frac{1}{2}Iw^2 \]`
+
 
 Cool.
 
@@ -143,4 +182,4 @@ Referenced by: <br/>
 </blockquote>
 
 
-[LaTeX Math Magic]: http://doswa.com/2011/07/20/mathjax-in-markdown.html
+[LaTeX Math Magic]: http://cwoebker.com/posts/latex-math-magic/
