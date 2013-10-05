@@ -386,8 +386,8 @@ li.blogger-list-item:hover span.blogger {
 }
 .index-content .artical-list li { margin-bottom:30px; }
 .index-content h2 { font-size:20px; margin-bottom:15px; }
-.index-content h2 a { color:#444 }
-.index-content h2 a:hover { color:#00f; text-decoration:none; }
+/*.index-content h2 a { color:#444 }
+.index-content h2 a:hover { color:#00f; text-decoration:none; }*/
 .index-content .post_preview {
     color:#252525;
     font-size:18px;
@@ -414,10 +414,12 @@ div.site-name {
     height: 50px;
 }
 
-div.site-name h1 a {
+div.site-name a {
     position: absolute;
     bottom: 0;
     color: #000;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 div.site-name h1  a:hover {
@@ -1287,4 +1289,12 @@ table.courses td.semester {
 }
 .gist .gist-file .gist-meta a:visited {
   color: #CC6633
+}
+
+/**** MathJax ****/
+code.has-jax {
+    font: inherit; 
+    font-size: 100%; 
+    background: inherit; 
+    border: inherit;
 }
