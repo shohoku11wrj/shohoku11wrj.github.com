@@ -84,7 +84,7 @@ Simple guide for enabling MathJax.js on your Jekyll posts.
 [Using MathJax in popular web platforms](http://docs.mathjax.org/en/latest/platforms/index.html#using-mathjax-in-a-theme-file)
 
 ###2. Add MathJax Config Before the Reference
-<br/>
+
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         tex2jax: {
