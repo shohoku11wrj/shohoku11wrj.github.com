@@ -77,7 +77,6 @@ Here are some notes when learning Tex syntax.
 Simple guide for enabling MathJax.js on your Jekyll posts.
 
 ###1. Reference MathJax Library
-<br/>
 
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
@@ -109,6 +108,7 @@ From other Blogger's: [LaTeX Math Magic][]
 
 
 ###3. Try Your Own Formular from [Tex Samples](http://www.mathjax.org/demos/tex-samples/)
+
 In case you can not figure out the true html source code of formulars, just take a glance at [cowoebker's_post_source_code](https://github.com/cwoebker/.com/blob/master/_posts/2011-10-27-latex-math-magic.markdown).
 
 Some formulars you can test with: [TeX Samples](http://www.mathjax.org/demos/tex-samples/)
