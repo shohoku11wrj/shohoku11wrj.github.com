@@ -13,55 +13,55 @@ Digest: all activity in app, detect string & uni-code char, intent, dp/sp/px, sc
 
 ##1. Get all Activity of applicaiton<br /><br />
 
-        public static ArrayList<String> getActivities(Context ctx) {
-            ArrayList<String> result = new ArrayList<String>();
-            Intent intent = new Intent(Intent.ACTION_MAIN, null);
-            intent.setPackage(ctx.getPackageName());
-            for (ResolveInfo info : ctx.getPackageManager().queryIntentActivities(intent, 0)) {
-                result.add(info.activityInfo.name);
-            }
-            return result;
+    public static ArrayList<String> getActivities(Context ctx) {
+        ArrayList<String> result = new ArrayList<String>();
+        Intent intent = new Intent(Intent.ACTION_MAIN, null);
+        intent.setPackage(ctx.getPackageName());
+        for (ResolveInfo info : ctx.getPackageManager().queryIntentActivities(intent, 0)) {
+            result.add(info.activityInfo.name);
         }
+        return result;
+    }
 
 ##2. Detect whether Chinese characters in string<br /><br />
 
-        public static boolean checkChinese(String sequence) {
-            final String format = "[\u4E00-\u9FA5\uF900-\uFA2D]";
-            boolean result = false;
-            Pattern pattern = Pattern.compile(format);
-            Matcher matcher = pattern.matcher(sequence);
-            result = matcher.find();
-            return result;
-        }
+    public static boolean checkChinese(String sequence) {
+        final String format = "[\u4E00-\u9FA5\uF900-\uFA2D]";
+        boolean result = false;
+        Pattern pattern = Pattern.compile(format);
+        Matcher matcher = pattern.matcher(sequence);
+        result = matcher.find();
+        return result;
+    }
 
 ##3. Verify a string only contains: Chinese, Number, underline(_), bar(-)<br /><br />
 
-        public static boolean checkNickname(String sequence) {
-            final String format = "[^\u4E00-\u9FA5\uF900-\uFA2D\w-_]";
-            Pattern pattern = Pattern.compile(format);
-            Matcher matcher = pattern.matcher(sequence);
-            return !matcher.find();
-        }
+    public static boolean checkNickname(String sequence) {
+        final String format = "[^\u4E00-\u9FA5\uF900-\uFA2D\w-_]";
+        Pattern pattern = Pattern.compile(format);
+        Matcher matcher = pattern.matcher(sequence);
+        return !matcher.find();
+    }
 
 ##4. Detect whether there is an applicaiton could handle my intent<br /><br />
 
-        public static boolean isIntentAvailable(Context context, String action) {
-            final PackageManager packageManager =context.getPackageManager();
-            final Intent intent = new Intent(action);
-            List<ResolveInfo> list = packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
-            return list.size() > 0;
-        }
+    public static boolean isIntentAvailable(Context context, String action) {
+        final PackageManager packageManager =context.getPackageManager();
+        final Intent intent = new Intent(action);
+        List<ResolveInfo> list = packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
+        return list.size() > 0;
+    }
 
 ##5. 使用TransitionDrawable实现渐变效果（比使用AlphaAnimation效果要好，可避免出现闪烁问题）<br /><br />
 
-        private void setImageBitmap(ImageView imageView, Bitmap bitmap) {
-            // Use TransitionDrawable to fade in.
-            final TransitionDrawable td = new TransitionDrawable(new Drawable[] { new ColorDrawable(android.R.color.transparent), new BitmapDrawable(mContext.getResources(), bitmap) });
-            //noinspection deprecation
-                imageView.setBackgroundDrawable(imageView.getDrawable());
-            imageView.setImageDrawable(td);
-            td.startTransition(200);
-        }
+    private void setImageBitmap(ImageView imageView, Bitmap bitmap) {
+        // Use TransitionDrawable to fade in.
+        final TransitionDrawable td = new TransitionDrawable(new Drawable[] { new ColorDrawable(android.R.color.transparent), new BitmapDrawable(mContext.getResources(), bitmap) });
+        //noinspection deprecation
+            imageView.setBackgroundDrawable(imageView.getDrawable());
+        imageView.setImageDrawable(td);
+        td.startTransition(200);
+    }
 
 ##6. Android中dp、sp和px的相互转换
 （在此之前px和sp相互转换一直都用density，后来才发现是错的，有些手机上density和scaledDensity的值一样所以没发现有什么区别，但是在大分辨率的手机上两个值不一样，导致转换出来的字体尺寸有问题）
