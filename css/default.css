@@ -1084,6 +1084,12 @@ a.sb.flat:before,
     box-shadow: none;
 }
 
+/********* Share Button *********/
+.share_btn {
+    display: inline;
+}
+
+
 /* ICONS
 ================================================ */
 a.sb:hover {
