@@ -613,13 +613,17 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 */
 
 /***************Post Properities*************/
-div.meta {
+div.meta, .date-publish {
     color: gray;
 }
 
-div.entry-content {
-    border-bottom: dashed;
+.date-publish {
     margin-bottom: 50px;
+}
+
+div.entry-content {
+    border-top: ridge;
+    margin-top: 50px;
 }
 
 div.entry-content div p {

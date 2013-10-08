@@ -3,11 +3,13 @@ layout: page
 ---
 <div class="entry">
     <h1 class="entry-title">{{ page.title }}</h1>
-    <!-- <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p> -->
+    <p align="center" class="date-publish"><time itemprop="datePublished" class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time></p>
+    
+    {{ content }}
+
     <div class="bd">
         <div class="entry-content">
             <div class="meta">
-              <p class="date-publish">Published: <time itemprop="datePublished" class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time></p>
               {% assign category = page.category | downcase %}
               <p class="post-category">Category: <a class="post-cat-link" href="/way/{{ page.category | downcase }}/"><span class="post-cat-name">{{ page.category }}</span></a>&nbsp;<span class="post-cat-count">{{ site.categories[category].size }}</span></a></p>
               <p class="post-tag">Tags: {% for tag in page.tags %}
@@ -17,9 +19,6 @@ layout: page
             </div>
         </div>
     </div>
-    {{ content }}
-    
-
 </div>
 
 <div id="disqus_container">
