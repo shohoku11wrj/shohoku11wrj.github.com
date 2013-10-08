@@ -26,7 +26,8 @@ We define Fibonacci Number algorithm as following:
     F(1) = F(2) = 1
     F(n) = F(n-1) + F(n-2)
 
-The traditional recursive algorithm has a time complexity of `\(\Theta(2^{n/2})\)`. `\(\because T(n) = T(n-1) + T(n-2) + \Theta(1) \geq 2T(n-2) = \Theta(2^{n/2})\)`
+`\(\because T(n) = T(n-1) + T(n-2) + \Theta(1) \geq 2T(n-2) = \Theta(2^{n/2})\)`<br/>
+`\(\therefore \)`The traditional recursive algorithm has a time complexity of `\(\Theta(2^{n/2})\)`. 
 
 In order to calaulate F(n), you have to calculate F(n-1) and F(n-2) first; in the same way, you should calculate F(n-2) + `F(n-3)` --> F(n-1), `F(n-3)` + F(n-4) --> F(n-2) . So, there will be some duplicated calculation during the recursion. Such as you have to calculate `F(n-3)` twice.
 
