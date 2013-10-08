@@ -21,8 +21,9 @@ There are many software based on Tex. A well-know of them is [LaTeX](http://late
 ## Notes for LaTeX
 -----------------
 
-Here are some notes when learning Tex syntax.
-[Krummel's LaTeX Tutorials](http://mrskrummel.com/latex/ "GIFTED &TALENTED MATHEMATICS")
+Here are some notes when learning Tex syntax.<br/>
+[Mrs. Krummel's LaTeX Tutorials](http://mrskrummel.com/latex/ "GIFTED &TALENTED MATHEMATICS")<br/>
+[Online LaTeX Equation Editor](http://www.codecogs.com/latex/eqneditor.php)
 
 {% raw %}
     \documentclass{article}
@@ -115,7 +116,7 @@ We do this cause <strong>Markdown messes up MathJax!</strong>
 
 Official guide: [Using in-line configuration options](http://docs.mathjax.org/en/v1.1-latest/configuration.html#config-files)
 
-From other Blogger's: [LaTeX Math Magic][]
+Or be guided from other bloggers: [LaTeX Math Magic][]
 
 ###3. Custom the CSS
 
@@ -130,7 +131,7 @@ Two approaches to insert your formulars in posts source file:
 You could use: `[](raw: put latex here)` But this only works partly.
 The markdown will interpret the first `)` as the closing tag for our raw-statement.
 
-Another approach is to use code blocks. So either using at least 4 spaces before you write something, or using the `acute` symbol: `.
+Another approach is to use code blocks. So either using at least 4 spaces before you write something, or using the `acute` symbol: \`. Inside the acute symol, brace the formular with `\ [...\ ]`, you will write formular in a seperate new line, brace with `\ (...\ )`, you write formular inline.
 
 In case you can not figure out the true html source code of formulars, just take a glance at [cowoebker's_post_source_code](https://github.com/cwoebker/.com/blob/master/_posts/2011-10-27-latex-math-magic.markdown).
 
