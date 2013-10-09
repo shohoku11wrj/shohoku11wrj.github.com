@@ -92,7 +92,7 @@ body .hide {
     float: left;
 }
 
-#right {
+#right, .right {
     float: right;
 }
 
@@ -299,7 +299,7 @@ div.category {
 
 /***************** aside ******************/
 
-#sidebar, div.right {
+#sidebar {
     display: inline;
     float: right;
     right: 0;
@@ -618,7 +618,7 @@ div.meta, .date-publish {
 }
 
 .date-publish {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 div.entry-content {
@@ -1093,7 +1093,23 @@ a.sb.flat:before,
     display: inline;
 }
 
+.shares {
+    display: inline;
+    width: 250px;
+}
 
+table.shares,
+ {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.shares tr,
+table.shares td,
+table.shares tr td div {
+    text-align: center;
+    vertical-align: middle;
+}
 /* ICONS
 ================================================ */
 a.sb:hover {
