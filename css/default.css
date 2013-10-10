@@ -1215,11 +1215,17 @@ div.left_col {
 }
 
 div.right_col {
-    display: inline-block;
+    display: inline;
     float: right;
-    position: absolute;
-    right: 0;
-    top: 60px;
+    position: relative;
+}
+
+img.gravatar {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius-bottomright: 50%;
+    -webkit-border-bottom-right-radius: 50%;
+    border-radius: 50%;
 }
 
 span.email {
