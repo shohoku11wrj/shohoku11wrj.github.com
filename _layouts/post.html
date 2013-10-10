@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<div class="entry">
+<div class="entry" itemscope itemtype="http://schema.org/Blog">
     <h1 itemprop="name" class="entry-title">{{ page.title }}</h1>
     <p align="center" class="date-publish"><time itemprop="datePublished" class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }} </time></p>
     
