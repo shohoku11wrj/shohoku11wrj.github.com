@@ -45,14 +45,18 @@ So, the order of complexity comes down to `\(O(n)\)`.
 A more detailed guide for Fibonacci Number in DP, see: [Fibonacci series and Dynamic programming](http://functionspace.org/articles/32).
 
 ---
+<img class="pic_right" width="150" src="/images/algorithm/Knapsack.png" />
 <br/>
 ## 0-1 Knapsack Problem
 
 We shall first introduce the `Fraction Knapsack Problem` (FKP). This is, we are allowed to take fractional amounts.
 
-For example, there are several bottles of milk to choose, the __volume__ and __value per ml__ are different. We could choose __10ml at most__ among those bottles. 
+For example, in [Figure 1](#figure_1) there are several bottles of milk to choose, the __volume__ and __value per ml__ are different. We could choose __10ml at most__ among those bottles. 
 
 The strategy is simple. We could simply choose from with the highest value milk greedly.
+
+![Figure 1](/images/algorithm/Fractional_Knapsack.png "Fraction Knapsack Problem")
+<span class="pic">Figure 1: Fraction Knapsack Problem</span>
 
 But in `0-1 Knapsack Problem` (0-1KP), we cannot divide the choices fractionally.
 For example, if we can still take only 10ml milk. But the choices are 2ml milk with value 8, and 9ml milk with value 9.
@@ -83,6 +87,8 @@ But it will only be updated from __w_k__ to __W__.
 eg: Assume the size of [Figure 2](#figure_2) is 12, and (3,2)(5,4)(8,5) are in position. So, `B[w] = {0,0,3,3,5,8,8,11,11,13,13,16}`. <br/>
 If __a__ (2,1) is coming, then `B[w] = {0,2,3,5,5,8,8,11,13,13,15,16}`; <br/>
 Unless there is __another__ (2,1) is coming, then `B[w] = {0,2,4,5,7,8,10,11,13,15,15,17}`. Then the updated result of B[W] is changed from (3+5+8) to (2+2+5+8).
+
+[#figure_2](/image/algorithm/0-1_Knapsack.png)
 
 Although this examination verified the algorithm is true, there is still far away from understanding the algorithm by <span class="red">__reasoning it logically__</span>. But the examination with real data at least reavels some features of this algorithm: <br/>
 

@@ -680,9 +680,20 @@ blockquote p {
   margin-right: 0;
 }
 
-/* Post text */
+/* Post mian text */
 span.red {
     color: red;
+}
+
+img.pic_right {
+    margin-left: 10px;
+    float: right;
+}
+
+span.pic {
+    color: #FF3300;
+    display: block;
+    text-align: center;
 }
 
 /* footer items */
