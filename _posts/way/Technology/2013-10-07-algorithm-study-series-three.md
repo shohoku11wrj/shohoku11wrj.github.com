@@ -81,8 +81,8 @@ The stratedy is clear. But the algorithm is a little difficult to be understood.
 The difficult lines are 9 ~ 11. What I have now realized is:
 
 - The size of B[w] is actually equals W+1;
-- A new commer k will be tested for, whether it is valuable to be inserted from __0__ to __W - w_k__; <br/>
-But it will only be updated from __w_k__ to __W__.
+- A new item k will be tested from __0__ to __W - w_k__, no matter that it is valuable to be inserted or not, <br/>
+But B[w] will only be scaned & updated from __w_k__ to __W__.
 - And the set B[w] will only be changed partially, and, not necessarily successive. <br/>
 eg: Assume the size of [Figure 2](#figure_2) is 12, and (3,2)(5,4)(8,5) are in position. So, `B[w] = {0,0,3,3,5,8,8,11,11,13,13,16}`. <br/>
 If __a__ (2,1) is coming, then `B[w] = {0,2,3,5,5,8,8,11,13,13,15,16}`; <br/>
