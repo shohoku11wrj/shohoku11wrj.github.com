@@ -71,12 +71,12 @@ The stratedy is clear. But the algorithm is a little difficult to be understood.
       let A and B be arrays of length W + 1
       for w <-- 0 to W do
       B[w] <-- 0  
-    for k <-- 1 to n do
-      copy array B into array A 
-      for w <-- w_k to W do
-        if A[w - w_k] + b_k > A[w] then
-          B[w] <-- A[w - w_k] + b_k 
-    return B[W] 
+      for k <-- 1 to n do
+        copy array B into array A 
+        for w <-- w_k to W do
+          if A[w - w_k] + b_k > A[w] then
+            B[w] <-- A[w - w_k] + b_k 
+      return B[W] 
 
 The difficult lines are 9 ~ 11. What I have now realized is:
 
@@ -96,7 +96,7 @@ Although this examination verified the algorithm is true, there is still far awa
 - Everytime a new item is inserted, the changing of the original B[w] is insuccessive. But It ensures recoding the extra information of the new input, whether the final B[W] will be changed or not;
 - The size of the set is B[W+1] instead of B[W].
 
-(Another version of pseudo-code gets rid of the assistent array A[w], it is repleasing line 8~11 with the following:
+(Another version of pseudo-code gets rid of the assistent array A[w], it replaces lines 8~11 with the following:
 
     for w <-- W downto w_k do
         if B[w - w_k] + b_k > B[w] then
