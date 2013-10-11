@@ -680,6 +680,11 @@ blockquote p {
   margin-right: 0;
 }
 
+/* Post text */
+span.red {
+    color: red;
+}
+
 /* footer items */
 span.footer_copyright {
     float: left;
