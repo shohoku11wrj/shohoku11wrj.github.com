@@ -86,9 +86,9 @@ But it will only be updated from __w_k__ to __W__.
 - And the set B[w] will only be changed partially, and, not necessarily successive. <br/>
 eg: Assume the size of [Figure 2](#figure_2) is 12, and (3,2)(5,4)(8,5) are in position. So, `B[w] = {0,0,3,3,5,8,8,11,11,13,13,16}`. <br/>
 If __a__ (2,1) is coming, then `B[w] = {0,2,3,5,5,8,8,11,13,13,15,16}`; <br/>
-Unless there is __another__ (2,1) is coming, then `B[w] = {0,2,4,5,7,8,10,11,13,15,15,17}`. Then the updated result of B[W] is changed from (3+5+8) to (2+2+5+8).
+Unless there is __another__ (2,1) is coming, then `B[w] = {0,2,4,5,7,8,10,11,13,15,15,17}`. Thus the updated result of B[W] is changed from (3+5+8) to (2+2+5+8).
 
-[#figure_2](/image/algorithm/0-1_Knapsack.png)
+![Figure 2](/images/algorithm/0-1_Knapsack.png)
 
 Although this examination verified the algorithm is true, there is still far away from understanding the algorithm by <span class="red">__reasoning it logically__</span>. But the examination with real data at least reavels some features of this algorithm: <br/>
 
@@ -102,7 +102,7 @@ Although this examination verified the algorithm is true, there is still far awa
         if B[w - w_k] + b_k > B[w] then
             B[w] <-- B[w - w_k] + b_k
 
-I have examed this version. It showed the same B[w] data as the previous one in the runing time.)
+I have examed this version. It showed the same B[w] structure as the previous one in the runing time.)
 
 ---
 <br/>
