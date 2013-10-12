@@ -18,6 +18,10 @@ Then I will study DP case by case at first. It seems more convenient and easier 
 The materials I have referenced also includes `MIT Algorithm Open Course`: <br/>
 [19. Dynamic Programming I: Fibonacci, Shortest Paths](http://www.youtube.com/watch?v=OQ5jsbhAv_M) <br/>
 [20. Dynamic Programming II: Text Justification, Blackjack](http://www.youtube.com/watch?v=ENyox7kNKeY) <br/>
+[21. Dynamic Programming III: Parenthesization, Edit Distance, Knapsack](http://www.youtube.com/watch?v=ocZMDMZwhCY) <br/>
+
+---
+<br/>
 
 ## Fibonacci Number
 
