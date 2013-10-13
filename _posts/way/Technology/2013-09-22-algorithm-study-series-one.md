@@ -29,9 +29,27 @@ But sometimes, it can also be constructed in `O(n)` time.
 
 PriorityQueue is NOT necessarily a Heap. Heap is a good implementation of PriorityQueue.
 
+`Bottom-Up Heap Construction` runs in O(n) time.
+
+Here is the pseudo-code of this construction method, it's a `recursive` algorithm.
+
+>__Algorithm__ BottomUpHeap(`\( S \)`):<br/>
+__<i>Input:</i>__ A sequence `\( S \)` storing `\( n = 2^h - 1 \)` keys <br/>
+__<i>Output:</i>__ A heap `\( T \)` stroing the keys in `\( S \)`.<br/>
+__if__ S is empty __then__<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;__return__ an empty heap (consisting of a single external node).<br/>
+Remove the first key, `\(k\)`, from `\( S \)`.<br/>
+Split `\( S \)` into two sequences, `\(S_1\)` and `\(S_2\)`, each of size `\((n-1)/2\)`.<br/>
+`\(T_1\)` <-- BottomUpHeap(\(S_1\))<br/>
+`\(T_2\)` <-- BottomUpHeap(\(S_2\))<br/>
+Create binary tree `\( T \)` with root `\( r \)` storing `\( k \)`, left subtree `\(T_1\)`, and right subtree `\(T_2\)`.<br/>
+Perform a down-heap bubbling from the root `\( r \)` of `\( T \)`, if necessary.<br/>
+__return__ `\( T \)`<br/>
+
+
 ## BST
 
-I have implemented the algorithm of a [BST](https://github.com/shohoku11wrj/algorithms/blob/master/src/backup_20130616/BinarySearchTree.cpp) without the `RemoveElement` method. And the `RemoveElement` is the most complicated among those common methods of BST. 
+I have implemented the algorithm of a [BST](https://github.com/shohoku11wrj/algorithms/blob/master/src/backup_20130616/BinarySearchTree.cpp) without the `RemoveElement` method before. And the `RemoveElement` is the most complicated among those common methods of BST. 
 
 Here is a good [ code example of BST](http://www.cplusplus.com/forum/general/1551/). But where I found a bug in `remove` method.
 In `Node with 2 children` scenario, after we copied the data from the `leftMost_node of right_subTree`(we call it `replace_node`) to replace the deleted node, we should preserve the `replace_node's right_subTree`. This means, the `replace_node` should not be straightly deleted, we need to link its parent's `*left_child` to its `right_subTree` beforehand.
@@ -58,14 +76,16 @@ In `Node with 2 children` scenario, after we copied the data from the `leftMost_
         ...
     }
 
-\#16 and \#18 is what I fixed it.
+\#16 is what I have fixed to replace \#18.
 
 
 ### BST VS. Heap
 
-I was used to mix BST and Heap up. Now I know they are both elementary trees, but totally different. BST is more well organized where every node satisfies: left_subtree < node < right_subtree; Heap is a not necessary so. Waht's more, Heap is a complete tree. 
+I was used to mix BST and Heap up. Now I know they are both elementary trees, but totally different. <br/>
+BST is more well organized where every node satisfies __left_subtree < node < right_subtree__; <br/>
+Heap does not necessarily so. What's more, Heap is a complete tree. 
 
-eg: In a MinHeap, root is the minimum of the whole tree. An new node is inserted at the last position at first, then rejust its final position through Up-Heap Bubbling.
+eg: In a MinHeap, root is the minimum of the whole tree. An new node is inserted at the last position at first, then rejust its final position through __Up-Heap Bubbling__.
 
 While in BST, a new node is compared from ROOT to its real position before it is inserted at the real position. And the real position of a new node must be a leaf.
 
@@ -74,7 +94,10 @@ While in BST, a new node is compared from ROOT to its real position before it is
 
 Restructure BST to be balanced.
 
-<b>One rotation</b> (single or double) is sufficient to restore the height-balance in an AVL tree after an <b>insertion</b>. <br />
-A single trinode restructuring may <b>not</b> restore the height-balance property globally after a removal. <b>O(logn)</b> trinode restructurings are sufficient.
+__One rotation__ (single or double) is sufficient to restore the height-balance in an AVL tree after an __insertion__. <br />
+A single trinode restructuring may __not__ restore the height-balance property globally after a removal. __O(logn)__ trinode restructurings are sufficient.
 
+There are some points confused me in AVL:
 
+- How does AVL detect the diff between height of left_child and right_right __IN DETAIL__?
+- What the algorithm details of rotate? Will the 4-types rotation be very complicate?
