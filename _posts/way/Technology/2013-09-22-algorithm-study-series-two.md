@@ -12,7 +12,7 @@ Bounded-Depth Search Trees includes: (2,4) Tree, Black-Red Tree
 
 __Bounded-Depth Tree__, or __Depth-Bounded Tree__, can be used to implement an ordered dictionary with `\(O(logn)\)` search and update times.
 
-![](/images/algorithm/multi-way_inorder-traversal.png)
+![](/images/algorithm/multi-way_inorder_traversal.png)
 
 ---
 <br/>
