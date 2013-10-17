@@ -6,7 +6,7 @@ tag: ['algorithm']
 lan: EN
 ---
 
-Bounded-Depth Search Trees includes: (2,4) Tree, Black-Red Tree
+Bounded-Depth Search Trees includes: (2,4) Tree, Red-Black Tree
 
 <!--preview-->
 
@@ -48,4 +48,4 @@ Whether we will take __transfer__ or __fusion__ operation depends on, the immedi
 ---
 <br/>
 
-## Black-Red Tree
+## Red-Black Tree
