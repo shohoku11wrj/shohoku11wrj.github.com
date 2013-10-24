@@ -8,6 +8,9 @@ lan: EN
 
 Bounded-Depth Search Trees includes: (2,4) Tree, Red-Black Tree
 
+To under Red-Black tree more easily, we could learn (2,4) Tree at first.
+These two trees can be converted to each other.
+
 <!--preview-->
 
 __Bounded-Depth Tree__, or __Depth-Bounded Tree__, can be used to implement an ordered dictionary with `\(O(logn)\)` search and update times.
@@ -49,3 +52,27 @@ Whether we will take __transfer__ or __fusion__ operation depends on, the immedi
 <br/>
 
 ## Red-Black Tree
+
+A __red-black tree__ is a BST that uses a kind of "perudo-depth" to achieve balance using the approach of a depth-bounded search tree. <br/>
+In particular, it's a BST with nodes colored red and black in a way that stisfies the following properties:
+
+__Root Property:__ The root is black.
+
+__External Property:__ Every external node is black.
+
+__Internal Property:__ The children of a red node are black.
+
+__Depth Property:__ All the external nodes have the same __black depth__, which is defined as the number of black ancestors minus one.
+
+[Red-black tree associated with the (2,4) tree of Figure 3.18](Figure 3.25)
+
+Performing the update operations in a red-black tree is similar to that of a BST, except that we must additionally restore the color properties.
+
+new node, let it be z, inserted is initially proceeds as in a BST and colored red(if z is not root).
+Color the two external-node children of z black.
+This action preserves the root, external and depth properties of T, but it may violate the internal property.
+Then, we have to do recoloring and rotating if necessary.
+
+The insertion of a key-element item in a red-black tree storing n items can be done in O(logn) time and requires at most O(logn) recolorings and one trinode restructuring (a restruecture operation)
+
+

@@ -534,7 +534,7 @@ img.icon_tag {
 a.tag_btn,
 a.cat_btn {
     border: dotted 2px #E5E5E5;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 3px 2px 3px;
 }
 a.tag_btn:hover,
 a.cat_btn:hover {
