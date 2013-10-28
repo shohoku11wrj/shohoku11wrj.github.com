@@ -116,3 +116,7 @@ I have examed this version. It showed the same B[w] structure as the previous on
 ## Matrix Chain-Product
 
 The one, most difficultly to be understood by me among aboving.
+
+## Other famous DP problems
+
+1. [Maximum sell stock profit within given days](http://stackoverflow.com/questions/7086464/maximum-single-sell-profit?answertab=active#tab-top)

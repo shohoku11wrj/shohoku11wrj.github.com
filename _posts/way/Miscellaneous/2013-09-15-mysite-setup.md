@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的博客基本建成
-category: Technology
+category: Miscellaneous
 tag: ['blog', 'jekyll']
 lan: CH
 ---
