@@ -3,8 +3,8 @@ auto: true # your config file will keep Jekyll running, watching your project fo
 port: 80
 markdown: rdiscount
 pygments: true
-paginate: 7
-paginate_path: "/way/page:num"
+# paginate: 7
+# paginate_path: "/way/page:num"
 
 # source: If your source files are in a different directory than the one you’re running Jekyll from, you’ll want to set that directory with the source property.
 

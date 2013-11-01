@@ -115,7 +115,10 @@ I have examed this version. It showed the same B[w] structure as the previous on
 
 ## Matrix Chain-Product
 
-The one, most difficultly to be understood by me among aboving.
+The one, most confused one to me among aboving.
+
+---
+<br/>
 
 ## Other famous DP problems
 
