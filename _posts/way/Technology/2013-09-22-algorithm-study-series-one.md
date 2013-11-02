@@ -46,6 +46,8 @@ Create binary tree `\( T \)` with root `\( r \)` storing `\( k \)`, left subtree
 Perform a down-heap bubbling from the root `\( r \)` of `\( T \)`, if necessary.<br/>
 __return__ `\( T \)`<br/>
 
+---
+<br/>
 
 ## BST
 
@@ -78,7 +80,6 @@ In `Node with 2 children` scenario, after we copied the data from the `leftMost_
 
 \#16 is what I have fixed to replace \#18.
 
-
 ### BST VS. Heap
 
 I was used to mix BST and Heap up. Now I know they are both elementary trees, but totally different. <br/>
@@ -89,15 +90,63 @@ eg: In a MinHeap, root is the minimum of the whole tree. An new node is inserted
 
 While in BST, a new node is compared from ROOT to its real position before it is inserted at the real position. And the real position of a new node must be a leaf.
 
+---
+<br/>
 
 ## AVL
 
-Restructure BST to be balanced.
+A type of restructured BST to be balanced, named after the initials of its inventors: Adel'son-Vel'skii and Landis.
 
-__One rotation__ (single or double) is sufficient to restore the height-balance in an AVL tree after an __insertion__. <br />
-A single trinode restructuring may __not__ restore the height-balance property globally after a removal. __O(logn)__ trinode restructurings are sufficient.
+__Height-Balance Property:__ For every internal node v of T, the heights of the children of v can differ by at most 1.
+
+The height of an AVL tree storing n keys is O(lohn).
+
+The insertion and removal operations for AVL trees are similar to those for binary search trees, but with AVL trees we must perform additional computations.
+
+### Insertion
+
+An insertion in an AVL tree T begins as in an insertItem operation in BST.
+
+While doing restructure on T, we __maintaining the inorder relationships__ of all the nodes in T.
+
+The modification of a tree T caused by a trinode restructure operation is ofen call a __rotation__, <i>because</i> of the geometric way we can visualize the way it changes T. (Ranger said: I have <i>never</i> figured out that this operation has any similarity as roatation visually. Just kidding.)
+
+__single roatation & double rotation__
+
+If b = y, the trinode restructure mothod is called a __single rotation__;
+Otherwise, if b = x, the trinode restructure operation is called a __double rotation__.
+
+![signle roation Right-Right]()
+![signle roation Left-Left]()
+![double roation Right-Left]()
+![double roation Left-Right]()
+
+* __One rotation__ (single or double) is sufficient to restore the height-balance in an AVL tree after an __insertion__.
+
+### Removal
+
+We also use trinode restructuring to restore balance in the tree T.
+
+
+In particular, let w be the parent of the previously removed node. Let z be the first unbalanced node encoundtered going up from w toward the root of T. Also, let ye be the child of z with larger height (note that node y is the child of z that is not an ancestor of w), and let x be a child of y with larger height.
+
+* A single trinode restructuring may __not__ restore the height-balance property globally after a removal. __O(logn)__ trinode restructurings are sufficient.
+
+### Running Times for AVL Trees
+
+* a single restructure is `\( O(1) \)` <br/>
+using a linked-structure binary tree
+* find is `\( O(log n) \)` <br/>
+height of tree is `\( O(log n) \)`, no restructures needed
+* insert is `\( O(log n) \)` <br/>
+initial find is `\( O(log n) \)` <br/>
+Restructuring up the tree, maintaining heights is `\( O(log n) \)`
+* remove is `\( O(log n) \)` <br/>
+initial find is `\( O(log n) \)` <br/>
+Restructuring up the tree, maintaining heights is `\( O(log n) \)`
+
 
 There are some points confused me in AVL:
 
 - How does AVL detect the diff between height of left_child and right_right __IN DETAIL__?
-- What the algorithm details of rotate? Will the 4-types rotation be very complicate?
+- What's the algorithm details of rotate operation? Will the 4-types rotation be very complicated?

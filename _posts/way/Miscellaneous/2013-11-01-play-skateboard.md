@@ -16,6 +16,8 @@ Study video: [Basis of Skateboarding](http://www.youtube.com/watch?v=con8ii2Bgys
 <br/>
 helmet, wrist guards, elbow pads, keepads, and appropriate footwear
 
+I had thought most of them were not necessary for me, but someone told me that the medical fee in USA will be too much, especially for our F-1 students. So it's important to prevent being injured in case.
+
 ## Setps
 <br/>
 
@@ -48,11 +50,12 @@ put the weight on your heels while rolling and you'll turn in that direction <br
 It helps to lean your upper body in the direction you want to turn. <br/>
 身体重心往滑板的一侧倾斜即可
 
-### 6. kickturn
+### 6. kickturn 快速变向
 
 balance on your rear wheels, push down, and spin your board around to execute a kickturn
+这招在练习时场地又不是很宽敞的情况下很有用，可以控制滑板严近似直线前进而不需要驱动脚着地。
 
-## 小知识
+## Did you know? 小知识
 <br/>
 
 __The Ollie__, a trick in which a skater jumps into the air and lifts the board without using their hands, was invented by Alan "Ollie" Gelfand in 1978. 无辅助起跳
