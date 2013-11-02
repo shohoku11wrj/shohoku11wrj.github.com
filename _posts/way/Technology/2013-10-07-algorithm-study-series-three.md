@@ -93,6 +93,7 @@ If __a__ (2,1) is coming, then `B[w] = {0,2,3,5,5,8,8,11,13,13,15,16}`; <br/>
 Unless there is __another__ (2,1) is coming, then `B[w] = {0,2,4,5,7,8,10,11,13,15,15,17}`. Thus the updated result of B[W] is changed from (3+5+8) to (2+2+5+8).
 
 ![Figure 2](/images/algorithm/0-1_Knapsack.png)
+<span class="pic">Figure 2: 0-1 Knapsack Problem</span>
 
 Although this examination verified the algorithm is true, there is still far away from understanding the algorithm by <span class="red">__reasoning it logically__</span>. But the examination with real data at least reavels some features of this algorithm: <br/>
 

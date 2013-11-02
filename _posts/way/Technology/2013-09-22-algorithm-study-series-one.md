@@ -116,10 +116,14 @@ __single roatation & double rotation__
 If b = y, the trinode restructure mothod is called a __single rotation__;
 Otherwise, if b = x, the trinode restructure operation is called a __double rotation__.
 
-![signle roation Right-Right]()
-![signle roation Left-Left]()
-![double roation Right-Left]()
-![double roation Left-Right]()
+![signle roation Right-Right](/images/algorithm/avl-rotation-RR.png)
+<span class="pic">signle roation Right-Right</span>
+![signle roation Left-Left](/images/algorithm/avl-rotation-LL.png)
+<span class="pic">signle roation Left-Left</span>
+![double roation Right-Left](/images/algorithm/avl-rotation-RL.png)
+<span class="pic">signle roation Right-Left</span>
+![double roation Left-Right](/images/algorithm/avl-rotation-LR.png)
+<span class="pic">signle roation Left-Right</span>
 
 * __One rotation__ (single or double) is sufficient to restore the height-balance in an AVL tree after an __insertion__.
 
@@ -128,7 +132,7 @@ Otherwise, if b = x, the trinode restructure operation is called a __double rota
 We also use trinode restructuring to restore balance in the tree T.
 
 
-In particular, let w be the parent of the previously removed node. Let z be the first unbalanced node encoundtered going up from w toward the root of T. Also, let ye be the child of z with larger height (note that node y is the child of z that is not an ancestor of w), and let x be a child of y with larger height.
+In particular, let `\( w \)` be the parent of the previously removed node. Let `\( z \)` be the first unbalanced node encoundtered going up from `\( w \)` toward the root of T. Also, let ye be the child of `\( z \)` with larger height (note that node `\( y \)` is the child of `\( z \)` that is not an ancestor of `\( w \)`), and let `\( x \)` be a child of `\( y \)` with larger height.
 
 * A single trinode restructuring may __not__ restore the height-balance property globally after a removal. __O(logn)__ trinode restructurings are sufficient.
 
