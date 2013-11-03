@@ -1163,6 +1163,11 @@ a.sb.foursquare,
     background-image: url(/images/FourSquare-32.png);
 }
 
+a.sb.douban,
+.sb a.douban {
+    background-image: url(/images/douban-32.png);
+}
+
 /* white icons */
 a.sb.blue.twitter,
 .sb.blue a.twitter {

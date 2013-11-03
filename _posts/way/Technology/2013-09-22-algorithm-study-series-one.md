@@ -150,7 +150,7 @@ initial find is `\( O(log n) \)` <br/>
 Restructuring up the tree, maintaining heights is `\( O(log n) \)`
 
 
-There are some points confused me in AVL:
+__There are some points confused me in AVL:__
 
 - How does AVL detect the diff between height of left_child and right_right __IN DETAIL__?
 - What's the algorithm details of rotate operation? Will the 4-types rotation be very complicated?
