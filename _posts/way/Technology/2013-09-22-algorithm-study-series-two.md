@@ -64,7 +64,8 @@ __Internal Property:__ The children of a red node are black.
 
 __Depth Property:__ All the external nodes have the same __black depth__, which is defined as the number of black ancestors minus one.
 
-[Red-black tree associated with the (2,4) tree of Figure 3.18](Figure 3.25)
+![Red-black tree associated with the (2,4) tree of Figure 3.18](Figure 3.25)
+<span class="pic">Red-black tree associated with the (2,4) tree</span>
 
 Performing the update operations in a red-black tree is similar to that of a BST, except that we must additionally restore the color properties.
 

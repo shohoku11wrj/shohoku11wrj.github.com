@@ -1234,6 +1234,7 @@ div.self_intro {
 
 div.left_col {
     display: inline-block;
+    position: relative;
 }
 
 div.right_col {
