@@ -16,7 +16,7 @@ Study video: [Basis of Skateboarding](http://www.youtube.com/watch?v=con8ii2Bgys
 <br/>
 helmet, wrist guards, elbow pads, keepads, and appropriate footwear
 
-I had thought most of them were not necessary for me, but someone told me that the medical fee in USA will be too much, especially for our F-1 students. So it's important to prevent being injured in case.
+I had thought most of them were not necessary for me, but someone told me that the medical fee in USA would be too much, especially for an F-1 students. So it's important to prevent being injured in case.
 
 ## Setps
 <br/>
