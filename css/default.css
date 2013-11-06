@@ -1234,6 +1234,7 @@ div.self_intro {
 }
 
 div.left_col {
+    font-size: 20px;
     display: inline-block;
     position: relative;
 }
