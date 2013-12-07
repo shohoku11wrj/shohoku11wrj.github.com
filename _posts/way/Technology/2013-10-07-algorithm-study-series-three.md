@@ -20,7 +20,7 @@ The materials I have referenced also includes `MIT Algorithm Open Course`: <br/>
 [20. Dynamic Programming II: Text Justification, Blackjack](http://www.youtube.com/watch?v=ENyox7kNKeY) <br/>
 [21. Dynamic Programming III: Parenthesization, Edit Distance, Knapsack](http://www.youtube.com/watch?v=ocZMDMZwhCY) <br/>
 
----
+<center>---</center>
 <br/>
 
 ## Fibonacci Number
@@ -48,7 +48,7 @@ So, the order of complexity comes down to `\(O(n)\)`.
 
 A more detailed guide for Fibonacci Number in DP, see: [Fibonacci series and Dynamic programming](http://functionspace.org/articles/32).
 
----
+<center>---</center>
 <img class="pic_right" width="150" src="/images/algorithm/Knapsack.png" />
 <br/>
 ## 0-1 Knapsack Problem
@@ -109,7 +109,9 @@ Although this examination verified the algorithm is true, there is still far awa
 
 I have examed this version. It showed the same B[w] structure as the previous one in the runing time.)
 
----
+Last but not least, in __NP-Completeness__ theorem, the <i>KNAPSACK</i> optimization problem has a fully polynomial approximation scheme that achieves a `\( (1+\varepsilon) \)`-approximation factor in `\( n^3/\varepsilon \)` time, where `\( n \)` is the number of items in the <i>KNAPSACK</i> instance and `\( 0 < \varepsilon < 1 \)` is a given fixed constant.
+
+<center>---</center>
 <br/>
 
 ## Shortest Path
@@ -118,7 +120,7 @@ I have examed this version. It showed the same B[w] structure as the previous on
 
 The one, most confused one to me among aboving.
 
----
+<center>---</center>
 <br/>
 
 ## Other famous DP problems

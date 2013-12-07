@@ -21,7 +21,7 @@ A connected forest, or a connected graph without cycles.
 
 The definition of a tree is somewhat different from the one given in previous blogs. Previously, trees should be called __rooted trees__;in graph, trees should be called __free trees__.
 
-Let G be an undirected graph with n vertices and m edges, then:
+Let G be an undirected graph with `\( n \)` vertices and `\( m \)` edges, then:
 
 - If G is connected, then `\( m >= n - 1 \)`
 - If G is a tree, then `\( m = n - 1 \)`
@@ -37,6 +37,8 @@ To store the vertices, we use a container (eg: list or vector);
 To store edges, there is difference between __edge/adjacency list__ and __adjacency matrix__. The former 2 structures only store the edges actually present in the graph, while the 3rd structure stores a placeholder for every pair of vertices.
 
 ### Edge List
+
+The edge list structure is possibly the simplest, tough not the most efficient, representation of a graph G.
 
 [picture of edge list]
 
@@ -58,6 +60,40 @@ Historically, the adjacency matric was the first representation used for graphs,
 0 & otherwise
 \end{matrix}\right.\]`
 
-## DFS & BFS
+### DFS & BFS
 
     write the pesudo-code
+
+## - Pseudo-code for Recurisve Depth-First Search
+
+Back edges connect a vertex `\(v\)` to a previously visited vertex `\(u\)`, each back edge implies a cycle in G, consisting of the discovery edges from `\(u\)` to `\(v\)` plus the back edge (`\(u,v\)`)
+
+__Algorithm__ DFS(G,`\(v\)`) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<i>__Input:__</i> A graph G and a vertex `\(v\)` of G <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<i>__Output:__</i> A labeling of the edges in the connected component of `\(v\)` as discovery edges and back edges <br/>
+__for all__ edges `\(e\)` in G.incidentEdges(`\(v\)`) __do__ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+__if__ edge  `\(e\)` is unexplored __then__ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`\( w \leftarrow \)` G.opposite(`\( v,e \)`) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+__if__ vertex `\(w\)` is unexplored __then__ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+label `\(e\)` as a discovery edge <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+recursively call DFS(G,`\(w\)`) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+__else__ </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+label `\(e\)` as a back edge
+
+
+## - Pseudo-code for a nonrecursive BFS traversal
+
+BFS proceeds in rounds and subdivides the vertices into __levels__. From those that lead to already visited vertices, called __cross edges__.
+
+
+
+
