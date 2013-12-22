@@ -59,3 +59,7 @@ balance on your rear wheels, push down, and spin your board around to execute a 
 <br/>
 
 __The Ollie__, a trick in which a skater jumps into the air and lifts the board without using their hands, was invented by Alan "Ollie" Gelfand in 1978. 无辅助起跳
+
+## Skating Skills Ladder 技术阶梯
+
+![skills_ladder](/images/skateboard/skating skills ladder.png)
