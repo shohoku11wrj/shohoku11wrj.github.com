@@ -144,18 +144,23 @@
     function showRen() {
         $("#char_ren").show();
         $("#margin").css("stroke","#EC7600");
+        $("#ranger").children().addClass("hoverme");
     }
     function hideRen() {
         $("#char_ren").hide();
         $("#margin").css("stroke","#7f7f7f");
+        $("#ranger").children().removeClass("hoverme");
     }
     function showDao() {
         $("#char_dao").show();
         $("#margin").css("stroke","#157db2");
+        $("#way").children().addClass("hoverme");
+
     }
     function hideDao() {
         $("#char_dao").hide();
         $("#margin").css("stroke","#7f7f7f");
+        $("#way").children().removeClass("hoverme");
     }
 
     window.onload = orchestral;
