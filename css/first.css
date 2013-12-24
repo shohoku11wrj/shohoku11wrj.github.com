@@ -296,3 +296,5 @@ b.space {
     color: green;
 }
 .navigation li.on a:hover span{ color: orange; }
+
+.hoverme { color: orange;}
