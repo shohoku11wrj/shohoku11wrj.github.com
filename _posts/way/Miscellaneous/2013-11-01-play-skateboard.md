@@ -62,9 +62,12 @@ __The Ollie__, a trick in which a skater jumps into the air and lifts the board 
 
 ## Skating Skills Ladder 技术阶梯
 
+<<<<<<< HEAD
 Pre-Ollie:
 
 <a href="http://v.youku.com/v_show/id_XMzU5ODgyOTA4.html">Ollie前还有几个需要练习的基础动作</a>
 
 <a>Ollie后的技术阶梯<a/>
+=======
+>>>>>>> d6234f4bb0e8a95b9b535562de45ff06be916b3e
 ![skills_ladder](/images/skateboard/skating skills ladder.png)
