@@ -668,6 +668,14 @@ span.post-cat-count {
   font-size: 13px;
 }
 
+span.get {
+    color: #398F04;
+}
+
+span.loading {
+    color: #F2920C;
+}
+
 /******************** Post Content ***************/
 blockquote {
   margin: 1em 16px;
