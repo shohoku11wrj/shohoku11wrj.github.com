@@ -51,10 +51,13 @@ put the weight on your heels while rolling and you'll turn in that direction <br
 It helps to lean your upper body in the direction you want to turn. <br/>
 身体重心往滑板的一侧倾斜即可
 
-### 6. kickturn 快速变向 <span class="loading">[loading...]</span>
+### 6. kickturn 快速变向 --> tic-tac 蛇行 <span class="loading">[loading...]</span>
 
-balance on your rear wheels, push down, and spin your board around to execute a kickturn
-这招在练习时场地又不是很宽敞的情况下很有用，可以控制滑板严近似直线前进而不需要驱动脚着地。
+balance on your rear wheels, push down, and spin your board around to execute a kickturn <br/>
+这招在练习时场地又不是很宽敞的情况下很有用，可以控制滑板严近似直线前进而不需要驱动脚着地。 <br/>
+then you can move forward from static by tic-tac: 
+[如何荡板前进（蛇形，Tictac）](http://v.youku.com/v_show/id_XMzM0NzM4ODQ4.html) <br/>
+前脚位于前钉，后脚位于板尾，控制重心在前脚，就可以由静止开始向前蛇形
 
 >Did you know? 小知识 <br />
 __The Ollie__, a trick in which a skater jumps into the air and lifts the board without using their hands, was invented by Alan "Ollie" Gelfand in 1978. 无辅助起跳
