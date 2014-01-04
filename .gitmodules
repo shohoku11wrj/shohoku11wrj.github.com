@@ -1,0 +1,6 @@
+[submodule "shower"]
+	path = shower
+	url = git@github.com:shower/shower.git
+[submodule "themes/ribbon"]
+	path = themes/ribbon
+	url = https://github.com/shower/ribbon.git
