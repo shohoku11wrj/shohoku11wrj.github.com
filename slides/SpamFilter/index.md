@@ -38,7 +38,7 @@ layout: ribbon
 
 <section class="slide" id="SeeMore"><div>
   <h2><a href="https://github.com/shohoku11wrj/Spam-Filter">See details on GitHub</a></h2>
-  <p class="note">This slideshow is powered by <img src="https://raw.github.com/shower/template/master/pictures/logo.svg" alt=""><a href="https://github.com/shower/shwr.me">Shower</a></p>
+  <p class="note">This slideshow is powered by <img src="/images/shower.svg" alt=""><a href="https://github.com/shower/shwr.me">Shower</a></p>
   <h3>Back to <a href="http://www.rangerway.com/slides">http://rangerway.com/slides</a></h3>
   <style>
     #Picture h2 {

@@ -16,16 +16,16 @@ permalink: /way/:year/:month/:day/:title
 
 # exclude: Like I said above, Jekyll won’t generate files in directories starting with an underscore. But, if you have folders that you want it to ignore, but that don’t start with an underscore, you can do it with exclude in your config file.
 
-## Shower slideshow ##
-default_theme: ribbon
-default_width: 792
-default_lang: en
-default_body_class: list
+# ## Shower slideshow ##
+# default_theme: ribbon
+# default_width: 792
+# default_lang: en
+# default_body_class: list
 
-fork_url: https://github.com/shower/shower
-progress: true
-line_numbers: true
-## end of Shower ##
+# fork_url: https://github.com/shower/shower
+# progress: true
+# line_numbers: true
+# ## end of Shower ##
 
 author:
   name: Renjie Weng
