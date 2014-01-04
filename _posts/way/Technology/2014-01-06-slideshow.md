@@ -46,13 +46,10 @@ any extra plugins, so using it is really staightforward.
 对应地，在jekyller repository下，shower repo被当作一个子文件夹引用进去了，并
 且用灰色图标表示。
 
-<<<<<<< HEAD
+
 ![fork shower](/images/slideshow/fork_shower.png)
 
 ### My Attempt
-=======
-![fork shower](images/slideshow/fork_shower.png)
->>>>>>> f4007178cb371e9ff1dd84c323d111256c75da1d
 
 但是我并没有完成上述简单载入Shower的方法，而是用了和Jekyller一样的通过git submodule来引用Shower repository文件，参考[Git 进阶：Submodule](http://havee.me/linux/2012-06/the-git-advanced-submodule.html)
 
