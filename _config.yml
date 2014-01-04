@@ -1,4 +1,5 @@
 # safe: true
+lsi: false
 # auto: true # your config file will keep Jekyll running, watching your project folder for changes and regenerating the site on the fly.
 
 port: 80
