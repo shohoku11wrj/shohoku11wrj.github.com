@@ -29,6 +29,8 @@ wikipedia上罗列了很多[成熟的模板和工具](http://en.wikipedia.org/wi
 
 这是我的[第一个HTML SlideShow](http://rangerway.com/slides/SpamFilter)，源自我在Stevens 2013Fall的Machine Learning课程项目[Email Spam Filter](https://github.com/shohoku11wrj/Spam-Filter)，当然，我太懒了以至于我的每张slide几乎都是PPT直接转图片。。。。
 
+### Native Shower Plugin
+
 然后，意料之外而又情理之中地发现[__Jekyll本身已经支持Shower了__](https://github.com/shower/jekyller)
 
 >Jekyll Shower works at GitHub Pages. Yes, it's using Jekyll and don't need 
@@ -44,4 +46,12 @@ any extra plugins, so using it is really staightforward.
 对应地，在jekyller repository下，shower repo被当作一个子文件夹引用进去了，并
 且用灰色图标表示。
 
-![fork shower](images/slideshow/fork_shower.png)
+![fork shower](/images/slideshow/fork_shower.png)
+
+### My Attempt
+
+但是我并没有完成上述简单载入Shower的方法，而是用了和Jekyller一样的通过git submodule来引用Shower repository文件，参考[Git 进阶：Submodule](http://havee.me/linux/2012-06/the-git-advanced-submodule.html)
+
+Jekyller项目中的 _layout/default.html模板引用了{{ theme }}变量，但是获取不到，所以我修改了这个文件，默认使用ribbon样式，替代了变量{{ theme }}。bright主题样式可以类似地写一个新的layout文件。
+
+Shower所需的其他组件通过git submodule引用进我的github.io repository，这样就可以直接使用了。不得不承认，Google Template在使用友好度的设计上比Shower好很多，只需要维护一个文件即可。
