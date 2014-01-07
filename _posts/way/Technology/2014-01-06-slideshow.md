@@ -55,7 +55,7 @@ any extra plugins, so using it is really staightforward.
 
 Jekyller项目中的 _layout/default.html模板引用了{{ theme }}变量，但是获取不到，所以我修改了这个文件，默认使用ribbon样式，替代了变量{{ theme }}。bright主题样式可以类似地写一个新的layout文件。
 
-Shower所需的其他组件通过git submodule引用进我的github.io repository，这样就可以直接使用了。不得不承认，Google Template在使用友好度的设计上比Shower好很多，只需要维护一个文件即可。
+Shower所需的其他组件通过git submodule引用进我的github.io repository，这样就可以直接使用了。不得不承认，Google Template在使用友好度的设计上比Shower好很多，只需要维护一个文件即可，这是我用[Google Temple生成的SpamFilter2](/slides/SpamFilter/SpamFilter2)。
 
 * __Attention__
 
