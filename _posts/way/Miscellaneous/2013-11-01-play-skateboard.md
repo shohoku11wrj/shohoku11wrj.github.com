@@ -22,22 +22,22 @@ I had thought most of them were not necessary for me, but someone told me that t
 ## Setps
 <br/>
 
-### 1 standing on skateboard, try on it in the grass <span class="get">[新技能get√]</span>
+### 1. standing on skateboard, try on it in the grass <span class="get">[新技能get√]</span>
 适应站在滑板上，可以在草地上练习
 
-### 2 regular or goofy stance 两种站姿 <span class="get">[新技能get√]</span>
+### 2. regular or goofy stance 两种站姿 <span class="get">[新技能get√]</span>
 regular -- stand with the left foot in front and push off and kick with the right<br/>
 goofy -- skating with your right foot in front<br/>
 right-handed people prefer the regular stance<br/>
 一般右撇子倾向于左脚在前，右脚驱动<br/>
 <i>最近发现右撇子可能需要右脚在前上板，滑行时把前脚横过来，助力时把前脚竖过来。</i> <-- 我先通过练习来体会一下
 
-### 3 pratice on flat expanse of concrete, like a parking lot. It's nice that there is a one directly beside my place. <span class="get">[新技能get√]</span>
+### 3. pratice on flat expanse of concrete, like a parking lot. It's nice that there is a one directly beside my place. <span class="get">[新技能get√]</span>
 在平地上练习，比如停车场。我住的房子旁边正好有一个，夏天经常看到有人在练习滑板。<br/>
 Partice in varies speeds.<br/>
 练习用各种速度前进<br/>
 
-### 4 ways to stop your rool 停下 <span class="get">[新技能get√]</span>
+### 4. ways to stop your rool 停下 <span class="get">[新技能get√]</span>
 
 - a) footbreaking
 用脚停，靠脚底板的滑动摩擦力
