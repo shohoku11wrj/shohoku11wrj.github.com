@@ -1388,7 +1388,7 @@ code.has-jax {
  }
 
  /* post & page */
-.tag_box {
+.post_list .tag_box {
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -1400,12 +1400,12 @@ code.has-jax {
   padding: 0.8125em;
   display: table;
 }
-.tag_box li {
+.post_list .tag_box li {
   display: inline;
   line-height: normal;
   vertical-align: middle;
 }
-.tag_box a {
+.post_list .tag_box a {
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -1430,21 +1430,21 @@ code.has-jax {
   text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.2);
   vertical-align: bottom;
 }
-.tag_box a:active {
+.post_list .tag_box a:active {
   -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
   background: #336633;
 }
-.tag_box a:hover {
+.post_list .tag_box a:hover {
   background-color: #ff9900;
   border: 1px solid #2d2d2d;
 }
-.tag_box a:hover span {
+.post_list .tag_box a:hover span {
   background-color: #ff9900;
   border: 1px solid #2d2d2d;
 }
-.tag_box span {
+.post_list .tag_box span {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
