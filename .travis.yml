@@ -1,2 +1,30 @@
 language: ruby
-script: "bundle exec jekyll build"
+
+branches:
+  except:
+    - gh-pages
+
+rvm:
+  - 2.0.0
+  - 1.9.3
+
+before_install:
+  - wget http://ipecho.net/plain -O - -q ; echo # print out external ip
+
+  - gem update --system
+  - gem update
+
+  - gem install jekyll
+  - gem install rdiscount
+  - gem install cucumber
+  - gem install selenium-webdriver
+
+  - gem --version
+  - phantomjs --version # output the phantomjs version
+
+before_script:
+  - rake jekyll detach=true
+  - sleep 3 # give Web server some time to bind to sockets, etc
+
+script:
+  - rake cucumber --rakefile=_rake/run_ui_tests.rake
