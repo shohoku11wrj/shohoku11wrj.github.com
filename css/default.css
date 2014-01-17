@@ -163,13 +163,15 @@ a.external:hover {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 25px;
+    color: #4A75B5;
 }
 
-.blogh3 {
+.blog h3 {
     font-family:"Times New Roman", Times, serif;
     font-size: 23px;
     font-weight: bold;
     margin-bottom: 25px;
+    /*color: #4A75B5;*/
 }
 
 .blog h4,.blog h5,.blog h6 {

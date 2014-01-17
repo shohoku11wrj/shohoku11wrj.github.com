@@ -30,7 +30,7 @@ regular -- stand with the left foot in front and push off and kick with the righ
 goofy -- skating with your right foot in front<br/>
 right-handed people prefer the regular stance<br/>
 一般右撇子倾向于左脚在前，右脚驱动<br/>
-<i>最近发现右撇子可能需要右脚在前上板，滑行时把前脚横过来，助力时把前脚竖过来。</i> <-- 我先通过练习来体会一下
+<i>最近发现右撇子可能需要右脚在前上板，滑行时把前脚横过来，助力时把前脚竖过来。</i> <-- 经过试验发现，习惯于重心在左脚的我，不适应用左脚作为驱动脚，因为这样会造成在前进过程中重心的不断切换。
 
 ### 3. pratice on flat expanse of concrete, like a parking lot. It's nice that there is a one directly beside my place. <span class="get">[新技能get√]</span>
 在平地上练习，比如停车场。我住的房子旁边正好有一个，夏天经常看到有人在练习滑板。<br/>
