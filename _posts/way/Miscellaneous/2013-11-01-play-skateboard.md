@@ -14,13 +14,12 @@ Study video: [Basis of Skateboarding](http://www.youtube.com/watch?v=con8ii2Bgys
 [Advanced Basic Skills before Ollie](http://v.youku.com/v_show/id_XMzU5ODgyOTA4.html)
 
 ## Equipements
-<br/>
+
 helmet <span class="get">[get√]</span>, wrist guards <span class="get">[get√]</span>, elbow pads <span class="get">[get√]</span>, keepads <span class="get">[get√]</span>, and appropriate footwear <span class="get">[get√]</span>
 
 I had thought most of them were not necessary for me, but someone told me that the medical fee in USA would be too much, especially for an F-1 students. So it's important to prevent being injured in case.
 
 ## Setps
-<br/>
 
 ### 1. standing on skateboard, try on it in the grass <span class="get">[新技能get√]</span>
 适应站在滑板上，可以在草地上练习
