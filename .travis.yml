@@ -1,12 +1,20 @@
 language: ruby
-
-branches:
-  except:
-    - gh-pages
-
 rvm:
-  - 2.0.0
-  - 1.9.3
+- 1.9.3
+branches:
+  only:
+  - develop
+script: rake travis
+
+# language: ruby
+
+# branches:
+#   except:
+#     - gh-pages
+
+# rvm:
+#   - 2.0.0
+#   - 1.9.3
 
 # before_install:
 #   - wget http://ipecho.net/plain -O - -q ; echo # print out external ip
