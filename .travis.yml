@@ -8,19 +8,19 @@ rvm:
   - 2.0.0
   - 1.9.3
 
-before_install:
-  - wget http://ipecho.net/plain -O - -q ; echo # print out external ip
+# before_install:
+#   - wget http://ipecho.net/plain -O - -q ; echo # print out external ip
 
-  - gem update --system
-  - gem update
+#   - gem update --system
+#   - gem update
 
-  - gem install jekyll
-  - gem install rdiscount
-  - gem install cucumber
-  - gem install selenium-webdriver
+#   - gem install jekyll
+#   - gem install rdiscount
+#   - gem install cucumber
+#   - gem install selenium-webdriver
 
-  - gem --version
-  - phantomjs --version # output the phantomjs version
+#   - gem --version
+#   - phantomjs --version # output the phantomjs version
 
 # before_script:
 #   - rake jekyll detach=true
