@@ -22,23 +22,17 @@ use the general symbol ∑ to denote the character set, or alphabet, from which 
 
 Suppose text string T = “abacaabaccabacabaabb” and the pattern string P = ”abacab”, then P = T[10..15]
 
----
-
 ## Brute Force
 
 write down the algorithm pseudo-code
 
 run `\( O(nm) \)` time
 
----
-
 ## KMP
 
 The knuth-Morris-Pratt Algorithm
 
 [字符串匹配的KMP算法](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)
-
----
 
 ## BM
 
@@ -52,8 +46,6 @@ BM algorithm assumes the alphabet is of fixed, finite size. It works the fastest
 BM on textbook is a simple version.
 
 Here is a complete version: [字符串匹配的Boyer-Moore算法](http://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html)
-
----
 
 ## The Longest Common Subsequence Problem
 

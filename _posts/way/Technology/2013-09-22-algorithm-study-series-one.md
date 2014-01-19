@@ -46,9 +46,6 @@ Create binary tree `\( T \)` with root `\( r \)` storing `\( k \)`, left subtree
 Perform a down-heap bubbling from the root `\( r \)` of `\( T \)`, if necessary.<br/>
 __return__ `\( T \)`<br/>
 
----
-<br/>
-
 ## BST
 
 I have implemented the algorithm of a [BST](https://github.com/shohoku11wrj/algorithms/blob/master/src/backup_20130616/BinarySearchTree.cpp) without the `RemoveElement` method before. And the `RemoveElement` is the most complicated among those common methods of BST. 
@@ -89,9 +86,6 @@ Heap does not necessarily so. What's more, Heap is a complete tree.
 eg: In a MinHeap, root is the minimum of the whole tree. An new node is inserted at the last position at first, then rejust its final position through __Up-Heap Bubbling__.
 
 While in BST, a new node is compared from ROOT to its real position before it is inserted at the real position. And the real position of a new node must be a leaf.
-
----
-<br/>
 
 ## AVL
 

@@ -19,7 +19,6 @@ There are many software based on Tex. A well-know of them is [LaTeX](http://late
 
 
 ## Notes for LaTeX
------------------
 
 Here are some notes when learning Tex syntax.<br/>
 [Mrs. Krummel's LaTeX Tutorials](http://mrskrummel.com/latex/ "GIFTED &TALENTED MATHEMATICS")<br/>
@@ -82,7 +81,6 @@ Here are some notes when learning Tex syntax.<br/>
 
 
 ## MathJax Guide
------------------
 
 Simple guide for enabling MathJax.js on your Jekyll posts.
 

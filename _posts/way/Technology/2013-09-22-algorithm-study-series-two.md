@@ -17,9 +17,6 @@ __Bounded-Depth Tree__, or __Depth-Bounded Tree__, can be used to implement an o
 
 ![](/images/algorithm/multi-way_inorder_traversal.png)
 
----
-<br/>
-
 ## (2,4) Tree
 
 __<i>Size Property</i>:__ Every nopde has at most four children.
@@ -47,9 +44,6 @@ or we perform a __fusion__ operation, in which we merge `\( v \)` with a sibling
 ![](/images/algorithm/2-4_tree_fusion.jpg)
 
 Whether we will take __transfer__ or __fusion__ operation depends on, the immediate sibling of `\( v \)` is 3+-nodes or 2-nodes.
-
----
-<br/>
 
 ## Red-Black Tree
 
