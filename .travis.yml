@@ -22,9 +22,9 @@ before_install:
   - gem --version
   - phantomjs --version # output the phantomjs version
 
-before_script:
-  - rake jekyll detach=true
-  - sleep 3 # give Web server some time to bind to sockets, etc
+# before_script:
+#   - rake jekyll detach=true
+#   - sleep 3 # give Web server some time to bind to sockets, etc
 
 script:
   - rake cucumber --rakefile=_rake/run_ui_tests.rake

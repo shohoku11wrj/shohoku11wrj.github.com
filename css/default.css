@@ -1156,34 +1156,42 @@ a.sb:hover {
     opacity: 0.5;
 }
 
+/* icons from http://simpleicons.org/ */
+
 a.sb.twitter,
 .sb a.twitter {
-    background-image: url(/images/twitter_bird.png);
+    background-color: #00ACED;
+    background-image: url(/images/twitter-32.png);
 }
 
 a.sb.github,
 .sb a.github {
-    background-image: url(/images/github_cat.png);
+    background-color: #A4C639;
+    background-image: url(/images/github-32-black.png);
 }
 
 a.sb.linkedin,
 .sb a.linkedin {
-    background-image: url(/images/LinkedIn-32.png);
+    background-color: #007Fb1;
+    background-image: url(/images/linkedin-32.png);
 }
 
 a.sb.stackoverflow,
 .sb a.stackoverflow {
-    background-image: url(/images/StackOverFlow-32.png);
+    background-color: #F47920;
+    background-image: url(/images/stackoverflow-32.png);
 }
 
 a.sb.weibo,
 .sb a.weibo {
-    background-image: url(/images/Weibo-32.png);
+    background-color: #e32529;
+    background-image: url(/images/sinaweibo-32.png);
 }
 
 a.sb.foursquare,
 .sb a.foursquare {
-    background-image: url(/images/FourSquare-32.png);
+    background-color: #2398C9;
+    background-image: url(/images/foursquare-32.png);
 }
 
 a.sb.douban,
@@ -1194,7 +1202,7 @@ a.sb.douban,
 /* white icons */
 a.sb.blue.twitter,
 .sb.blue a.twitter {
-    background-image: url(/images/white_twitter_bird.png);
+    background-image: url(/images/twitter-32.png);
 }
 
 /************* footer icons *************/
@@ -1210,7 +1218,7 @@ a.footer-icon {
 }
 
 a.icon-footer-twitter {
-    background-color: #252525;
+    background-color: #0a0a0a;
     background-image: url(/images/white_twitter_bird.png);
 }
 a.icon-footer-twitter:hover {
@@ -1225,11 +1233,11 @@ a.icon-footer-github:hover {
     border-color: #294c89;
 }
 a.icon-footer-weibo {
-    background-color: #fff;
-    background-image: url(/images/weibo-24-icon-black.png);
+    background-color: #0a0a0a;
+    background-image: url(/images/sinaweibo-24.png);
 }
 a.icon-footer-weibo:hover {
-    background-image: url(/images/weibo-24-icon.png);
+    background-color: #e32529;
 }
 
 /************* Ranger => about me **************/
