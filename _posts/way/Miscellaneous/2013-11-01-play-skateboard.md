@@ -81,6 +81,10 @@ __The Ollie__, a trick in which a skater jumps into the air and lifts the board 
 
 就是让滑板平转180度，像是打格斗游戏搓手柄放技能一样。
 
+## Ollie
+
+Look at this detailed guide: [ollie skate support](http://www.youtube.com/watch?v=mWz9Wg1LcWE&feature=c4-overview&list=UU9PgszLOAWhQC6orYejcJlw)
+
 ## Skating Skills Ladder after Ollie 技术阶梯
 
 ![skills_ladder](/images/skateboard/skating skills ladder.png)
