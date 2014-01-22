@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learn Skateboarding
-category: Miscellaneous
+category: Physics
 tag: ['sports', 'skateboard']
 lan: CH
 ---
