@@ -34,12 +34,12 @@ This line represents a spam email (starting with class label “1”) with four 
 
 `ROC (Receiver Operating Characteristic)` is a graphical plot which illustrates the performance of a binary classifier system as its discrimination threshold is varied. It is created by plotting the fraction of <i>true positives out of the total actual positives (`TPR` = true positive rate)</i> `vs.` the fraction of <i>false positives out of the total actual negatives (`FPR` = false positive rate)</i>, at various threshold settings.
 
-![Figure 1](/images/spam-filter/)
+![Figure 1](/images/spam-filter/4labels_predict.png)
 <span class="pic">Figure 1: The four possible labels of predict result</span>
 
 Here gives a sample of ROC curves in Figure 2. Where X-axis, called Specificity, is `False Positive rate = FP / [FP + TN]`; Y-axis, called Sensitivity, is `True Positive rate = TP / [TP + FN]`.
 
-![Figure 2](/images/spam-filter/)
+![Figure 2](/images/spam-filter/roc_lr_improved.png)
 <span class="pic">Figure 2: Sample of ROC curves</span>
 
 `AUC (Area Under Curve)`: The AUC value is the area under the ROC curve. The AUC value will between 0 and 1, higher value means a better performance.
@@ -57,7 +57,7 @@ I have used [Naive Bayes (NB)](spam-filter-two) and [Logistic Regression (LR)](s
 
 <blockquote>
 <b>Author:</b> Renjie Weng <br />
-<b>Project repository:</b> <a href="https://github.com/shohoku11wrj/Spam-Filter">on GitHub</a> <br />
+<b>Project repository:</b> <a href="/Spam-Filter/">GiHub Pages</a> <br />
 <a href="/slides/SpamFilter"><b>SlideShow</b></a>  <br />
 <b>Formal report:</b><a href="https://github.com/shohoku11wrj/Spam-Filter/tree/master/presentation"> PDF &amp; PPT</a>
 </blockquote>
