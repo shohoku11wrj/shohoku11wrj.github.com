@@ -5,9 +5,8 @@ layout: first
 <link rel="stylesheet" href="/js/prettify/prettify.css" />
 
 <div>
+    <!-- Hello, I'm Ranger. Ranger's Way is my personal website. -->
 {% highlight ruby %}
-Hello, I'm Ranger. Ranger's Way is my personal website.
-
 find_me = {
   "email"   => "renjie.weng@gmail.com",
   "twitter" => "http://twitter.com/#!/gaga_ek",
