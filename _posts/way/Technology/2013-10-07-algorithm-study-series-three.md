@@ -126,3 +126,24 @@ The one, most confused one to me among aboving.
 ## Other famous DP problems
 
 1. [Maximum sell stock profit within given days](http://stackoverflow.com/questions/7086464/maximum-single-sell-profit?answertab=active#tab-top)
+
+<center>---</center>
+<br/>
+
+## DP的另一种思路
+
+DP不是一种具体的算法，可能会有雷同的题用雷同的解法，但不应该有思路上的限制。
+
+我的DP思路一直受限于 0-1 Knapsack Problem 上，下面这题在算法的结构上算是另一种相反思路：
+
+[Print All Combinations of a Number as a Sum of Candidate Numbers](http://leetcode.com/2010/09/print-all-combinations-of-number-as-sum.html)
+
+其中主要困扰我的是这段：
+
+    for (int i = index[n]; i < sz; i++) {
+        index[n+1] = i;
+        solve(target, sum + candidates[i], candidates, sz, index, n+1);
+    }
+
+这段中，`int[] index`作为整个算法的检索，不是按照从 index[0], index[1], ... , index[target] 的方式进行一步步地逼近最终结果。
+由于这题本身求得就是所有Combinations可能性，所以它是直接for loop所有的可能性，每一种可能性下(每一次solve方法的调用)，自己来判断是否是符合条件的一种combination。
