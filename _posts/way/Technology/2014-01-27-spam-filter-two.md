@@ -102,6 +102,6 @@ Figure 5 shows ROC curves for Table 3:
 
 <span class="pic">Figure 5: ROC curves of improved NB</span>
 
-So, for this part, I implemented Graham’s method for Bayesian Filtering, and made a little improvement for taking frequency into consideration. By the way, I think Graham should have already taken frequency into account after published the first version of his Spam Filter, or he would not have mentioned those words about Spoof in the [Better](10) post.
+So, for this part, I implemented Graham’s method for Bayesian Filtering, and made a little improvement for taking frequency into consideration. By the way, I think Graham should have already taken frequency into account after published the first version of his Spam Filter, or he would not have mentioned those words about Spoof in the [Better (2003)](10) post.
 
 [10]: http://www.paulgraham.com/better.html
