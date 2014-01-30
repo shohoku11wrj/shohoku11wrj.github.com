@@ -1845,3 +1845,30 @@ ul.posts {
 .unit-article .entry-content:first-child h6 {
   margin-top: 0;
 }
+
+/* Table */
+.entry table {
+    font-family: verdana,arial,sans-serif;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.entry table th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+    font-weight: bold;
+}
+.entry table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
