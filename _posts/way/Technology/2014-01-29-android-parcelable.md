@@ -16,9 +16,9 @@ And there will be somewhat uncomfortable when you will reference some parcelable
 
 I found three efficient ways to do that:
 
-* TypeArray
+* TypedArray
 
-* TypeList
+* TypedList
 
 * ParcelableArray
 
@@ -29,9 +29,9 @@ In the `Book` Class, we have a member variable `public Author[] authors`.
 
 So, the problem is how we pass Book between activities with Parcels.
 
-### TypeArray
+### TypedArray
 
-Two normal ways are using `TypeArray` or `TypeList`.
+Two normal ways are using `TypedArray` or `TypedList`.
 
 In the `public void wirteToParcel(Parcel dest, int flags)` method of `Book` Class:
 
@@ -47,7 +47,7 @@ In the `public void wirteToParcel(Parcel dest, int flags)` method of `Book` Clas
       i++;
     }
 
-### TypeList
+### TypedList
 
 In `writeToParcel` method:
 
