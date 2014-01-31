@@ -85,6 +85,8 @@ __The Ollie__, a trick in which a skater jumps into the air and lifts the board 
 
 Look at this detailed guide: [ollie skate support](http://www.youtube.com/watch?v=mWz9Wg1LcWE&feature=c4-overview&list=UU9PgszLOAWhQC6orYejcJlw)
 
+Another [easy tutorial for Ollie](http://www.youtube.com/watch?v=XLVraCnI5Kc&list=PL34F060CE1BA3E968&index=1)
+
 ## Skating Skills Ladder after Ollie 技术阶梯
 
 ![skills_ladder](/images/skateboard/skating skills ladder.png)

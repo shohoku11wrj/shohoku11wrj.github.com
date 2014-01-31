@@ -6,7 +6,7 @@ tag: ['Valley', 'job', 'trip', 'dreamin', 'Bay area', '三番' ]
 lan: CN
 ---
 
-So, here I go. For what? Dreamin' 
+So, here I go.
 
 <!--preview-->
 
