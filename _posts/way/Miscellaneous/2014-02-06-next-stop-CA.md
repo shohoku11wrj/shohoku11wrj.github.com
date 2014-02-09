@@ -6,7 +6,7 @@ tag: ['Valley', 'job', 'trip', 'dreamin', 'Bay area', '三番' ]
 lan: CN
 ---
 
-So, here I go.
+So, here we go.
 
 <!--preview-->
 

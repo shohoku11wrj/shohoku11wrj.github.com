@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bayesian Method for Spam Filter
+title: Spam Filter (2) -- Bayes Theorem & Graham's Method
 category: Technology
 tag: ['ML', 'spam', 'Bayes']
 lan: EN

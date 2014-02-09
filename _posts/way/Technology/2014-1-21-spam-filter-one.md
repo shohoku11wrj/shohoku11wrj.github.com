@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spam Filter (1) -- Data Resource & ROC Curve
+title: Spam Filter Algorithm Design
 category: Technology
 tag: ['ML', 'spam', 'probability']
 lan: EN
