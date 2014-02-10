@@ -2,7 +2,7 @@
 layout: post
 title: Next Stop -- California
 category: Miscellaneous
-tag: ['Valley', 'job', 'trip', 'dreamin', 'Bay area', '三番' ]
+tag: ['Valley', 'job', 'trip', 'dreamin', 'Bay area', '三藩' ]
 lan: CN
 ---
 

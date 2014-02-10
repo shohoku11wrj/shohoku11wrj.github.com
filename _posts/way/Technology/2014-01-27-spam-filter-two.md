@@ -6,7 +6,7 @@ tag: ['ML', 'spam', 'Bayes']
 lan: EN
 ---
 
-The basic algorithm of my Bayesian Filter is studied from Paul Graham’s post [A PLAN FOR SPAM](http://paulgraham.com/spam.html). I was firstly attracted on this topic by a Chinese version of it: [贝叶斯推断及其互联网应用: 定理简介 和 过滤垃圾邮件 (2011) Ruan Yi-feng](http://www.ruanyifeng.com/blog/2011/08/bayesian_inference_part_two.html) <i>(Bayesian Inference and Web Application: Introduction to the Theory & Spam Filtering)</i>
+The basic algorithm of my Bayesian Filter is studied from Paul Graham’s post [A PLAN FOR SPAM](http://paulgraham.com/spam.html). I was firstly attracted on this topic by a Chinese version of it: [贝叶斯推断及其互联网应用: 定理简介 和 过滤垃圾邮件 (2011) Ruan Yi-feng](http://www.ruanyifeng.com/blog/2011/08/bayesian_inference_part_two.html) (Bayesian Inference and Web Application: Introduction to the Theory & Spam Filtering)
 
 <!--preview-->
 
@@ -51,11 +51,15 @@ The result of this basic implementation is shown in Table 2:
 
 <span class="pic">Table 2: AUC of Basic Implementation of NB</span>
 
-  Table1 | tune | u01 | u02 | u00_tune | u00
-  ------------- | ------------- |  ------------- | ------------- | ------------- 
-  __AUC__  | 0.998056  |  0.899351  | 0.951194  | 0.992355  |  0.869827
-  __u00_tuned__ | | | | 0.996812 | 0.894598
-
+<table>
+<thead>
+<tr><th>Table1 </th><th> tune </th><th> u01 </th><th> u02 </th><th> u00_tune </th><th> u00</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>AUC</strong>  </td><td> 0.998056  </td><td>  0.899351  </td><td> 0.951194  </td><td> 0.992355  </td><td>  0.869827</td></tr>
+<tr><td><strong>u00_tuned</strong> </td><td> </td><td> </td><td> </td><td> 0.996812 </td><td> 0.894598</td></tr>
+</tbody>
+</table>
 
 The second line in Table 2 is results that evaluated with parameters tuned from file `task_a_labeled_tune.tf`. The third line is results that evaluated with parameters tuned from file `task_a_u00_tune.tf`. So this make sense that u00 has its individual features which could be learned separately.
 
@@ -92,10 +96,16 @@ This improvement works, and increases the AUC a bit.
 
 <span class="pic">Table 3: AUC of Improved NB</span>
 
-  Table1 | tune | u01 | u02 | u00_tune | u00
-  ------------- | ------------- |  ------------- | ------------- | ------------- 
-  __AUC__  | 0.998196  |  0.912002  | 0.952196  | 0.991569  |  0.874134
-  __u00_tuned__ | | | | 0.991257 | 0.901313
+<table>
+<thead>
+<tr><th>Table1 </th><th> tune </th><th> u01 </th><th> u02 </th><th> u00_tune </th><th> u00</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>AUC</strong>  </td><td> 0.998196  </td><td>  0.912002  </td>
+<td> 0.952196  </td><td> 0.991569  </td><td>  0.874134</td></tr>
+<tr><td><strong>u00_tuned</strong> </td><td> </td><td> </td><td> </td><td> 0.991257 </td><td> 0.901313</td></tr>
+</tbody>
+</table>
 
 I lost the parameters here, actually I can get 1% higher AUC here.
 Figure 5 shows ROC curves for Table 3:
