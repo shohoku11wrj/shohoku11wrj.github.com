@@ -51,7 +51,7 @@ put the weight on your heels while rolling and you'll turn in that direction <br
 It helps to lean your upper body in the direction you want to turn. <br/>
 身体重心往滑板的一侧倾斜即可
 
-### 6. kickturn 快速变向 --> tic-tac 蛇行 <span class="loading">[loading...]</span>
+### 6. kickturn 快速变向 --> tic-tac 蛇行 <span class="get">[新技能get√]</span>
 
 balance on your rear wheels, push down, and spin your board around to execute a kickturn <br/>
 这招在练习时场地又不是很宽敞的情况下很有用，可以控制滑板严近似直线前进而不需要驱动脚着地。 <br/>
@@ -65,7 +65,7 @@ __The Ollie__, a trick in which a skater jumps into the air and lifts the board 
 ## Ollie前还有几个需要练习的基础动作
 [Advanced Basic Skills before Ollie](http://v.youku.com/v_show/id_XMzU5ODgyOTA4.html) -- A video guided by a Chinese skating team
 
-###7. 快速上板 <span class="loading">[loading...]</span>
+###7. 快速上板 <span class="get">[新技能get√]</span>
 
 与前脚同侧的手持板的上端，往前快跑，滑板的下端在地上轻微拖行，然后前脚踩在靠前的四颗螺钉处上板
 
@@ -73,11 +73,11 @@ __The Ollie__, a trick in which a skater jumps into the air and lifts the board 
 
 据说manual是靠前脚来控制平衡的
 
-###9. 倒滑转身
+###9. 倒滑转身 <span class="loading">[loading...]</span>
 
 上板时，前后脚与顺序相反；比如我是regular姿势（左前右后），现在把左脚放在滑板靠后的地方，然后右脚助力前进，右脚上板的时候与板垂直横着上板，然后左脚也横过来；重心放在右脚，右脚同时前移一点，然后向身体内测转动腰部带动板；完成倒滑转身，变成了regular姿势。
 
-###10. SHUV-IT站姿
+###10. SHUV-IT站姿 <span class="loading">[loading...]</span>
 
 就是让滑板平转180度，像是打格斗游戏搓手柄放技能一样。
 
