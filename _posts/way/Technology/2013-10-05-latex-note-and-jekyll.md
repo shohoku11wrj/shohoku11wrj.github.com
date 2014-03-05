@@ -161,6 +161,13 @@ Rotating bodies: `\[ E_r = \frac{1}{2}Iw^2 \]`
 
 Cool.
 
+###5. Tips
+
+Avoid formatting text in formular by using `\text` tag: `\[ IDF_t (Inverse  Document Frequency) = \log⁡( \frac {\text{Corpus size}} {\text{Document count contains term }t +1)} ) \]` See the difference between text left to `=` and right to, where the right side is using `\text` tag.
+
+Align `=` for multiline equations by using `\( \text{\begin{eqnarray} ... \end{eqnarray}} \)` and set the align mark with `& = &`: `\[ \begin{eqnarray}\text{Simple TF}_t & = & \frac {f_{t,d}} {Max(f_{i,d})} \\
+\text{Modified TF}_t & = & \log{|Sf_t - Hf_t |} \\
+\text{Re-modified TF}_t & = & \frac {\log{|Sf_t - Hf_t |}} {Max(f_{i,d})} \end{eqnarray}\]`
 
 
 <blockquote>
