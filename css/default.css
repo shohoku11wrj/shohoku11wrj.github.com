@@ -1261,6 +1261,7 @@ a.icon-footer-weibo:hover {
 #ranger span,
 #ranger div,
 span.intro {
+    vertical-align: text-top;
     font-size: 20px;
 }
 
