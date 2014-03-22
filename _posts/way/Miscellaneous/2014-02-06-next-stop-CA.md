@@ -14,3 +14,8 @@ So, here we go.
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- <a src="http://t.co/GXgiXO5EwQ"><img src="https://pbs.twimg.com/media/Bf2FniRCQAA4U_r.png:large"></img></a> -->
+
+
+-- 20140324 -- 
+
+I'm back to Stevens now, and keep balancing, keep going.
