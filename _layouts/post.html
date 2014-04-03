@@ -13,7 +13,7 @@ layout: page
               {% assign category = page.category | downcase %}
               <p class="post-category">Category: <a class="post-cat-link" href="/way/{{ page.category | downcase }}/"><span class="post-cat-name">{{ page.category }}</span></a>&nbsp;<span class="post-cat-count">{{ site.categories[category].size }}</span></a></p>
               <p class="post-tag">Tags: {% for tag in page.tags %}
-                    <a class="post-tag-link" href="/tags/index.html#{{ tag }}"><span class="post-tag-name">{{ tag }}</span>&nbsp;<span class="post-tag-count">{{ site.tags[tag].size }}</span></a>
+                    <a class="post-tag-link" href="/tags/index.html#{{ tag }}-ref"><span class="post-tag-name">{{ tag }}</span>&nbsp;<span class="post-tag-count">{{ site.tags[tag].size }}</span></a>
                 {% endfor %}
               </p>
             </div>
