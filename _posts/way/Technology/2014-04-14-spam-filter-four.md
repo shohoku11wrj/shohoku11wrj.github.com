@@ -50,7 +50,7 @@ Bayesian Filter 可以从self-learning中得到很大的提高，但是 Logistic
 
 ## Shall We Stop Now?
 
-It depends.
+I think we can go a little further bravely.
 
 由于我可以通过加入unlabeled的测试数据来进行预判再学习，那么就意味着如果我能得到更多测试数据的话，我的预判会更准确。但是现实情况是我只有这点测试数据。
 
