@@ -94,3 +94,8 @@ Another [easy tutorial for Ollie](http://www.youtube.com/watch?v=XLVraCnI5Kc&lis
 ## Skating Skills Ladder after Ollie 技术阶梯
 
 ![skills_ladder](/images/skateboard/skating skills ladder.png)
+
+## Tip
+
+* 1. 为什么滑板平推出去的时候会转弯；严重的会原地转圈？<br />
+因为轮子的滚动速度不同。这个和几何解释光线折射的原理是一样的。当光线斜着射如水平面时，由于光在空气和水中的传播速度是不一样的，所以会产生折射。相对地，当滑板的两边轮子滚动速度不一样时，就会转弯。这时候可以清理一下慢的那边的轮子的转轴。
