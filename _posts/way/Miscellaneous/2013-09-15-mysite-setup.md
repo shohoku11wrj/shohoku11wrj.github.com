@@ -30,9 +30,14 @@ lan: CH
 
 
 网站设计[First Page](/index.html "网站首页")是我自己想的，其他的设计部分参考了很多，基本框架是参考[BeiYuu](http://beiyuu.com/ "一个豆瓣员工")的，也不是他的网站比别人设计得有多好，主要是大致框架符合我的预想。
+
 当然还参考了很多很多，比如jschauma老师那天带来给我们讲Puppet的[James Turnbull](http://www.kartar.net/about.html "kartar.net")，还有[yizeng](http://yizeng.me/ "yizeng")，[连城](http://blog.liancheng.info/ "blog.liancheng.info")等许多IT界人士的网站设计。<br />
 这里可以找到很多优秀的jekyll博客地址[mojobo/jekyll/wiki/sites](https://github.com/mojombo/jekyll/wiki/sites)。由于Github Pages已经是融合了jekyll，说不定你经常关注的几个programmer的，尤其是在Github上活跃的，他们的blog都是用jekyll写的。当然，我的`favourite bloggers`列表中的博客也是相当推荐的。不仅仅是网页设计，更是内容。
 
+今天20140414读了阮一封翻译Paul Graham的文章《梦寐以求的编程语言》，一个观点非常符合编程中的太极：
+<blockquote>
+    为了写出优秀的软件，你必须同时具备两种相互冲突的信念。一方面，你要像初生牛犊一样，对自己的能力信心万丈；另一方面，你又要像历经沧桑的老人一样，对自己的能力抱着怀疑态度。如果你能平衡好希望和担忧，它们就会推动项目前进，就像自行车在保持平衡中前进一样。
+</blockquote>
 
 我的个人网站分为两个版块，<b>[Ranger 仁](/ranger "about me")</b> 和 <b>[Way 道](/way "blog")</b>。<br />
 <b>仁</b>取自我的名字中；<b>道</b>是我对blog的一种译法，用blog来记录我走过的路，

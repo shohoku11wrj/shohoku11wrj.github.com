@@ -92,8 +92,6 @@ I solve this problem by setting a maximum boundary for transformed frequency. Wh
 
 This improvement works, and increases the AUC a bit.
 
-![ROC Improved Bayes](/images/spam-filter/roc_nb_improved.png)
-
 <span class="pic">Table 3: AUC of Improved NB</span>
 
 <table>
@@ -109,6 +107,8 @@ This improvement works, and increases the AUC a bit.
 
 I lost the parameters here, actually I can get 1% higher AUC here.
 Figure 5 shows ROC curves for Table 3:
+
+![ROC Improved Bayes](/images/spam-filter/roc_nb_improved.png)
 
 <span class="pic">Figure 5: ROC curves of improved NB</span>
 
