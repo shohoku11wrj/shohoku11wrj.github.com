@@ -73,15 +73,21 @@ __The Ollie__, a trick in which a skater jumps into the air and lifts the board 
 
 ###8. manual 只靠后轮向前滑行
 
-据说manual是靠前脚来控制平衡的
+据说manual是靠前脚来控制平衡的。前进的时候仍旧需要用前脚抬高放下来控制平衡，身体也要注意一起协调。
+
+初学者适合练习，这样对以后的平衡掌握会有帮助。
 
 ###9. 倒滑转身 <span class="loading">[loading...]</span>
 
 上板时，前后脚与顺序相反；比如我是regular姿势（左前右后），现在把左脚放在滑板靠后的地方，然后右脚助力前进，右脚上板的时候与板垂直横着上板，然后左脚也横过来；重心放在右脚，右脚同时前移一点，然后向身体内测转动腰部带动板；完成倒滑转身，变成了regular姿势。
 
+演示视频里的转速比较慢，看上去很轻巧。应该是他能在转板的时候把平衡控制得比较好。
+
 ###10. SHUV-IT站姿 <span class="loading">[loading...]</span>
 
 就是让滑板平转180度，像是打格斗游戏搓手柄放技能一样。
+
+视频里面的演示比较轻巧，后脚不需要很用力，只需要稍微伸出板边缘一点轻轻一扣；前脚躲开一下就可以了。
 
 ## Ollie <span class="loading">[loading...]</span>
 
@@ -94,6 +100,8 @@ Another [easy tutorial for Ollie](http://www.youtube.com/watch?v=XLVraCnI5Kc&lis
 ## Skating Skills Ladder after Ollie 技术阶梯
 
 ![skills_ladder](/images/skateboard/skating skills ladder.png)
+
+欣赏一段场地练习 [13 YEAR OLD RIPPER](https://www.youtube.com/watch?v=RlPpQZcOv5Y&feature=youtu.be)
 
 ## Tip
 
