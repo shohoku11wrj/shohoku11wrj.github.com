@@ -171,7 +171,7 @@ Align `=` for multiline equations by using `\( \text{\begin{eqnarray} ... \end{e
 
 
 <blockquote>
-Referenced by: <br/>
+References: <br/>
 <br/>
 <b>Author:</b> Doswa <br/>
 <b>Title:</b>  mathjax in markdown <br/>
