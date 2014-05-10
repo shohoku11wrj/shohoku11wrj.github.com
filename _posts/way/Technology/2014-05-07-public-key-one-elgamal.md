@@ -10,6 +10,8 @@ lan: CH
 
 学了Foundation of Cryptography之后，我了解了常用的公钥算法除了RSA之外还有好几种，甚至RSA被认为是不能严格证明的，不知道这个不能严格证明的问题和Snowden爆出来的RSA Backdoor有没有关系。
 
+<!--preview-->
+
 本系列主要讲三种不同的公钥加密算法(Public Key Encryption)，并用实例演绎他们是如何实现的。用到的数学基础是数论。
 
 本篇讲ElGamal Encryption Scheme，它是基于Discrete Logarithm Probelm难于求解的前提; 
@@ -32,7 +34,7 @@ Bob 把 `\( y_B = g^b\;(mod\;p) \)` 发送给Alice;
 这里可能有一个疑问：其他人可以看到`\(y_A\text{和}y_B\)`，是否也能解出`\(K_{AB}\)`？
 
 数学表明，在数值很大的情况下，这样的计算是很难的。这个计算难度是经过精确计算的，保证可能在几个月、几十年甚至几百年都无法完成计算。
-这个难以计算的难题被成为__discrete logarithm problem__，被定义为求`\( x = \log_g{y}\;(mod\;p)\)`。
+这个难以计算的难题被称为__discrete logarithm problem__，被定义为求`\( x = \log_g{y}\;(mod\;p)\)`。
 
 ElGamal便是利用类似的数学性质，但是目的在于加密和解密过程，而不仅仅是像Diffie-Hellman一样交换密钥就结束了，所以ElGamal在构造上为了实际应用有所改变。
 
@@ -42,7 +44,7 @@ ElGamal便是利用类似的数学性质，但是目的在于加密和解密过�
 
 这里要生成一对 公钥(Public Key) 和 私钥(Private Key):
 
-取一个随机的素数(Prime) `\( p^\prime \)` s.t.(such that的简写) p, 以及在这个`\( Z_p^*\)` 下的 generator `\( g \)`；
+取一个随机的素数(Prime) `\( p^\prime \)` s.t.(such that的简写) `\( p = 2p\prime + 1 \)`, 以及在这个`\( Z_p^*\)` 下的 generator `\( g \)`；
 
 随机取一个小于`\( p \)`的数`\( x \)`，Private Key 为 `\( <p,p^\prime,g,x> \)`，
 
@@ -76,17 +78,17 @@ Scenario: Alice用Bob的public key发送一个message给Bob。
 
   * Step 1. Bob 选取 `\( \text{Prime } p = 139, g = 3, \text{private key } x = 12 \)`
   
-  * Step 2. Bob generate public key `\( 44 = 3^{12}\;(mod\;139) \)`
+  * Step 2. Bob 计算出 公钥 `\( 44 = 3^{12}\;(mod\;139) \)`
 
 ### Encryption
 
-  As anybody, including Alice, can get Bob's public key, which is 44;
+  任何人，包括Alice, 都能获得Bob的公钥, which is 44;
 
-  Alice want to send a message of M = 100 to Bob;
+  Step 3和4是Alice发送消息M = 100给Bob;
 
-  * Step 3. Alice choose a random number `\( k = 52 \)`, and then calculate `\[ K = 44^{52}\;(mod\;139) = 112 \]`
+  * Step 3. Alice 选择一个随机数k，并根据k计算K: `\( k = 52 \)`, and then calculate `\[ K = 44^{52}\;(mod\;139) = 112 \]`
 
-  * Step 4. Alice calculate <`\(C_L,C_R\)`>, by `\[\begin{aligned} C_L &= 3^{52}\;(mod\;139) = 38 \\ C_R &= 100 *112\;(mod\;139) = 80 \end{aligned}\]`
+  * Step 4. Alice 计算出密文 <`\(C_L,C_R\)`>, by `\[\begin{aligned} C_L &= 3^{52}\;(mod\;139) = 38 \\ C_R &= 100 *112\;(mod\;139) = 80 \end{aligned}\]`
 
   Then Alice send <`\(C_L,C_R\)`> to Bob.
 
@@ -106,10 +108,10 @@ Scenario: Alice用Bob的public key发送一个message给Bob。
 &  44^2\;mod\;139 = 129 = -10\\
 &  44^4\,\;... = 100 = -39\\
 &  44^8\,\;... = 131 = -8\\
-&  44^16\,... = 64\\
-&  44^32\,... = 65\\
-&  44^48\,... = 129 = -10\\
-&  44^52\,... = 53 = 112\\\end{aligned}
+&  44^{16}\,... = 64\\
+&  44^{32}\,... = 65\\
+&  44^{48}\,... = 129 = -10\\
+&  44^{52}\,... = 53 = 112\\\end{aligned}
 \]`
 我怀疑是否可以利用以下这条性质来使计算大大简化，毕竟手算64x65 (mod 139)还是很容易算错的。
 `\[ 44^{\varphi(139)} = 1\,(mod\,139) ==> 44^{138} = 1 \]`
