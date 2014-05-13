@@ -10,12 +10,23 @@ So, here we go.
 
 <!--preview-->
 
+-- 20140513 --
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/GaGa_Ek">@GaGa_Ek</a> 单程票，去加州。 <a href="http://t.co/HKY8GZm6wy">pic.twitter.com/HKY8GZm6wy</a></p>&mdash; Ranger Weng (@GaGa_Ek) <a href="https://twitter.com/GaGa_Ek/statuses/466324221954895872">May 13, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+还立马得到一twitter大牛祝福，哈哈。
+
+这次去好多人帮了忙，希望好运啦。
+
+-- 20140324 -- 
+
+I'm back to Stevens now, and keep balancing, keep going.
+
+-- original 20140206 --
+
 <blockquote class="twitter-tweet" lang="en"><p>甲午年惊蛰，愿马到功成。 </p>&mdash; Ranger Weng (@GaGa_Ek) <a href="https://twitter.com/GaGa_Ek/statuses/431648053548695553">February 7, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- <a src="http://t.co/GXgiXO5EwQ"><img src="https://pbs.twimg.com/media/Bf2FniRCQAA4U_r.png:large"></img></a> -->
 
-
--- 20140324 -- 
-
-I'm back to Stevens now, and keep balancing, keep going.
