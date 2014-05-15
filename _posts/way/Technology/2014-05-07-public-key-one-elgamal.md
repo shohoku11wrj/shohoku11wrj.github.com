@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 公钥加密算法一 ElGamal
+title: 公钥加密算法(一) ElGamal
 category: Technology
 tag: ['cryptography','asymmetric encryption', 'ElGamal', 'Hiffie-Hellman']
 lan: CH
@@ -68,7 +68,7 @@ ElGamal便是利用类似的数学性质，但是目的在于加密和解密过�
 证明如下：`\[ C_R / C_L^x = m * y^r / (g^r)^x = m * (g^x)^r / (g^x)^r = m \]`
 在没有密钥中的`\(x\)`的情况下，无法顺利解密出原文，这就是ElGamal安全的前提。
 
-## 举个栗子
+## 举则列子
 
 以上的构造过程看似很简单，其实ElGamal的计算很麻烦（或许是我不知道简便方法）。我根据这个例子[ElGamal Enc Example]来一步步分析如何完成ElGamal的计算过程。
 
