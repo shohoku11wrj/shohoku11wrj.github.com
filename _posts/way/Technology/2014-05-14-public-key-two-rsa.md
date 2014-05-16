@@ -112,6 +112,11 @@ m_q = a_2 &= c^{[d\;mod\;\varphi(q)]}\;(mod\;q) \\
 RSA problem may potentially easier than factoring.
 </blockquote>
 
+## 推荐阅读
+
+[RSA 算法是如何诞生的](http://localhost-8080.com/2013/12/history-of-rsa/)
+
+[Alice 和 Bob 的故事](http://localhost-8080.com/2014/02/story-of-alice-and-bob/)
 
 
 __TL;DR__
