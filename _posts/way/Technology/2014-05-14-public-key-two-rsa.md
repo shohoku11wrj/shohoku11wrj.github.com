@@ -98,7 +98,7 @@ m_q = a_2 &= c^{[d\;mod\;\varphi(q)]}\;(mod\;q) \\
     &= 20^{15}\;(mod\;23) = 11 \end{align}\]`
 
 * Step 2. 求p,q互相的模反元素`\(b_1, b_2\)` `\[\begin{align} b_1 &= q^{-1}\;(mod\;p) = 23^{-1}\;(mod\;11) = 1 \\
-    b_2 &= p^{-1}\;(mod\;q) = 11{-1}\;(mod\;23) = -2 = 23 \end{align}\]`
+    b_2 &= p^{-1}\;(mod\;q) = 11^{-1}\;(mod\;23) = -2 = 23 \end{align}\]`
 
 
 * Step 3. 根据中国剩余定理公式`\( \hat{x} = \sum_{i=1}^{n}a_ib_iM_i, \text{where } M=\prod_{i=1}^n, M_i=M/m_i \)`计算消息原文m: `\[\begin{align} m &= [a_1b_1(\frac{N}{p}) + a_2b_2(\frac{N}{q})]\;(mod\;N) \\ &= [2*1*23 + 11*(-2)*11]\;(mod\;253) \\ &= -196\;(mod\;253) = 57 \end{align}\]`
