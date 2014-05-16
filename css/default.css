@@ -685,6 +685,8 @@ blockquote {
   margin: 1em 16px;
   border-left: .7em solid #DDDDDD;
   padding-left: 1em;
+  padding-top: 7px;
+  padding-bottom: 7px;
   background-color: #EEEEEE;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
