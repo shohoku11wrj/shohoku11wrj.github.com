@@ -1,4 +1,4 @@
 language: ruby
 rvm:
-- 2.1.0
-script: script/cibuild
+- 2.1
+script: "script/cibuild"
