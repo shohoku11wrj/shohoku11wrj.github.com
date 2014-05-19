@@ -18,6 +18,8 @@ lan: CH
 
 对RSA的原理证明及构造模型分析还请看<a href="http://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html">RSA算法原理(一)</a> 和 <a href="http://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html">RSA算法原理 (二)</a>。
 
+![RSA draft](/images/public_key/rsa.gif)
+
 我在这篇文章主要是一步步详细计算一个RSA的实例。其中用到的比较有意思的就是“中国剩余定理”，也是本blog右上角的那首诗所隐含的数学原理。
 
 ## 举则列子

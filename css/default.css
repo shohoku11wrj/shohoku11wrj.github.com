@@ -96,6 +96,12 @@ body .hide {
     float: right;
 }
 
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 /***********default settings**********/
 html, body {
     color: #000;

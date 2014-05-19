@@ -21,6 +21,11 @@ lan: CH
 
 在讲ElGamal之前，先简单地提一提Diffie-Hellman。这是一种最简单的密钥交换算法(Key Exchange Scheme)。
 
+[Wiki](http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)上的这个图解释得相当直观:
+
+<object type="image/svg+xml" data="/images/public_key/Diffie-Hellman_Key_Exchange.svg" class="center"></object>
+<span class="pic">Diffie-Hellman密钥交换原理示意图</span>
+
 这种算法目的是A和B双方达成一个相同的密钥。有一个与众不同的地方是A和B发送信息的次序可以没有先后（前提是A和B已经达成了`\( <p,p\prime,g> , \text{其中 } p = 2p\prime + 1, g \text{ is a generator in } QR_p, |QR_p| = p\prime \)`的一致）。
 
 Alice 生成一个随机数 a,
