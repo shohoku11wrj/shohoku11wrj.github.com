@@ -121,6 +121,13 @@ Scenario: Alice用Bob的public key发送一个message给Bob。
 我怀疑是否可以利用[Fremat-Euler Theorem](http://en.wikipedia.org/wiki/Euler%27s_theorem)，即以下这条性质来使计算大大简化，毕竟手算64x65 (mod 139)还是很容易算错的。
 `\[ 44^{\varphi(139)} = 1\,(mod\,139) ==> 44^{138} = 1 \]`, 因为44和139互质
 
+__答:__ <br/>
+是有相对简便的方法的，[Prof. Antonoi](http://www.cs.stevens.edu/~nicolosi/) 给出的提示是利用order的性质来计算。由于order of `\( Z_{139} = \varphi(139) = 138 \)`，可以被因式分解为2 x 3 x 23。即暗示着，可能有些元素在 ^ 23 之后 mod 139 是 1，44恰好是一个，我尝试了一下 45 ^ 23 (mod 139) 结果也是 1。
+
+根据order的性质，if `\({Z_n}^*\)` is cyclic then the number of generators is `\( \varphi(\varphi(n)) \)`；并且if `\(\alpha\)` is a generator then `\( ord(\alpha) = \varphi(n) > \varphi(n)/p \)`，if `\(\alpha\)` is __NOT__ a generator then `\( ord(\alpha) = t < \varphi(n) \text{ and } t|\varphi(n) \)`，其中x|y表示x可以整除y。
+
+所以，在这个例子中，我们猜测44可能不是一个generator，那么他的order就有可能可以整除2,3或者23。
+
 [ElGamal Enc Example]: http://ta.ramk.fi/~jouko.teeriaho/cryptodict/Elgamal.pdf "ElGamal Encryption Algorithm"
 [Euler]: http://en.wikipedia.org/wiki/Euler%27s_theorem "Euler theorem"
 
