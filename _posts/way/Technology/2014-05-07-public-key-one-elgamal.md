@@ -45,7 +45,7 @@ ElGamal便是利用类似的数学性质，但是目的在于加密和解密过�
 
 ## ElGamal 构造模型
 
-### Key Generation
+### Key Generate
 
 这里要生成一对 公钥(Public Key) 和 私钥(Private Key):
 
@@ -55,7 +55,7 @@ ElGamal便是利用类似的数学性质，但是目的在于加密和解密过�
 
 根据`\( x \)`算出 `\( y = g^x\;(mod\;p) \)`，Public Key 为 `\( <p,p^\prime,g,y> \)`
 
-### Encryption
+### Encrypt
 
 现在，我们用这对公密钥对消息m进行加密，生成密文c，其中密文c由左右两部分组成，称之为 `\( (C_L,C_R) \)`。
 
@@ -67,7 +67,7 @@ ElGamal便是利用类似的数学性质，但是目的在于加密和解密过�
 
   * Step 3. `\( C_R = m * y^r\;(mod\;p) \)`
 
-### Decryption
+### Decrypt
 
 解密过程用一个公式可以表述：`\[ C_R / C_L^x\;(mod\;p) \]`
 证明如下：`\[ C_R / C_L^x = m * y^r / (g^r)^x = m * (g^x)^r / (g^x)^r = m \]`
@@ -79,13 +79,13 @@ ElGamal便是利用类似的数学性质，但是目的在于加密和解密过�
 
 Scenario: Alice用Bob的public key发送一个message给Bob。
 
-### Key Generation
+### Key Generate
 
   * Step 1. Bob 选取 `\( \text{Prime } p = 139, g = 3, \text{private key } x = 12 \)`
   
   * Step 2. Bob 计算出 公钥 `\( 44 = 3^{12}\;(mod\;139) \)`
 
-### Encryption
+### Encrypt
 
   任何人，包括Alice, 都能获得Bob的公钥, which is 44;
 
@@ -97,7 +97,7 @@ Scenario: Alice用Bob的public key发送一个message给Bob。
 
   Then Alice send <`\(C_L,C_R\)`> to Bob.
 
-### Decryption
+### Decrypt
 
   * Step 5. Bob从`\(C_L\)`中可以计算出K, `\[\begin{aligned} K &= 38^{12}\;(mod\;139) = 112 \\ K^{-1} &= 112^{-1}\;(mod\;139) = 36 \end{aligned}\]`
 
@@ -124,9 +124,9 @@ Scenario: Alice用Bob的public key发送一个message给Bob。
 __答:__ <br/>
 是有相对简便的方法的，[Prof. Antonoi](http://www.cs.stevens.edu/~nicolosi/) 给出的提示是利用order的性质来计算。由于order of `\( Z_{139} = \varphi(139) = 138 \)`，可以被因式分解为2 x 3 x 23。即暗示着，可能有些元素在 ^ 23 之后 mod 139 是 1，44恰好是一个，我尝试了一下 45 ^ 23 (mod 139) 结果也是 1。
 
-根据order的性质，if `\({Z_n}^*\)` is cyclic then the number of generators is `\( \varphi(\varphi(n)) \)`；并且if `\(\alpha\)` is a generator then `\( ord(\alpha) = \varphi(n) > \varphi(n)/p \)`，if `\(\alpha\)` is __NOT__ a generator then `\( ord(\alpha) = t < \varphi(n) \text{ and } t|\varphi(n) \)`，其中x|y表示x可以整除y。
+根据order的性质，if `\({Z_n}^*\)` is cyclic then the number of generators is `\( \varphi(\varphi(n)) \)`；并且if `\(\alpha\)` is a generator then `\( ord(\alpha) = \varphi(n) > \varphi(n)/p \)`，if `\(\alpha\)` is __NOT__ a generator then `\( ord(\alpha) = t < \varphi(n) \text{ and } t|\varphi(n) \)`，其中 x|y 表示x可以整除y。
 
-所以，在这个例子中，我们猜测44可能不是一个generator，那么他的order就有可能可以整除2,3或者23。
+所以，在这个例子中，我们猜测44可能不是一个generator，那么他的order就有可能可以整除2,3或者23；另外从`\( 44^2 = 44^{48} = -10 \)`中我们也可以得到`\( 44^{46}\;mod\;139 = 1 \)`。
 
 [ElGamal Enc Example]: http://ta.ramk.fi/~jouko.teeriaho/cryptodict/Elgamal.pdf "ElGamal Encryption Algorithm"
 [Euler]: http://en.wikipedia.org/wiki/Euler%27s_theorem "Euler theorem"
