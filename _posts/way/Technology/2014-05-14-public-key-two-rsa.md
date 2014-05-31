@@ -90,7 +90,7 @@ __Alice解密密文c=250__
 
 __中国剩余定理__
 
-现在要求解 `\( 250^{147}\;(mod\;253) \)`，其中253=11*23 (N=p*q)。
+现在要求解 `\( 250^{147}\;(mod\;253) \)`，其中253=11\*23 (N=p*q)。
 
 * Step 1. 求`\(a_1, a_2\)` `\[\begin{align} m_p = a_1 &= c^{[d\;mod\;\varphi(p)]}\;(mod\;p) \\
     &= (250\;mod\;11)^{[147\;mod\;10]}\;(mod\;11) \\
@@ -117,7 +117,7 @@ RSA problem may potentially easier than factoring.
 ## 推荐阅读
 
 [RSA 算法是如何诞生的](http://localhost-8080.com/2013/12/history-of-rsa/) <br/>
-<i>2012年秋初来Stevens上 Introduction to CyberSecurity 听 [Prof. Amoroso](http://web.stevens.edu/compsci/people/faculty_profile.php?faculty_id=838) 讲这段历史的时候也是津津有味<!--，甚至很清楚地记得当时Amoroso眼中闪烁的光芒，说过的一些话。其中有一段大致是这样的意思：你们这么多国际学生来到Stevens读书，得到一个不错的学位，可以在华尔街找到一份体面的工作，当然你们大部分人应该选择这样做；但是，你有没有想过另外一种可能性？多年以后，当你回到Stevens再来见我的时候，可以给我递上一张名片，微笑地对我说，教授你好，这是我的公司，希望你有空来我的办公室坐坐。--></i>
+<i>2012年秋初来Stevens上 Introduction to CyberSecurity 听 [Prof. Amoroso](http://web.stevens.edu/compsci/people/faculty_profile.php?faculty_id=838) 讲这段历史的时候也是津津有味<!--，甚至很清楚地记得当时Amoroso眼中闪烁的亮光，说过的一些话。其中有一段大致是这样的意思：你们这么多国际学生来到Stevens读书，得到一个不错的学位，可以在华尔街找到一份体面的工作，当然你们大部分人应该选择这样做；但是，你有没有想过另外一种可能性？多年以后，当你回到Stevens再来见我的时候，可以给我递上一张名片，微笑地对我说，教授你好，这是我的公司，希望你有空来我的办公室坐坐。--></i>
 
 [Alice 和 Bob 的故事](http://localhost-8080.com/2014/02/story-of-alice-and-bob/)
 
