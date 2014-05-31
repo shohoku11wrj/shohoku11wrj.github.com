@@ -10,6 +10,14 @@ So, here we go.
 
 <!--preview-->
 
+-- 20140531 --
+
+搬进圣何赛新居，感谢来自哥大的各位同学帮助，房东和室友都很nice。
+
+阳光充足的地方it从业人员心情乐观、温和。
+
+喜欢这里。
+
 -- 20140513 --
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/GaGa_Ek">@GaGa_Ek</a> 单程票，去加州。 <a href="http://t.co/HKY8GZm6wy">pic.twitter.com/HKY8GZm6wy</a></p>&mdash; Ranger Weng (@GaGa_Ek) <a href="https://twitter.com/GaGa_Ek/statuses/466324221954895872">May 13, 2014</a></blockquote>
