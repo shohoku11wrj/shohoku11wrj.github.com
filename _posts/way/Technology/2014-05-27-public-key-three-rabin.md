@@ -6,13 +6,11 @@ tag: ['cryptography','asymmetric encryption', 'Rabin', '中国剩余定理']
 lan: CH
 ---
 
-起个头，不知道能否在去加州前写完。
-
-<!--preview-->
-
 The Rabin Cryptosystem is based on the idea that computing square roots modulo a composite N is simple when the factorization is known, but the very complex when it is unknown.
 
 Rabin加密系统是基于在已知合数N的因式分解的情况下，可以计算出二次剩余的平方根；但是在因式分解N未知的情况下很难求解的原理。
+
+<!--preview-->
 
 It is possible to prove that the hardness of breaking the Rabin cryptosystem is equivalent to the hardness of facting。
 
