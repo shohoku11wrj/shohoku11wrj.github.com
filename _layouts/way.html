@@ -74,10 +74,15 @@ type: way
                     <h4><img class="icon_tag" src="/images/tag.ico" alt="tags" title="tags" /><a href="/tags" style="color:black">Tags</a></h4>
                     <ul class="tag-list">
                     {% for tag in site.tags %}
+                      {% if tag[1].size >= 3 %}
                         <li class="tag-list-item">
                             <a class="tag_btn" href="/tags/index.html#{{ tag[0] }}-ref"><span>{{ tag[0] }}</span><span class="tag_size"> {{ tag[1].size }}</span></a>
                         </li>
+                      {% endif %}
                     {% endfor %}
+                      <li class="tag-list-item">
+                          <a title="more" href="/tags">...</a>
+                      </li>
                     </ul>
 
                 </div>

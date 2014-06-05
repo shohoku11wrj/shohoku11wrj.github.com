@@ -40,7 +40,7 @@ Rabin加密系统的安全性源于计算二次剩余平方根( square roots mod
 
 ### Decrypt
 
-`\( Dec_K(c) = \sqrt(c)\;(mod\;n) = m \)`
+`\( Dec_K(c) = \sqrt{c}\;(mod\;n) = m \)`
 
 , this is to calculate:
 
