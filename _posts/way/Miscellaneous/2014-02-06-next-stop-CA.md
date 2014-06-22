@@ -6,7 +6,10 @@ tag: ['Valley', 'job', 'trip', 'dreamin', 'Bay area', '三藩' ]
 lan: CN
 ---
 
-So, here we go.
+-- 20140622 --
+
+<blockquote class="twitter-tweet" lang="en"><p>I&#39;m not an good programmer, I should be the first to admit it. I&#39;m not a genius, but I&#39;m gifted. The gift is I&#39;m feeling happy while coding.</p>&mdash; Ranger Weng (@GaGa_Ek) <a href="https://twitter.com/GaGa_Ek/statuses/480623006431993858">June 22, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!--preview-->
 
@@ -28,6 +31,8 @@ So, here we go.
 这次去好多人帮了忙，希望好运啦。
 
 -- 20140324 -- 
+
+So, here we go.
 
 I'm back to Stevens now, and keep balancing, keep going.
 
