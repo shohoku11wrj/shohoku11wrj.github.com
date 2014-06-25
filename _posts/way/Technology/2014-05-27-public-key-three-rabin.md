@@ -89,10 +89,6 @@ Alice收到Bob发送的密文`\( c = 23 \)`，用私钥`\(K\)`解密。
 
 ## 扩展阅读
 
-### Rabin Signature
-
-### Rabin加密 bit by bit
-
 <blockquote>
 参考: <br/>
 <b>The Rabin Cryptosystem</b> <br/> 
@@ -102,3 +98,53 @@ University of Paderborn <br/>
 </blockquote>
 
 <i>写于2014年5月29日从纽约飞往旧金山的飞机上</i>
+
+## Rabin Signature
+
+There are __4 roots__ that all map to the same value.
+
+The keys: `\( V_k = N = p * q , S_k = (p,q) \)`
+
+Signing: `\( Sig(S_k, m) \)` -- computes the square root of the hash of `\(m\)` (`\(H(m)\text{ or }-H(m)\)`); equals to `\( \sigma \)`
+
+Verifying: `\( Ver(N,m,\sigma) \)` -- this verifies that `\( \sigma^2\;mod\;N = H(m)\text{ or }-H(m) \)`
+
+*For large message m's, the hash of the message (H(m)) is signed instead.
+
+## Rabin加密 bit by bit
+
+### Key Generate
+
+`\( N = p * q\;,\; P_k = N\;, S_k = (N,p,q) \)`
+
+### Encrypt
+
+这个加密方法正如其名，就是利用Rabin的性质一比特一比特地加密和解密消息。
+
+1. 从 `\( Z_n \text{ 中取一个随机数 } r \)`
+2. 密文 `\( c = (-1)^b*r^2\;(mod\;N) \)`, 其中b代表消息中的每1bit
+
+### Decrypt
+
+1. 计算 Legendre Symbol `\( (\frac{c}{p}) \text{ 和 } (\frac{c}{q}) \)`
+2. If `\( (\frac{c}{p}) \neq (\frac{c}{q}) , \text{内部错误} \)` 
+
+   Otherwise 输出解密结果 `\( b = 
+   \begin{cases} 0 & \text{, iff } (\frac{c}{q}) = 1\\
+     1 & \text{, iff } (\frac{c}{q}) = -1
+     \end{cases} \)`
+
+复习一下 Legendre Symbol 的定义：
+
+`\( (\frac{a}{p}) = \begin{cases}
+      0 & \text{, if } p|a & \text{ 表示p能整除a } \\
+      1 & \text{, if } a \in Q_p & \text{ 表示a属于 模p的二次剩余 } \\
+      -1 & \text{, if } a \in \overline{Q_p} & \text{ 表示a不属于 模p的二次剩余 }
+      \end{cases} \)`
+
+由于模p的二次剩余的性质可知，如果`\( a \in Q_p \)`，则`\( -a \in \overline{Q_p} \)`。
+举例：`\( Q_{17} = \left\{ 1, 4, 9, 16, 8 = 5^2 - 17, 2 = 6^2 - 34, 15 = 7^2 - 34, 13 = 8^2 - 51 \right \} \)`, <br/>
+其中，-1 = 16, -4 = 12 等都不属于模17的二次剩余(`\(Z_p\)内的所有整数被模p的 二次剩余 和 非二次剩余 均分为相等的两部分`)。
+
+所以，在加密过程中，无论__随机数__`\(r\)`取什么，在解密中都能根据当前bit是0还是1还原出相应的原bit值。然而在不知道密钥中如何因式分解`\(N = p * q\)`的情况下，是无法计算Legendre Symbol值的。
+
