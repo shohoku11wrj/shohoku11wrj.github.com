@@ -36,6 +36,15 @@ right-handed people prefer the regular stance<br/>
 Partice in varies speeds.<br/>
 练习用各种速度前进<br/>
 
+--20140627--
+
+湾区有很多滑板场地，当然是最适合练习的，在我圣何塞的住所附近就有一个小型滑板场地，当然更远一点的话还能到更专业更大的场地玩耍。
+
+我上次(四月还是五月)在Hoboken学校前的场地下高坡的时候没有控制住重心，摔了一跤整个人的支撑点仅靠左脚脚后跟，因此受伤了。
+目前买的一块[新板](http://www.amazon.com/gp/product/B0013CLBLQ/ref=oh_details_o00_s01_i00?ie=UTF8&psc=1)要尼马2个月才能完成发货，正好继续养伤。等新板到的时候我将有2个多月没有练习，估计还得从头熟悉。不过呢，我是特价时候买的，只要40刀，很好看的一块板，我称它为"红龙板" :D
+
+由此得到的一个教训是，压低重心等是技巧上的，装备上一定要注意保护自己。我这次之所以受伤和鞋子不太专业也有关系，由于鞋底不够厚，缓冲不够。6PM上面有卖Adidas的Skateboarding系列的鞋子都还不错，就是尺码偏大不是一点点。
+
 ### 4. ways to stop your rool 停下 <span class="get">[新技能get√]</span>
 
 - a) footbreaking
