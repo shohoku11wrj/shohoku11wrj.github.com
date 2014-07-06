@@ -174,6 +174,6 @@ So, we need to pass the reference of `Block[][] board` to the `Piece.isValidMove
 ## References
 
 <blockquote>
-<a href="http://amitcodes.com/2014/02/04/object-oriented-design-for-chess-game/">Object oriented design for chess game</a> <br/> -- a good preview of the chess game OO Design
+<a href="http://amitcodes.com/2014/02/04/object-oriented-design-for-chess-game/">Object oriented design for chess game</a> -- a good preview of the chess game OO Design <br/> 
 <a href="http://tianrunhe.wordpress.com/2012/03/19/design-a-chess-game-using-oo-principles/">Design a chess game using OO principles</a> -- the basement of my codes
 </blockquote>
