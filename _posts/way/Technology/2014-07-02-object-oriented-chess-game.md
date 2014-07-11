@@ -151,7 +151,7 @@ So, we need to pass the reference of `Block[][] board` to the `Piece.isValidMove
             //TODO KILL
             Player opponent = dest.getPiece().getPlayer();
             // Checkmate 将军
-            if (dest.getPiece() instanceof Knight) {
+            if (dest.getPiece() instanceof King) {
               opponent.setResult(false);
             }
             return true;
