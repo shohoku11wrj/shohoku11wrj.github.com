@@ -16,20 +16,20 @@ lan: CH
 
 ## 山河
 
-![shan1](/images/shanherenhai/shan1.jpg)
-![shan2](/images/shanherenhai/shan2.jpg)
-![shan3](/images/shanherenhai/shan3.jpg)
-![hai1](/images/shanherenhai/hai1.jpg)
-![hai2](/images/shanherenhai/hai2.jpg)
-![hai3](/images/shanherenhai/hai3.jpg)
+![shan1](/images/shanherenhai/shan1.png)
+![shan2](/images/shanherenhai/shan2.png)
+![shan3](/images/shanherenhai/shan3.png)
+![hai1](/images/shanherenhai/hai1.png)
+![hai2](/images/shanherenhai/hai2.png)
+![hai3](/images/shanherenhai/hai3.png)
 
 ## 人海
 
-![cheng1](/images/shanherenhai/cheng1.jpg)
-![cheng2](/images/shanherenhai/cheng2.jpg)
-![cheng3](/images/shanherenhai/cheng3.jpg)
-![cheng4](/images/shanherenhai/cheng4.jpg)
-![cheng5](/images/shanherenhai/cheng5.jpg)
-![ren1](/images/shanherenhai/ren1.jpg)
-![ren2](/images/shanherenhai/ren2.jpg)
+![cheng1](/images/shanherenhai/cheng1.png)
+![cheng2](/images/shanherenhai/cheng2.png)
+![cheng3](/images/shanherenhai/cheng3.png)
+![cheng4](/images/shanherenhai/cheng4.png)
+![cheng5](/images/shanherenhai/cheng5.png)
+![ren1](/images/shanherenhai/ren1.png)
+![ren2](/images/shanherenhai/ren2.png)
 
