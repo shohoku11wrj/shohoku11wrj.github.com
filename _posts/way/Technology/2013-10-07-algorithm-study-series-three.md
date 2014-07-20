@@ -20,6 +20,8 @@ The materials I have referenced also includes `MIT Algorithm Open Course`: <br/>
 [20. Dynamic Programming II: Text Justification, Blackjack](http://www.youtube.com/watch?v=ENyox7kNKeY) <br/>
 [21. Dynamic Programming III: Parenthesization, Edit Distance, Knapsack](http://www.youtube.com/watch?v=ocZMDMZwhCY) <br/>
 
+A well-known guide from TopCoder: [Dynamic Programming: From novice to advanced](http://www.topcoder.com/tc?d1=tutorials&d2=dynProg&module=Static)
+
 <center>---</center>
 <br/>
 
