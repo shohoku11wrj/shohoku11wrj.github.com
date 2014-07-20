@@ -2,7 +2,7 @@
 layout: post
 title: 山河人海
 category: Miscellaneous
-tag: ['travel', 'photo']
+tag: ['travel', 'life', 'photo']
 lan: CH
 ---
 
