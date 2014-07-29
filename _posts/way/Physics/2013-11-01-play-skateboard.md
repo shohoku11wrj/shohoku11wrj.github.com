@@ -15,9 +15,17 @@ Study video: [Basis of Skateboarding](http://www.youtube.com/watch?v=con8ii2Bgys
 
 ## Equipements
 
+<img class="pic_right" width="350" style="margin: -20px -50px 0px 20px;" src="/images/skateboard/goden_dragon_skateboard.png" />
+
 helmet <span class="get">[get√]</span>, wrist guards <span class="get">[get√]</span>, elbow pads <span class="get">[get√]</span>, keepads <span class="get">[get√]</span>, and appropriate footwear <span class="get">[get√]</span>
 
 I had thought most of them were not necessary for me, but someone told me that the medical fee in USA would be too much, especially for an F-1 students. So it's important to prevent being injured in case.
+
+--20140728--
+
+我的第一块滑板被我留在了纽约。
+
+今天我拿到了我的第二块滑板。两个月前，我在Amazon上$40低价看中了一块红龙板(平时卖$70)，但是Amazon一直没货，我等不急了换成了金龙板。虽然是同一款产品的 version 1 和 version 2，但是我总觉得红龙板更好看点。实际金龙板拿到手了也挺漂亮的。
 
 ## Setps
 
