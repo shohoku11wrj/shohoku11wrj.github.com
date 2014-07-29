@@ -4,6 +4,7 @@ title: Learn Skateboarding
 category: Physics
 tag: ['sports', 'skateboard']
 lan: CH
+date: 2014-07-28
 ---
 
 I bought a skateboard this week on ebay, with $39. And begin to learn how to play with it.
@@ -25,7 +26,7 @@ I had thought most of them were not necessary for me, but someone told me that t
 
 我的第一块滑板被我留在了纽约。
 
-今天我拿到了我的第二块滑板。两个月前，我在Amazon上$40低价看中了一块红龙板(平时卖$70)，但是Amazon一直没货，我等不急了换成了金龙板。虽然是同一款产品的 version 1 和 version 2，但是我总觉得红龙板更好看点。实际金龙板拿到手了也挺漂亮的。
+今天我拿到了我的第二块滑板。两个月前，我在Amazon上$40低价看中了一块红龙板(平时卖$70)，但是Amazon一直没货，我等不急了换成了金龙板。虽然是同一款产品的 version 1 和 version 2，但是我总觉得红龙板更好看点。实际金龙板拿到手也挺漂亮的。
 
 ## Setps
 
@@ -124,3 +125,4 @@ Another [easy tutorial for Ollie](http://www.youtube.com/watch?v=XLVraCnI5Kc&lis
 
 * 1. 为什么滑板平推出去的时候会转弯；严重的会原地转圈？<br />
 因为轮子的滚动速度不同。这个和几何解释光线折射的原理是一样的。当光线斜着射如水平面时，由于光在空气和水中的传播速度是不一样的，所以会产生折射。相对地，当滑板的两边轮子滚动速度不一样时，就会转弯。这时候可以清理一下慢的那边的轮子的转轴。
+
