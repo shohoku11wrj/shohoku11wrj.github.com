@@ -60,6 +60,10 @@ lan: CN
 
 ![coding at restroom....](/images/ssh_to_vmware/restroom.png)
 
+我发现iPad看视频和网页比起我的A8ja速度要快多了，然后就这样了。。。。
+
+![coding with iPad](/images/ssh_to_vmware/bluetooth_keyboard_with_iPad2.png)
+
 <blockquote>
 参考: <br/>
 <a href="http://server-support.co/blog/pc/accessing-vmware-guest-os-behind-nat-from-another-computer/">Accessing Vmware guest OS behind NAT from another computer</a> <br/>
