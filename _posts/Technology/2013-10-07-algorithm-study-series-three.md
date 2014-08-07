@@ -196,6 +196,8 @@ DP不是一种具体的算法，可能会有雷同的题用雷同的解法，但
 
 罗列了一些我见过的DP问题，仅仅只是用DP做cache加速的问题(比如Fibonacci)就不列举了。
 
+令，DP问题中，关键在于寻找`状态转移方程` (TopCoder那篇原文并没有提到过这个term)；用DP做cache加速的问题中，这个方程可以叫做`优化方程 Optimal Function`
+
 1. [Maximum sell stock profit within given days](http://stackoverflow.com/questions/7086464/maximum-single-sell-profit?answertab=active#tab-top)
 
 2. 自行搜索此列表中的`DP`关键字: [leetcode难度及面试频率](http://blog.csdn.net/yutianzuijin/article/details/11477603)
