@@ -125,7 +125,7 @@ RSA problem may potentially easier than factoring.
 
 __TL;DR__
 
-阮一峰翻译的《黑客与画家》不得不说也是让我读得特兴奋，[Paul Graham](http://paulgraham.com/)在其中所阐述的一些思想和观点，很多都能引起我的共鸣。至于我在今年3月的硅谷之行中特地去了一次YC，以及向往去硅谷找工作的一些，就是后话了。
+阮一峰翻译的《黑客与画家》不得不说也是让我读得特兴奋，[Paul Graham](http://paulgraham.com/)在其中所阐述的一些思想和观点，很多都能引起我的共鸣。至于我在今年3月的硅谷之行中特地去了一次YC，以及向在硅谷工作的一些，就是后话了。
 
 <!--
 [ruanyifeng]       http://www.ruanyifeng.com/blog/ "阮一封的blog"
