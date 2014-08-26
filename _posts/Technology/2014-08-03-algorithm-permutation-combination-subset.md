@@ -197,7 +197,7 @@ Time Complexity: `\(O(2^n)\)` without triming branches, `\(O(2^k)\)` with trimin
         result.add(new ArrayList<Integer>(r));
         return;
       }
-      if(depth == n) return; //!!! triming branches
+      if(depth == n) return;
 
       r.add(depth + 1);
       combine(depth + 1, n, k, r, result);
