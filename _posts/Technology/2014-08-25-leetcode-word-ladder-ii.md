@@ -288,7 +288,7 @@ __能。但是需要在`Word Ladder I`的基础上修改，防止一找到路径
 
 以上就是我的代码，我觉得我的代码在coding上和思路上都还有优化的余地。
 
-Coding上的优化可以是在BFS建层级结构那段，我用了比较不常用的outer loop标记；
+Coding上的优化可以是在BFS建层级结构那段，我用了比较不常用的`outer` loop标记；
 
 思路上可以优化的部分是DFS，我在遍历DFS时，实际重复计算了`boolean canTransform(String s1, String s2)`。
 
