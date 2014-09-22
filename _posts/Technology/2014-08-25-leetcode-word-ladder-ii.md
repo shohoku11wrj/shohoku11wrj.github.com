@@ -300,3 +300,5 @@ Coding上的优化可以是在BFS建层级结构那段，我用了比较不常�
 
 [Yu's Coding Garden](http://yucoding.blogspot.com/2014/01/leetcode-question-word-ladder-ii.html)
 
+["一亩三分地"上也有讨论这个问题的帖子](http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=51646&extra=page%3D2%26orderby%3Dlastpost&page=1)
+
