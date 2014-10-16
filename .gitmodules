@@ -5,5 +5,5 @@
   path = themes/ribbon
   url = https://github.com/shower/ribbon.git
 [submodule "themes/bright"]
-  path = themes/ribbon
+  path = themes/bright
   url = https://github.com/shower/bright.git
