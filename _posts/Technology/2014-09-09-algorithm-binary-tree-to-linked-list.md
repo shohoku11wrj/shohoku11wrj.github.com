@@ -351,11 +351,11 @@ Two pointer should be taken care for:
 __Reference__
 
 <blockquote>
-http://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/ <br/>
-http://www.geeksforgeeks.org/convert-a-given-binary-tree-to-doubly-linked-list-set-2/ <br/>
-http://www.geeksforgeeks.org/convert-given-binary-tree-doubly-linked-list-set-3/ <br/>
-http://leetcode.com/2010/11/convert-binary-search-tree-bst-to.html <br/>
-http://cslibrary.stanford.edu/109/TreeListRecursion.html <br/>
-http://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/ <br/>
-http://n00tc0d3r.blogspot.com/2013/03/flatten-binary-tree-to-linked-list-in.html <br/>
+1. http://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/ <br/>
+2. http://www.geeksforgeeks.org/convert-a-given-binary-tree-to-doubly-linked-list-set-2/ <br/>
+3. http://www.geeksforgeeks.org/convert-given-binary-tree-doubly-linked-list-set-3/ <br/>
+4. http://leetcode.com/2010/11/convert-binary-search-tree-bst-to.html <br/>
+5. http://cslibrary.stanford.edu/109/TreeListRecursion.html <br/>
+6. http://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/ <br/>
+7. http://n00tc0d3r.blogspot.com/2013/03/flatten-binary-tree-to-linked-list-in.html <br/>
 </blockquote>
