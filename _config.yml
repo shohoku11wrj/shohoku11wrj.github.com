@@ -1,10 +1,10 @@
-# safe: true
+safe: true
 lsi: false
 # auto: true # your config file will keep Jekyll running, watching your project folder for changes and regenerating the site on the fly.
 
 port: 80
 markdown: rdiscount
-highlighter: true
+highlighter: pygments
 paginate: 7
 paginate_path: "/way/page:num"
 
