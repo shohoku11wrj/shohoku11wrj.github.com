@@ -70,10 +70,11 @@ type: way
 
                 </div>
 
-                {% if page.id %}
-                {% else %}
                 <div class="aside">
                     <h4><img class="icon_tag" src="/images/tag.ico" alt="tags" title="tags" /><a href="/tags" style="color:black">Tags</a></h4>
+                {% if page.id %}
+                <a href="/tags">...</a>
+                {% else %}
                     <ul class="tag-list">
                     {% for tag in site.tags %}
                       {% if tag[1].size >= 3 %}
@@ -86,11 +87,15 @@ type: way
                           <a title="more" href="/tags">...</a>
                       </li>
                     </ul>
+                {% endif %}
 
                 </div>
 
                 <div class="aside">
                     <h4>Favorite Bloggers</h4>
+                {% if page.id %}
+                <a href="/404.html">...</a>
+                {% else %}
                     <ul class="bloger-list">
                         <li class="blogger-list-item">
                             <a class="blogger" href="http://www.ruanyifeng.com/blog/" target="_blank" title="wise &amp; humility">阮一峰</a> <span class="blogger">wise &amp; humility</span>
@@ -151,8 +156,8 @@ type: way
                             <a class="blogger" href="http://www.matrix67.com/" target="_blank" title="算法高手">Matrix67</a> <span class="blogger">算法高手</span>
                         </li>
                     </ul>
+                    {% endif %}
                 </div>
-                {% endif %}
 
                 </div>
 
