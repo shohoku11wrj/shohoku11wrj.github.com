@@ -8,11 +8,11 @@ lan: EN
 
 This is a classic interview question.
 
-You can cracking it by brute force, divide-and-conquer, and expectly, dynamic programming.
+You can cracking it by <a>brute force</a>, <a href="#menuIndex0">divide-and-conquer</a>, and expectly, <a href="#menuIndex2">dynamic programming</a>.
 
 The [famous post](http://stackoverflow.com/questions/7086464/maximum-single-sell-profit) talking about it on StackOverflow.
 
-You can verify your answers the LeetCode [problem](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+You can verify your answers via the LeetCode [problem](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 <!--preview-->
 
@@ -136,4 +136,4 @@ best&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5,5)&nbsp;&nbsp;&nbsp;(5,10)&nbsp;&nbsp
 Answer:&nbsp;(5,10)
 </blockquote>
 
-Compared to Brute Force is O(N^2) time, O(1) space.
+Compared to Brute Force is O(N`\(^2\)`) time, O(1) space.
