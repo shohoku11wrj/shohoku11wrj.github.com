@@ -115,6 +115,8 @@ Look at this detailed guide: [ollie skate support](http://www.youtube.com/watch?
 
 Another [easy tutorial for Ollie](http://www.youtube.com/watch?v=XLVraCnI5Kc&list=PL34F060CE1BA3E968&index=1)
 
+And [手把手滑板教学-如何快速起跳Ollie](http://v.youku.com/v_show/id_XODExNjExMjA4.html)
+
 ## Skating Skills Ladder after Ollie 技术阶梯
 
 ![skills_ladder](/images/skateboard/skating skills ladder.png)
