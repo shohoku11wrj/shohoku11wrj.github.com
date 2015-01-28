@@ -1,6 +1,6 @@
 ---
 layout: post
-title: E=Mc^2 的简单推导
+title: E=mc^2 的简单推导
 category: Physics
 tag: ['Relativity']
 lan: CN
@@ -11,7 +11,7 @@ date: 2014-12-30
 
 <!--preview-->
 
-`\[ E = Mc^2 \]`
+`\[ E = mc^2 \]`
 
 ## 发光的猫 Radioactive Cat
 
