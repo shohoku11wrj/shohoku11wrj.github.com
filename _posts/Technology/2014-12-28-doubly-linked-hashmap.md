@@ -225,6 +225,30 @@ Then the __toString()__ function could use the Iterator to traverse the collecti
 
   The method __public V get(K key)__ should be modified. Every requested Entry will be moved to the position before/after the Head.
 
+    public V get(K key) {
+      int x = hashCodeOfKey(key);
+      if (items[x] == null) {
+        return null;
+      }
+      LinkedList<Entry<K,V>> collided = items[x];
+      for (Entry<K,V> e : collided) {
+        if (e.equivalent(key)) {
+          if (head.after != e) {
+            // remove this entry
+            e.before.after = e.after;
+            e.after.before = e.before;
+            // add this entry back to head
+            e.after = head;
+            e.before = head.before;
+            e.before.after = e;
+            e.after.before = e;
+          }
+          return e.getValue();
+        }
+      }
+      return null;
+    }
+
 <blockquote>
 
 <h4>Reference</h4> <br/>
