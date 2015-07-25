@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS UI - Custom UI with Embeded Table View Cell
+title: iOS UI -- Custom UI with Embeded Table View Cell
 category: Technology
 tag: iOS
 lan: EN
