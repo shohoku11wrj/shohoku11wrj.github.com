@@ -8,11 +8,11 @@ lan: EN
 
 In the [last post](/way/ios-embed-table-view-cell-in-xib/) I talked about how to Customsize an UI Widget.
 
-There is a use case that we would like to respond some UI event of the widget in one View Controller.
+There is a use case: respond some UI event of the Widget in another View Controller.
 
-The logic is rely on the outside View Controller.
+The logic is rely on the outside View Controller after the Widget has been defined. So we can not implement the UI event handler until we refered the Widget inside a View Controller.
 
-Also, if I put several this kind of widgets on the same screen, their click event should be different which I would like to impelment respectively.
+Also, if I put several this kind of widgets on the same screen, their click event should be impelmented respectively.
 
 <!--preview-->
 
@@ -80,7 +80,3 @@ On the meantime, my widget will be reused. So I want to put the touch event logi
         [self refreshMyData];
     }
     @end
-
-## Reference
-
-1.
