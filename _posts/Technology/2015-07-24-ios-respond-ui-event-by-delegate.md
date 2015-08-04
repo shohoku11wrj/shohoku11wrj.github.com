@@ -6,9 +6,7 @@ tag: iOS
 lan: EN
 ---
 
-In the [last post](/way/ios-embed-table-view-cell-in-xib/) I talked about how to Customsize an UI Widget.
-
-There is a use case: respond some UI event of the Widget in another View Controller.
+In the [last post](/way/ios-embed-table-view-cell-in-xib/) I talked about how to Customsize an UI Widget. There is a use case of the Widget: respond some UI event of the Widget in another View Controller.
 
 The logic is rely on the outside View Controller after the Widget has been defined. So we can not implement the UI event handler until we refered the Widget inside a View Controller.
 
