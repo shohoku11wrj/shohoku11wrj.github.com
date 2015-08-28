@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \&#91;转&#93; 使用Github Pages建独立博客
+title: 使用Github Pages建独立博客 [转]
 category: Technology
 tag: ['jekyll','github']
 lan: CH

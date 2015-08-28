@@ -185,7 +185,10 @@ References: <br/>
 <b>Author:</b> Krummel <br/>
 <b>Title:</b>  LaTeX Tutorials<br/>
 <b>Link:</b>   http://mrskrummel.com/latex/<br/>
-</blockquote>
 
+<br/>
+<b>Title:</b>  MATHJAX GUIDE: Math symbols and math fonts<br/>
+<b>Link:</b>   http://www.martinkeefe.com/math/mathjax3<br/>
+</blockquote>
 
 [LaTeX Math Magic]: http://cwoebker.com/posts/latex-math-magic/
