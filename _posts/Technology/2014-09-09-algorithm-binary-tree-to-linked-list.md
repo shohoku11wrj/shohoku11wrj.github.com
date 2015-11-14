@@ -24,7 +24,7 @@ And also remember, don't reference only one or even only two solutions when crac
 
 First, let's talk about __inorder__!!!
 
-This is the simplest method. We use similar codes while traversing a Binary Tree with void recursion. Assume no requirement of in place implement. Then we can simply append every traversed TreeNode in the tail of a Linked List.
+This is the simplest method. We use similar codes while traversing a Binary Tree with void recursion. Assuming no requirement of in place implement. Then we can simply append every traversed TreeNode in the tail of a Linked List.
 
 e.g. Inorder version without requirement of in place, which takes a static LinkedList as result.
 
@@ -95,13 +95,13 @@ Like the simple tree traverse, we can use a similar code structure to flatten a 
         if (root == null) return;
 
         TreeNode rightBranch = root.right;
-        root.left = null;
         if (prev[0] != null) {
           prev[0].right = root;
         }
         prev[0] = root;
 
         flattenPreorder(root.left, prev);
+        root.left = null;
         flattenPreorder(rightBranch, prev);
       }
 
@@ -199,7 +199,7 @@ The preorder iteration is obviously the most simplest way to flatten a Binary Tr
 
 The signature of recursion with return value is `TreeNode flatten(TreeNode root) { ... /* recursion */ ... }`.
 
-The tricky part is we are attempting to use this single one recursion to impelment the entire flatten function. So we need to reture the head of Linked List. It will be relatively easier for preorder. But harder for the other two orders.
+The tricky part is we are attempting to use this single one recursion to impelment the entire flatten function. So we need to reture the head of Linked List. It will be relatively easier for preorder. But harder for the other two types.
 
 ### Inorder
 

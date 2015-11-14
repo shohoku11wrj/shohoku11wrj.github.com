@@ -3,6 +3,12 @@
 
 This repository hosts the source of [rangerway.com](http://rangerway.com).
 
+## Running
+
+### Local
+
+    jekyll serve --port 4000 -w
+
 ## About
 
 Here comes the [About](http://rangerway.com/ranger) page.

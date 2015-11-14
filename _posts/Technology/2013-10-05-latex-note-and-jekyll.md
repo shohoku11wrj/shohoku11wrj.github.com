@@ -189,6 +189,11 @@ References: <br/>
 <br/>
 <b>Title:</b>  MATHJAX GUIDE: Math symbols and math fonts<br/>
 <b>Link:</b>   http://www.martinkeefe.com/math/mathjax3<br/>
+
+<br/>
+<b>Title:</b>  Math symbols and math fonts
+<b>Link:</b>   http://www.martinkeefe.com/math/mathjax3
+
 </blockquote>
 
 [LaTeX Math Magic]: http://cwoebker.com/posts/latex-math-magic/
