@@ -1622,6 +1622,15 @@ ul.posts {
   margin-left: 0;
   margin-right: 0;
 }
+
+.unit-article twitter-tweet {
+  border: solid 5px transparent;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 .unit-article :not(.meta) > ul,
 .unit-article :not(.meta) > ol,
 .unit-article :not(.meta) > dl {
