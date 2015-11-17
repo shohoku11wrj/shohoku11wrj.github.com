@@ -409,6 +409,7 @@ li.blogger-list-item:hover span.blogger {
 .index-content .post_preview p {
     margin-bottom: 5px;
     line-height: 1.2em;
+    font-size: 14px;
 }
 
 header {
@@ -747,6 +748,10 @@ div.pagination {
     display: inline-block;
     text-align: center;
     margin: 0 auto;
+}
+
+.pagination em {
+    color: #f37421;
 }
 
 /**************目录导航**************/
