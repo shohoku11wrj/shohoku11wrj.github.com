@@ -27,7 +27,11 @@ lan: CH
 
 `:! Shell命令` --> 运行Shell命令
 
-## Sticker 2
+`<C-e/y>` --> View模式下上/下滚屏
+
+`<C-o/m>` --> 上/下一个Vim历史位置(不仅仅是光标的)
+
+## Sticker 2 编辑模式
 
 View-mode == 排版autoindent
 
@@ -53,6 +57,9 @@ View-mode == 排版autoindent
 `ge` 前一个单词尾 <br/>
 `e` 前一个单词头
 
+`{,}` --> 上/下一段 <br/>
+`[{,]}` --> 区块头/尾
+
 `W` or `E` 仅以blank为分隔移动光标
 
 `%` 括号匹配 [] {} () <>
@@ -63,6 +70,8 @@ View-mode == 排版autoindent
 `F` 表反方向
 
 `Ctrl + f` --> 光标移动到最下面一行，并且置于屏幕开端位置
+
+![vim命令图解](http://overapi.com/static/cs/vim-cheat-sheet-full.png)
 
 ## Sticker 4 块操作
 
@@ -92,6 +101,9 @@ View-mode == 排版autoindent
 连按两下`Shift + z` == `wq`
 
 ## Sticker 6 Tab 分页
+
+`<C-h> / :bprevious` --> previous file in buffer <br/>
+`<C-l> / :bnext`  --> next file in buffer
 
 `:tabnew` --> 新建，可加文件名
 
@@ -144,7 +156,7 @@ View-mode == 排版autoindent
 ## Sticker 9 书签
 
 `m[a-z]` --> 记书签 <br/>
-`\`[a-z]` --> 读书签 <br/>
+``[a-z]` --> 读书签 <br/>
 `'[a-z]` --> 读书签，行首
 
 `:marks` --> 书签列表
@@ -153,7 +165,7 @@ View-mode == 排版autoindent
       __大写__字母: 用于编辑中的各个文件之间
 
 `'0` --> 回到前1次编辑文档离开前的最后位置 <br/>
-`'`` --> 回到前2次编辑文档离开前的最后位置 <br/>
+__'`__ --> 回到前2次编辑文档离开前的最后位置 <br/>
 依次类推，Vim自动记录； *其实是.viminfo的功能 <br/>
 __前次__指前次启动的Vim
 
@@ -192,6 +204,10 @@ __前次__指前次启动的Vim
 `zd, zD` --> 删除折叠记录
 
 `zE` --> 除去所有折叠
+
+## Sticker 12 Command
+
+`:Search **/<file-name-pattern>.file-type` --> 遍历搜索该目录下的文件，需要加上后缀
 
 ## Reference
 

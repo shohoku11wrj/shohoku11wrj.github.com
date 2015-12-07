@@ -115,8 +115,7 @@ html, body {
     background-position: center;*/
     font-family: "Microsoft YaHei","Helvetica","Arial" ! important;
     position: relative;
-    /*font-family: "微软雅黑","Arial","Helvetica","sans-serif";*/
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin: auto 10px;
 }   
@@ -379,7 +378,7 @@ li.blogger-list-item:hover span.blogger {
     display: inline;
     float: left;
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0 0 0; 
     width: 80%;
     height: 100%;
@@ -401,7 +400,7 @@ li.blogger-list-item:hover span.blogger {
 .index-content h2 a:hover { color:#00f; text-decoration:none; }*/
 .index-content .post_preview {
     color:#252525;
-    font-size:18px;
+    font-size:16px;
     line-height:1em;
     margin: 0;
 }
@@ -735,7 +734,6 @@ li.footer-icon-item {
 .entry img {
     display:block;
     margin:25px auto 26px;
-    border:11px solid #e5e5e5;
     padding:1px;
     background:black;
     max-width:590px;
@@ -758,7 +756,6 @@ div.pagination {
 #menuIndex {
     position: relative;
     max-width: 200px;
-    /*background: #e8e8e8;*/
     text-align: left;
     overflow:auto
 }
@@ -1416,11 +1413,17 @@ code.has-jax {
  * layout: post_list
  *******************/
 
- .post_list {
-    position: relative;
-    padding: 20px 20px 0 20px; 
-    top: 20px;
- }
+.post_list {
+   position: relative;
+   padding: 20px 20px 0 20px; 
+   top: 20px;
+}
+
+div.post_preview img {
+  max-width: 500px;
+  height: auto;
+  overflow: hidden; 
+}
 
  /* post & page */
 .post_list .tag_box {
