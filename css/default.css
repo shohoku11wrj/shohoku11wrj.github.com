@@ -1148,26 +1148,25 @@ a.sb.flat:before,
 
 /********* Share Button *********/
 .share_btn {
-    display: inline;
+    display: block;
 }
 
 .shares {
-    display: inline;
-    width: 250px;
+    width: 200px;
 }
 
 table.shares,
  {
     text-align: center;
     vertical-align: middle;
+    border-spacing: 10px;
+    table-layout: fixed;
 }
 
-table.shares tr,
-table.shares td,
-table.shares tr td div {
-    text-align: center;
-    vertical-align: middle;
+.shares td {
+    width: 45%;
 }
+
 /* ICONS
 ================================================ */
 a.sb:hover {

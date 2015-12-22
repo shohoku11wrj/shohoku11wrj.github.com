@@ -25,11 +25,16 @@ $(document).ready(function(){
     //***********************
     //**Please delete the Disqus js***
     window.disqus_shortname = 'rangerway'; // required: replace example with your forum shortname
-    $('#disqus_container .comment').on('click',function(){
-        $(this).html('Loading...');
-        var that = $(this).parent();
-        $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',
-            function(){$(that).remove()});
+    $('#disqus_container .comment').on('click', window.loadComment);
+
+    $(window).scroll(function() {
+        var hT = $('#disqus_container .comment').offset().top,
+        hH = $('#disqus_container .comment').outerHeight(),
+        wH = $(window).height(),
+        wS = $(this).scrollTop();
+        if (wS > (hT+hH-wH)){
+            setTimeout(window.loadComment(), 2000);
+        }
     });
 
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -224,3 +229,12 @@ $(document).ready(function(){
         $('#disqus_container .comment').trigger('click');
     }
 });
+
+function loadComment() {
+    var comment = $('#disqus_container .comment');
+    $(comment).html('Loading...');
+    var that = $(comment).parent();
+    $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',
+        function(){$(that).remove()});
+}
+
