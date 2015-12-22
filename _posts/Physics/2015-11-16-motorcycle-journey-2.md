@@ -29,7 +29,11 @@ lan: CN
 
 景色很美吧?
 
-![San Fransisco Beach](/images/motor/SF_beach_with_yamaha_vstar.png)
+<!--![San Fransisco Beach](/images/motor/SF_beach_with_yamaha_vstar.png)-->
+<video width="800" controls>
+  <source src="https://dl.dropboxusercontent.com/u/34373908/movies/motor_journey_1_sl-sf.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 !但是，就是在拍完这张照片后不到一小时，我骑摩托摔了第一跤，现在想来都有点后怕。
 
