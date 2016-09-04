@@ -11,6 +11,8 @@ Given a collection of numbers, return all possible `Permutations`, `K-Combinatio
 
 They can be impelmented by simple `recursion`, `iteration`, `bit-operation`, and some other approaches. I mostly use Java to code in this post.
 
+![Subsets draft](/images/algorithm/subsets_draft.jpg)
+
 <!--preview-->
 
 ## Permutation
