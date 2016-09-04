@@ -18,10 +18,19 @@ layout: way
         all[i].SourceElement().parentNode.className += ' has-jax';
     }
   });
+
+  $(document).ready(function() {
+      $('img').each(function () {
+          var img = $(this);
+          img.attr("data-action", "zoom");
+      });
+  });
 </script>
 <!--<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>-->
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <!-- <link rel="stylesheet" href="/js/prettify/prettify-solarized-light.css" /> -->
+<link href="/css/zoom.css" rel="stylesheet">
+<script src="/js/zoom.js"></script>
 <div id="content">
     {{ content }}
 </div>
