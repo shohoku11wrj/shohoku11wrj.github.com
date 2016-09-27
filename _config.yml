@@ -4,7 +4,7 @@ lsi: false
 
 port: 80
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 paginate: 7
 paginate_path: "/way/page:num"
 
