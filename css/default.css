@@ -1325,16 +1325,46 @@ span.paragraph {
 }
 
 img.event {
-    display: inline-block;
-    vertical-align: bottom;
-    float: left;
+    position: absolute;
+    margin-top: 5px
+    top: 50%
+    width: 30px;
+    height: 30px;
+    background: url(/images/blues_icon.png);
+    background-size: 521px 35px;
+    background-repeat: no-repeat;
+}
+
+img.graduate {
+    background-position: -68px 2px;
+}
+
+img.bank {
+    background-position: -34px 2px;
+}
+
+img.computer {
+    background-position: -102px 2px;
+}
+
+img.book {
+    background-position: -256px 2px;
+}
+
+img.play {
+    width: 35px;
+    background-position: -290px 4px;
+}
+
+img.research {
+    background-position: -393px 0px;
 }
 
 p.event,
 span.event {
     font: bold 16px Georgia, serif;
     margin-top: 5px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-bottom: 0px;
     display: inline;
     vertical-align: baseline;

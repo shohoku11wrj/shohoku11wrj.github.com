@@ -445,8 +445,9 @@ Remember in the last approach of Subset, we generate all the subsets using numbe
 
 ### With Duplicated Characters
 
-also see: LeetCode: [Subsets II](https://oj.leetcode.com/problems/subsets-ii/)
+#### Subsets with Duplicated Characters
 
+also see: LeetCode: [Subsets II](https://oj.leetcode.com/problems/subsets-ii/)
 
 According to Subsets recursion tree I:
 
@@ -456,6 +457,8 @@ Here is one of them:
 
 We keep left children (which means append the current level element);
 and discard those right children (not append) on condition that __the current level element is same as the last element in the parent recursion result__.
+
+* According to Subset recursion tree I
 
 ![Subset tree structure I](/images/algorithm/subset-tree_3.png)
 
@@ -472,7 +475,26 @@ and discard those right children (not append) on condition that __the current le
         }
     }
 
-According to Subsets recursion tree II:
+Or,
+
+![Subset tree structure I](/images/algorithm/subset-tree_5.png)
+
+    private void subSets(char[] set, int st, Deque<Character> curr, List<String> res) {
+        if (st == set.length) {
+            res.add(currToString(curr));
+            return;
+        }
+        curr.offerLast(set[st]);
+        subSets(set, st + 1, curr, res);
+        curr.pollLast();
+        // Skips all the rest of duplicated letters (e.g. a1, a2, ... in this example)
+        while (st < set.length - 1 && set[st + 1] == set[st]) {
+            st++;
+        }
+        subSets(set, st + 1, curr, res);
+    }
+
+* According to Subsets recursion tree II:
 
 There are two options to generate the unqiue subsute:
 
