@@ -1360,6 +1360,10 @@ img.research {
     background-position: -393px 0px;
 }
 
+img.gene {
+    background-position: -449px 0px;
+}
+
 p.event,
 span.event {
     font: bold 16px Georgia, serif;
