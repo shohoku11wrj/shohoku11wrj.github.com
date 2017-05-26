@@ -31,7 +31,7 @@ lan: CN
 
 <!--![San Fransisco Beach](/images/motor/SF_beach_with_yamaha_vstar.png)-->
 <video width="800" controls>
-  <source src="https://dl.dropboxusercontent.com/u/34373908/movies/motor_journey_1_sl-sf.m4v" type="video/mp4">
+  <source src="https://www.dropbox.com/s/xaqmrmrk47pp3pk/motor_journey_1_sl-sf.m4v" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
