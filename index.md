@@ -9,7 +9,7 @@ layout: first
 {% highlight ruby %}
 find_me = {
   "email"   => "renjie.weng@gmail.com",
-  "twitter" => "http://twitter.com/gaga_ek",
+  "twitter" => "http://twitter.com/ranger_way",
   "github"  => "http://github.com/shohoku11wrj",
   "GPG"     => "1024R/619F54B5"
 }
