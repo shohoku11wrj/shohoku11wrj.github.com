@@ -9,8 +9,8 @@ layout: first
 {% highlight ruby %}
 find_me = {
   "email"    => "renjie[.]weng #gmail"
-  "twitter"  => "http://twitter.com/ranger_way",
-  "github"   => "http://github.com/shohoku11wrj",
+  "twitter"  => "@ranger_way",
+  "github"   => "@shohoku11wrj",
   "GPG"      => "1024R/619F54B5",
   "Bay Area" => "FLYVIM WRX, Suzuki SV650"
 }
