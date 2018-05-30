@@ -114,7 +114,7 @@ hash(S[0..k]) = (S[0] * prime^k + S[1] * prime^(k-1) + … + S[k] * prime^0) % l
 <br/>
 hash(S[1..k+1]) = (S[1] * prime^k + S[2] * prime^(k-1) + … + S[k+1] * prime^0) % largePrime
 
-###Step_2: 从S[0..k] 到 S[1..k+1]
+### Step_2: 从S[0..k] 到 S[1..k+1]
 
 S[1] * prime^k + S[2] * prime^(k-1) + … + S[k+1] * prime^0
 <br/>
@@ -124,7 +124,7 @@ S[1] * prime^k + S[2] * prime^(k-1) + … + S[k+1] * prime^0
 <br/>
     + S[k+1] * prime^0
 
-###Step_3: 结合Step_1 和 Step2, 处理计算结果overflow的情况，引入 mod 运算
+### Step_3: 结合Step_1 和 Step2, 处理计算结果overflow的情况，引入 mod 运算
 
 如果 A == B，那么显然 A % Q == B % Q;
 <br/>
