@@ -2,7 +2,7 @@
 layout: post
 title: 加州摩托记（一）--  学 和 买
 category: Physics
-tag: ['Motocycle', 'trip']
+tag: ['Motorcycle', 'trip']
 lan: CN
 ---
 
