@@ -1,4 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
+gem 'github-pages', group: :jekyll_plugins
 
-gem 'github-pages'
+# for macOS
+#gem 'json', github: 'flori/json', branch: 'v1.8'
+#gem 'yajl-ruby', '~> 1.4.1'

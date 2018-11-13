@@ -2,7 +2,7 @@ safe: true
 lsi: false
 # auto: true # your config file will keep Jekyll running, watching your project folder for changes and regenerating the site on the fly.
 
-port: 80
+port: 4000
 markdown: kramdown
 #highlighter: rouge
 paginate: 7
