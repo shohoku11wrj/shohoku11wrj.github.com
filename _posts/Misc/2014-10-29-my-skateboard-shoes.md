@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的滑板鞋
-category: Miscellaneous
+category: Misc
 tag: ['music']
 lan: CH
 ---

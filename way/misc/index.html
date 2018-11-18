@@ -6,7 +6,7 @@ type: way
 
 <ul class="artical-list">
 {% assign colors  = "#000000|#e53b36|#f37421|#4bb648|#377fc2|#0937fc|#5a4ed1" | split: "|" %}
-{% for post in site.categories.miscellaneous %}
+{% for post in site.categories.Misc %}
     {% assign cur = forloop.index | minus: 1 %}
     <li class="post_item">
         <span class="post_line">
@@ -14,13 +14,13 @@ type: way
             <h class="post_date"><time itemprop="datePublished" class="date-pub" title="{{ post.date | date_to_xmlschema }}" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B' }} {{ post.date | date: '%d' }}, {{ post.date | date: '%Y' }} </time></h>
         </span>
         <div class="post_prop">
-          <span><img class="icon_cat" src="/images/category.ico" alt="category" title="category" /><a class="cat_btn" href="/way/{{ post.category | downcase }}">{{ post.category }}</a></span> 
+          <span><img class="icon_cat" src="/images/category.ico" alt="category" title="category" /><a class="cat_btn" href="/way/{{ post.category | downcase }}">{{ post.category }}</a></span>
           <span><img class="icon_tag" src="/images/tag.ico" alt="tags" title="tags" /></span>
           <span>
             {% for tag in post.tags %}
                 <a class="tag_btn" href="/tags/index.html#{{ tag }}"><span>{{ tag }}</span><span class="tag_size"> {{ site.tags[tag].size }}</span></a>
                 {% if forloop.index != post.tags.size %}
-                  , 
+                  ,
                 {% endif %}
             {% endfor %}
           </span>

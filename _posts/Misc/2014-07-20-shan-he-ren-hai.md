@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 山河人海
-category: Miscellaneous
+category: Misc
 tag: ['journey', 'photo']
 lan: CH
 ---
@@ -31,4 +31,3 @@ lan: CH
 <a href="/images/shanherenhai/cheng5.png" target="_blank">![cheng5](/images/shanherenhai/cheng5_thumb.png)</a>
 <a href="/images/shanherenhai/ren1.png" target="_blank">![ren1](/images/shanherenhai/ren1_thumb.png)</a>
 <a href="/images/shanherenhai/ren2.png" target="_blank">![ren2](/images/shanherenhai/ren2_thumb.png)</a>
-

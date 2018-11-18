@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Next Stop -- California
-category: Miscellaneous
+category: Misc
 tag: ['Valley', 'job', 'trip', 'dreamin', 'Bay area', '三藩' ]
 lan: CN
 ---
@@ -30,7 +30,7 @@ lan: CN
 
 这次去好多人帮了忙，希望好运啦。
 
--- 20140324 -- 
+-- 20140324 --
 
 So, here we go.
 
@@ -42,4 +42,3 @@ I'm back to Stevens now, and keep balancing, keep going.
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- <a src="http://t.co/GXgiXO5EwQ"><img src="https://pbs.twimg.com/media/Bf2FniRCQAA4U_r.png:large"></img></a> -->
-

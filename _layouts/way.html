@@ -4,172 +4,165 @@ type: way
 ---
 
 <div class="index-content blog">
-                <div class="category">
-                    <ul class="category-list">
-                    <h4><img class="icon_cat" src="/images/category.ico" alt="category" title="category" />Category: </h4>
-                    <li>
-                        {% if page.url == "/way/index.html" %}
-                        <span>
-                            All *{{ site.posts.size }}
-                        </span>
-                        {% else %}
-                        <a href="/way">All</a>
-                        {% endif %}
-                    </li>
-                    <li> = [ </li>
-                    {% for cat in site.categories %}
-                        <li>
-                            {% if page.url contains cat[0] %}
-                            <span>
-                                {% assign category = cat[0] | downcase %}
-                                {{ cat[0] | capitalize }} *{{ site.categories[category].size }}
-                            </span>
-                            {% else %}
-                            <a href="/way/{{ cat[0] }}">{{ cat[0] | capitalize }}</a>
-                            {% endif %}
-                            {% if forloop.last == false %}
-                            , 
-                            {% endif %}
-                        </li>
-                    {% endfor %}
-                    <li> ] </li>
-                </div>
-
-                <div class="section">
-                    {{ content }}
-                </div>
-
-
-                <div id="sidebar" class="right">
-                
-                <!-- <div style="text-align:right;"><img class="right" src="/images/bagua.gif" /></div> -->
-                
-                <div class="aside poem">
-                    <center>
-                    <span>三人同行七十希<br/>五樹梅花廿一支<br/>七子團圓正半月<br/>除百零五使得知</span>
-                    </center>
-                </div>
-
-                <div class="aside">
-                    <h4><a href="/ranger/" style="color:black">About me</a>
-                        <ul class="footer_icons"> 
-                        <li class="footer-icon-item"> <a class="footer-icon icon-footer-twitter" href="http://twitter.com/#!/ranger_way" title="@ranger_way"></a> </li> 
-                        <li class="footer-icon-item"> <a class="footer-icon icon-footer-github" href="http://github.com/shohoku11wrj" title="my GitHub entry"></a> </li> 
-                        <li class="footer-icon-item"> <a class="footer-icon icon-footer-weibo" href="http://weibo.com/230125141" title="@翼灵贰駟"></a> </li> 
-                        </ul>
-                    </h4>
-                    <span>
-                        My name is <b>Renjie Weng</b>. 
-                        <br />
-                        I like physics, programming, and cycling.
-                        <br />
-                        Programmer <b class="space">=> [</b> Android , Java , .Net , Ruby <b class="space">]</b>
-                        <br />
-                        Interests <b class="space">=> [</b> Distributed Systems , Cryptography <b class="space">]</b>
-                    </span>
-
-                </div>
-
-                <div class="aside">
-                    <h4><img class="icon_tag" src="/images/tag.ico" alt="tags" title="tags" /><a href="/tags" style="color:black">Tags</a></h4>
-                {% if page.id %}
-                    <ul class="tag-list">
-                        {% for tag in site.tags %}
-                        {% if page.tags contains tag[0] %}
-                        <li class="tag-list-item">
-                            <a class="tag_btn" href="/tags/index.html#{{ tag[0] }}-ref"><span>{{ tag[0] }}</span><span class="tag_size"> {{ tag[1].size }}</span></a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                        <li class="tag-list-item">
-                            <a title="more" href="/tags">...</a>
-                        </li>
-                    </ul>
+    <div class="category">
+        <ul class="category-list">
+        <h4><img class="icon_cat" src="/images/category.ico" alt="category" title="category" />Category: </h4>
+        <li>
+            {% if page.url == "/way/" %}
+            <span>
+                All *{{ site.posts.size }}
+            </span>
+            {% else %}
+            <a href="/way">All *{{ site.posts.size }}</a>
+            {% endif %}
+        </li>
+        <li> = [ </li>
+        {% for cat in site.categories %}
+            {% assign curr_cat = cat[0] | downcase %}
+            <li>
+                {% if page.url contains curr_cat %}
+                    <span>{{ cat[0] | capitalize }} *{{ cat[1].size }}</span>
                 {% else %}
-                    <ul class="tag-list">
-                    {% for tag in site.tags %}
-                      {% if tag[1].size >= 3 %}
-                        <li class="tag-list-item">
-                            <a class="tag_btn" href="/tags/index.html#{{ tag[0] }}-ref"><span>{{ tag[0] }}</span><span class="tag_size"> {{ tag[1].size }}</span></a>
-                        </li>
-                      {% endif %}
-                    {% endfor %}
-                      <li class="tag-list-item">
-                          <a title="more" href="/tags">...</a>
-                      </li>
-                    </ul>
+                    <a href="/way/{{ cat[0] | downcase }}">{{ cat[0] | capitalize }} *{{ cat[1].size }}</a>
                 {% endif %}
+                {% if forloop.last == false %}
+                ,
+                {% endif %}
+            </li>
+        {% endfor %}
+        <li> ] </li>
+    </div>
 
-                </div>
+    <div class="section">
+        {{ content }}
+    </div>
 
-                <div class="aside">
-                    <h4>Favorite Bloggers</h4>
-                {% if page.id %}
-                <a href="/404.html">...</a>
-                {% else %}
-                    <ul class="bloger-list">
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://www.ruanyifeng.com/blog/" target="_blank" title="wise &amp; humility">阮一峰</a> <span class="blogger">wise &amp; humility</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://stevelosh.com/" target="_blank" title="artist &amp; programmer">Steve Losh</a> <span class="blogger">artist &amp; programmer</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://www.changhai.org" target="_blank" title="erudite &amp; scientist">卢昌海</a> <span class="blogger">wise &amp; scientist</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://jordanscales.com/" target="_blank" title="geek &amp; pioneer">Jordan Scales</a> <span class="blogger">geek, SOSS organizor</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://basiccoder.com/" target="_blank" title="smart &amp; humorous">basiccoder</a> <span class="blogger">机智幽默的青岛小青年</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://zerowidth.com/" target="_blank" title="intelligent &amp; purified">zerowidth</a> <span class="blogger">high quality, clean design</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://beiyuu.com/" target="_blank" title="smart &amp; judicious">BeiYuu</a> <span class="blogger">写东西很负责</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://yizeng.me/" target="_blank" title="brilliant &amp; versatile">Yi Zeng</a> <span class="blogger">bright &amp; versatile</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://coolshell.cn/" target="_blank" title="intelligent &amp; diligent">酷壳</a> <span class="blogger">intelligent &amp; diligent</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://www.netmeister.org/" target="_blank" title="Prof. &amp; Hack. Jan Schauma">netmeister</a> <span class="blogger">Prof. Hack. Jan Schauma</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://danlew.net/" target="_blank" title="a mobile developer">Dan Lew</a> <span class="blogger">a mobile developer</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="
-                            http://www.grokkingandroid.com/" target="_blank" title="another Android developer">Wolfram Rittmeyer</a> <span class="blogger">another Android developer</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://www.softwarepassion.com/" target="_blank" title="a mobile developer">Software Passion</a> <span class="blogger">a mobile developer</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://www.kdolphin.com/" target="_blank" title="电子书发布,数码控">海豚微笑的背后</a> <span class="blogger">电子书发布者,数码控</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://cwoebker.com/" target="_blank" title="a high-school genius">Cecil Woebker</a> <span class="blogger">A high-school genius.</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="https://www.schneier.com/" target="_blank" title="Debian OpenSSL maintainer">Bruce Schneier</a> <span class="blogger">Debian OpenSSL mantainer</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="https://www.byvoid.com/" target="_blank" title="天才,科普很多东西">Beyond the Void</a> <span class="blogger">天才,科普很多东西</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://mariotaku.wordpress.com/" target="_blank" title="95后,Android Twidere">Mariotaku</a> <span class="blogger">95后,Android Twidere</span>
-                        </li>
-                        <li class="blogger-list-item">
-                            <a class="blogger" href="http://www.matrix67.com/" target="_blank" title="算法高手">Matrix67</a> <span class="blogger">算法高手</span>
-                        </li>
-                    </ul>
-                    {% endif %}
-                </div>
 
-                </div>
+    <div id="sidebar" class="right">
 
-            </div>
+    <div class="aside poem">
+        <center>
+        <span>三人同行七十希<br/>五樹梅花廿一支<br/>七子團圓正半月<br/>除百零五使得知</span>
+        </center>
+    </div>
+
+    <div class="aside">
+        <h4><a href="/ranger/" style="color:black">About me</a>
+            <ul class="footer_icons">
+            <li class="footer-icon-item"> <a class="footer-icon icon-footer-twitter" href="http://twitter.com/#!/ranger_way" title="@ranger_way"></a> </li>
+            <li class="footer-icon-item"> <a class="footer-icon icon-footer-github" href="http://github.com/shohoku11wrj" title="my GitHub entry"></a> </li>
+            <li class="footer-icon-item"> <a class="footer-icon icon-footer-weibo" href="http://weibo.com/230125141" title="@翼灵贰駟"></a> </li>
+            </ul>
+        </h4>
+        <span>
+            My name is <b>Renjie Weng</b>.
+            <br />
+            I like physics, programming, and cycling.
+            <br />
+            Programmer <b class="space">=> [</b> Android , Java , .Net , Ruby <b class="space">]</b>
+            <br />
+            Interests <b class="space">=> [</b> Distributed Systems , Cryptography <b class="space">]</b>
+        </span>
+
+    </div>
+
+    <div class="aside">
+        <h4><img class="icon_tag" src="/images/tag.ico" alt="tags" title="tags" /><a href="/tags" style="color:black">Tags</a></h4>
+    {% if page.id %}
+        <ul class="tag-list">
+            {% for tag in site.tags %}
+            {% if page.tags contains tag[0] %}
+            <li class="tag-list-item">
+                <a class="tag_btn" href="/tags/index.html#{{ tag[0] }}-ref"><span>{{ tag[0] }}</span><span class="tag_size"> {{ tag[1].size }}</span></a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            <li class="tag-list-item">
+                <a title="more" href="/tags">...</a>
+            </li>
+        </ul>
+    {% else %}
+        <ul class="tag-list">
+        {% for tag in site.tags %}
+          {% if tag[1].size >= 3 %}
+            <li class="tag-list-item">
+                <a class="tag_btn" href="/tags/index.html#{{ tag[0] }}-ref"><span>{{ tag[0] }}</span><span class="tag_size"> {{ tag[1].size }}</span></a>
+            </li>
+          {% endif %}
+        {% endfor %}
+          <li class="tag-list-item">
+              <a title="more" href="/tags">...</a>
+          </li>
+        </ul>
+    {% endif %}
+
+    </div>
+
+    <div class="aside">
+        <h4>Favorite Bloggers</h4>
+    {% if page.id %}
+    <a href="/404.html">...</a>
+    {% else %}
+        <ul class="bloger-list">
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://www.ruanyifeng.com/blog/" target="_blank" title="wise &amp; humility">阮一峰</a> <span class="blogger">wise &amp; humility</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://stevelosh.com/" target="_blank" title="artist &amp; programmer">Steve Losh</a> <span class="blogger">artist &amp; programmer</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://www.changhai.org" target="_blank" title="erudite &amp; scientist">卢昌海</a> <span class="blogger">wise &amp; scientist</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://jordanscales.com/" target="_blank" title="geek &amp; pioneer">Jordan Scales</a> <span class="blogger">geek, SOSS organizor</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://basiccoder.com/" target="_blank" title="smart &amp; humorous">basiccoder</a> <span class="blogger">机智幽默的青岛小青年</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://zerowidth.com/" target="_blank" title="intelligent &amp; purified">zerowidth</a> <span class="blogger">high quality, clean design</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://beiyuu.com/" target="_blank" title="smart &amp; judicious">BeiYuu</a> <span class="blogger">写东西很负责</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://yizeng.me/" target="_blank" title="brilliant &amp; versatile">Yi Zeng</a> <span class="blogger">bright &amp; versatile</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://coolshell.cn/" target="_blank" title="intelligent &amp; diligent">酷壳</a> <span class="blogger">intelligent &amp; diligent</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://www.netmeister.org/" target="_blank" title="Prof. &amp; Hack. Jan Schauma">netmeister</a> <span class="blogger">Prof. Hack. Jan Schauma</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://danlew.net/" target="_blank" title="a mobile developer">Dan Lew</a> <span class="blogger">a mobile developer</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="
+                http://www.grokkingandroid.com/" target="_blank" title="another Android developer">Wolfram Rittmeyer</a> <span class="blogger">another Android developer</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://www.softwarepassion.com/" target="_blank" title="a mobile developer">Software Passion</a> <span class="blogger">a mobile developer</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://www.kdolphin.com/" target="_blank" title="电子书发布,数码控">海豚微笑的背后</a> <span class="blogger">电子书发布者,数码控</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://cwoebker.com/" target="_blank" title="a high-school genius">Cecil Woebker</a> <span class="blogger">A high-school genius.</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="https://www.schneier.com/" target="_blank" title="Debian OpenSSL maintainer">Bruce Schneier</a> <span class="blogger">Debian OpenSSL mantainer</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="https://www.byvoid.com/" target="_blank" title="天才,科普很多东西">Beyond the Void</a> <span class="blogger">天才,科普很多东西</span>
+            </li>
+            <li class="blogger-list-item">
+                <a class="blogger" href="http://www.matrix67.com/" target="_blank" title="算法高手">Matrix67</a> <span class="blogger">算法高手</span>
+            </li>
+        </ul>
+        {% endif %}
+    </div>
+
+    </div>
+
+</div>
