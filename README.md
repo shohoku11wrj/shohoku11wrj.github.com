@@ -1,5 +1,4 @@
 # rangerway.com
-[![Build Status](https://travis-ci.org/shohoku11wrj/shohoku11wrj.github.com.png?branch=master)](https://travis-ci.org/shohoku11wrj/shohoku11wrj.github.com)
 
 This repository hosts the source of [rangerway.com](http://rangerway.com).
 
