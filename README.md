@@ -6,8 +6,7 @@ This repository hosts the source of [rangerway.com](http://rangerway.com).
 
 ### Local
 
-    jekyll serve --port 4000 -w
-    OR, nohup jekyll server -w --port 4000 &
+    bundle exec jekyll serve
 
 ## About
 
