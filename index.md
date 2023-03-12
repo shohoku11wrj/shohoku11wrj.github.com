@@ -12,7 +12,7 @@ find_me = {
   "twitter"  => "@ranger_way",
   "github"   => "@shohoku11wrj",
   "GPG"      => "1024R/619F54B5",
-  "Bay Area" => "FLYVIM WRX, Suzuki SV650"
+  "Bay Area" => "Specialized Routaix, Suzuki SV650"
 }
 {% endhighlight %}
 </div>
