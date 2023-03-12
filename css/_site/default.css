@@ -394,7 +394,7 @@ li.blogger-list-item:hover span.blogger {
     height: 100%; 
     margin: 0px auto; 
 }
-.index-content .artical-list li { margin-bottom:30px; }
+.index-content .artical-list li { margin-bottom:10px; }
 /*.index-content h2 { font-size:22px; margin-bottom:15px; }*/
 /*.index-content h2 a { color:#444 }
 .index-content h2 a:hover { color:#00f; text-decoration:none; }*/
