@@ -27,24 +27,28 @@ lan: CN
 ## [南山 Mt. Halmiton](https://footpathapp.com/routes/04-mt-hamilton/f64c2da2-e871-4b26-9813-1d6d198f0b7f) 又名 火腿山
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/04-mt-hamilton/f64c2da2-e871-4b26-9813-1d6d198f0b7f" width="100%" height="100%" frameborder="0"></iframe></div>
 
-这是一条很有标志性的路线，单程有三段上坡，总爬行4300feet左右。山顶就是湾区著名的Lick Observatory天文台。也是在我湾区骑行学习过程中第一次真正体会到挑战的路段。
+这是一条很有标志性的路线，单程18.5 miles, 有三段上坡，总爬升4300 feet左右。山顶就是湾区著名的Lick Observatory天文台。也是在我湾区骑行学习过程中第一次真正体会到挑战的路段。
 <br/>
 
-## [北山 Mt. Tamalpais](https://footpathapp.com/routes/7d81a3b4-c2f2-4e98-8a08-eee43d33e689) 简称 Mt. Tam
+## [北山 Mt. Tamalpais](https://footpathapp.com/routes/mt-tam/342ee9e1-2351-4755-aad4-3733f2a68d46) 简称 Mt. Tam
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/342ee9e1-2351-4755-aad4-3733f2a68d46?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
-位于北湾，是四大山中最近距离俯瞰整个旧金山城的。沿途的视野也是非常开阔。
+位于北湾，是四大山中最近距离俯瞰整个旧金山城的。沿途的视野也是非常开阔，景色也是最丰富的有山有海有密林有城市
+。
+从山腰的停车场到山顶的路线只有3 miles，爬升也不算特别多。有多条路来到达山腰的停车场，我这里选取的是从北湾的Mill Vally出发，环形40 miles左右，爬升总4000 feed。
 
 ![Mt. Tam](/images/cycling_routes/2020-11-27_Mt_Tam.png)
 <br/>
 
-## [西山 Mt. Umunhum](https://footpathapp.com/routes/0ce92534-c0d4-4c0b-bd33-86120f56ae71) 又名 天姆山
+## [西山 Mt. Umunhum](https://www.strava.com/routes/3103057035174580870) 又名 天姆山
 <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3103057035174580870"></div><script src="https://strava-embeds.com/embed.js"></script>
-一个路线不长，但需要全程输出功率的爬山路线。爬坡的过程中几乎没有可以减速或者停下休息的。本篇的湾区四大山图片就摄于Mt. Umunhum山顶。这座山有很多骑游觉得是难度最大，而我本身觉得难度最大的是大菠萝。
+一个路线不长，但需要全程输出功率的爬山路线。爬坡路段单程长7 miles, 爬升3000 miles，过程中几乎没有可以减速或者停下休息的，需要保持在一个合适的功率才能比较顺利地骑完，太快可能会后劲不足，太慢可能会耗尽体力。 <br/>
+本篇的湾区四大山图片就摄于此山山顶。这座山有很多骑友觉得是四山中难度最大的，而我本身觉得难度最大的是东山大菠萝。
 <br/>
 
 ## [东山 Mt. Diablo](https://footpathapp.com/routes/c71423e5-9213-4270-9f59-4006b2c4f422) 人称 大菠萝
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/c71423e5-9213-4270-9f59-4006b2c4f422?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
-全程都在爬坡的路段，风景我觉得也是最好的。和北山的风景好不同的是，大菠萝有一种视野清晰心旷神怡的感觉。靠近山顶的有一小段非常地抖，腿力不够优秀的建议下车推行。由于这条路线全程都在上坡或者下坡，车发前检查刹车系统是非常必要的。
+全程都在爬坡的路段，单程11.2 miles，爬升3200 feet。大菠萝的爬坡风景我觉得也是最好的，和北山的风景好不同的是，大菠萝有一种视野清晰心旷神怡的感觉。靠近山顶的有一小段爬坡非常地抖，腿力不够优秀的建议下车推行。<br />
+由于这条路线全程都在上坡或者下坡，车发前检查刹车系统是非常必要的。
 
 ![Mt. Diablo](/images/cycling_routes/2019-12-15_Mt.Diablo.png)
 
