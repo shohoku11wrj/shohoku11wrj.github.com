@@ -144,6 +144,10 @@ a.external:hover {
     background-position: right -15px;
 }
 
+h2 a.external, h3 a.external {
+    background: none;
+}
+
 .entry-title,.entry-title a {
     font-size: 30px;
     font-weight: bold;
