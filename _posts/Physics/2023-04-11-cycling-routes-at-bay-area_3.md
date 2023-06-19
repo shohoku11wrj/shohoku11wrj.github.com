@@ -9,7 +9,7 @@ lan: CN
 第三章要讲一讲湾区的宝藏路线，要完成这些路线基本都要你有一点点“转山”的体力。<br/>
 
 
-![Summits of the Bay Area](/images/cycling_routes/2023-04-11_summit_of_bay_area.png)
+![The Bike Hut](/images/cycling_routes/2018-01-01_bike_hut.png)
 
 <!--preview-->
 
