@@ -8,7 +8,7 @@ lan: CN
 
 我在湾区和自行车爱好者们骑车已经有好几个年头了。我觉得公路车这项运动非常适合我。我本来就是一个喜欢到处逛逛看看的人，而且又喜欢运动。2017年起就经常跟着几个华人好友一起在北加湾区骑遍各种经典路线，还去过Tahoe环湖骑。
 
-![Foothill Expressway](/images/cycling_routes/2021-01-09_foothill_expy.jpg)
+![Foothill Expressway](/images/cycling_routes/2021-01-09_foothill_expy.png)
 
 我会分三章介绍湾区附近我所熟悉的公路车骑行路线，路线长度在30miles ~ 70 miles (50km ~ 110km)之间，爬坡一般在1500feet ~ 4000feet (450m ~ 1200m)之间。
 
