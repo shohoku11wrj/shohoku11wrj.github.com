@@ -8,8 +8,7 @@ lan: CN
 
 第三章要讲一讲湾区的宝藏路线，要完成这些路线基本都要你有一点点“转山”的体力。<br/>
 
-
-![The Bike Hut](/images/cycling_routes/2018-01-01_bike_hut.png)
+![OLH west side](/images/cycling_routes/2023-03-07_OLH_west_side.jpg)
 
 <!--preview-->
 
@@ -33,8 +32,9 @@ lan: CN
 ## [往西，越过天际线吧]() 
 这是一条从Redwood Townhall出发的路线，这个点也是在第一章介绍过的Old La Honda的起始点。起始可以把这个地方看作是湾区骑行的一个hub，因为很多骑行路线无论转山的还是休闲的还是拉爆的，都会以这里为起点或者经过这里。
 <br/>
+![The Bike Hut](/images/cycling_routes/2018-01-01_bike_hut.png)!
 
-## [东线 一个平平无奇却值得经常骑行的路线]()
+## [东线，平平无奇、长骑长新]()
 <br/>
 
 ## [Napa]()
