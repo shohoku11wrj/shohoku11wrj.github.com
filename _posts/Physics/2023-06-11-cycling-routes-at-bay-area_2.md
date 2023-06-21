@@ -11,7 +11,7 @@ lan: CN
 骑山要注意的有两点：夏天防晒、冬天防寒。 <br/>
 另：我经常参加团骑的团名就叫 [山神庙](https://www.strava.com/clubs/DLLM)。
 
-![Summits of the Bay Area](/images/cycling_routes/2023-04-11_summit_of_bay_area.png)
+![Summits of the Bay Area](/images/cycling_routes/2021-01-01_summit_of_bay_area.png)
 
 <!--preview-->
 
