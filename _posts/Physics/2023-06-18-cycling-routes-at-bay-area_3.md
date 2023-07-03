@@ -14,6 +14,8 @@ lan: CN
 * 有时候，你也会在精疲力尽峰回路转时突然看到人头攒动的咖啡馆或小店；
 * 有时候，你只是想尝试挑战一下极限，沉浸在自己的世界中毫无纷扰。
 * [有时候孤独可以寂寞 也可以是自由](https://youtu.be/zyrM2SrEMrA)
+<br/>
+这都是骑行中不期而遇的美好。
 
 ![OLH west side](/images/cycling_routes/2023-03-07_OLH_west_side.jpg)
 
@@ -27,8 +29,7 @@ lan: CN
 友情提醒：量力而行，注意天气。尤其是冬天山顶有积雪，有时候不能骑行
 
 * 第三章：宝藏骑行路线 [本篇]  <br/>
-本篇只是探索湾区各种宝藏骑行路线的开始。  <br/>
-这都是骑行中不期而遇的美好。
+本篇只是探索湾区各种宝藏骑行路线的开始。
 
 ## 为什么我喜欢骑车
 
@@ -43,19 +44,19 @@ __骑车于我而言最特别的地方就是可以慢慢地去发掘不一样的
 
 ## 280以西，238以东
 
-### [往西，越过天际吧骚年](https://footpathapp.com/routes/eccab8a9-b321-4e77-ab84-10879f22dd68) 
-总长度 50 miles, 总爬升 5300 feet。
-<br/>
+### 往西，越过天际吧骚年
 这里“天际线”指的是位于湾区西面山脊上的Skyline Blvd，编号[California 35](https://en.wikipedia.org/wiki/California_State_Route_35)，是一条机动车的跑山观光路线。本骑行路线就是要带你越过这条天际线，远离众人所熟知的湾区，来到翻过那座山才能到的地方。
-
+<br/>
+[Redwood Townhall - OLH - Loma - Pescadero - San Gregorio - Tunitas - Kings Mountain](https://footpathapp.com/routes/eccab8a9-b321-4e77-ab84-10879f22dd68)  <br/>
+总长度 50 miles, 总爬升 5300 feet。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/eccab8a9-b321-4e77-ab84-10879f22dd68?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
-本路线也叫避暑路线，因为在树林中穿行，或是海边吹风。起始从Redwood Townhall出发，这个点也是在第一章介绍过的OLH老本田的起始点。可以把这个地方看作是湾区骑行的一个hub，因为很多骑行路线无论转山的还是休闲的还是辣堡的，都会以这里为起点或者经过这里。
+本路线也叫避暑路线，因为在树林中穿行，或是海边吹风。起始从Redwood Townhall出发，这也是在第一章介绍过的OLH老本田训练路线的起始点。可以把这个地方看作是湾区骑行的一个hub，因为很多骑行路线无论是转山还是休闲骑还是辣堡团，都会以这里为起点或者经过这里。
 <br/>
 这一路上有很多可以驻足休息的好玩的地方，像Pescadero小镇和San Gregorio小店，还有下图的 The Bike Hut。一路的风景也有很多令我初见惊艳的地方。期待您也去探索一番，发现不一样的景色。
-![The Bike Hut](/images/cycling_routes/2018-01-01_bike_hut.png)
+![The Bike Hut](/images/cycling_routes/2018-08-01_bike_hut.png)
 
-### [东线，似平平无奇，却长骑长新]()
-位于三谷的远东地区，是一个不太像湾区的地方，宁静的小镇和宽阔干净的街道。
+### 东线，似平平无奇，却长骑长新
+位于远东地区的三谷以及被到Concord，是一个不太像湾区的地方，宁静的小镇和宽阔干净的街道。
 <br/>
 这里的东线主要指东湾Expressway 238以东，包括远东地区的三谷和Concord，是一个很大的范围。城市部分基本在第一章介绍的铁马路这条trail周围，还有几块散落的山谷丛林，有一些有名的爬坡路段，比如Palomares Rd、Sunol小镇往南的Calaveras水库路、和hard code的三熊谷。
 <br/>
@@ -81,3 +82,7 @@ __[三熊欢乐谷](https://footpathapp.com/routes/F2DD9ED0-B427-418D-ADEA-580E7
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/46321c9f-63ad-45a5-8c44-96ffc0ed341e?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 太多路线还未探索。
 <br/>
+
+### [Berkeley & The North]()
+Berkeley 和 Oakland 附近也有很多骑车路线，我只骑过一辆次。  <br/>
+骑过Richmond-San Rafael大桥就来到了北湾，也是一个期待探索的区域。
