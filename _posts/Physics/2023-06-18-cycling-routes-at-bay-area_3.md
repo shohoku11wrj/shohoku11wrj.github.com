@@ -57,6 +57,18 @@ __骑车于我而言最特别的地方就是可以慢慢地去发掘不一样的
 ## [东线，似平平无奇，却长骑长新]()
 位于三谷的远东地区，是一个不太像湾区的地方，宁静的小镇和宽阔干净的街道。
 <br/>
+这里的东线主要指东湾Expressway 238以东，包括远东地区的三谷和Concord，是一个很大的范围。城市部分基本在第一章介绍的铁马路这条trail周围，还有几块散落的山谷丛林，有一些有名的爬坡路段，比如Palomares Rd、Sunol小镇往南的Calaveras水库路、和hard code的三熊谷。
+<br/>
+__[Palomares-Sunol loop](https://footpathapp.com/routes/06-palomares-sunol-loop/8054d34d-b489-4232-9e6b-566edf5a5a28)__
+<br/>
+总长度 27.6 miles, 总爬升 1800 feet。主要是Palomares Rd的一个大坡 1000 feet，和高速580旁边的一个"长直晒"小坡。
+<div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/8054d34d-b489-4232-9e6b-566edf5a5a28?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
+<br/>
+__[三熊欢乐谷](https://footpathapp.com/routes/F2DD9ED0-B427-418D-ADEA-580E77CE940D)__
+<br/>
+总长度 48 miles, 总爬升 4100 feet。
+<div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/F2DD9ED0-B427-418D-ADEA-580E77CE940D?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
+这条路线还可以有多种加码方式，比如[绕着三熊谷的两个湖骑一圈](https://footpathapp.com/routes/CB943FFA-3B43-48D0-8391-5CCFC0B46D4D)，或者[在Moraga小镇往南的地方绕进Pinehurst](https://footpathapp.com/routes/e4711279-7025-4bf1-9497-315fa44fec91)。
 
 ## [Napa，愿你能赶上最美的风景季]()
 因为比较远，我也基本没怎么去骑过几次。就简单推荐一条Napa的骑行路线。

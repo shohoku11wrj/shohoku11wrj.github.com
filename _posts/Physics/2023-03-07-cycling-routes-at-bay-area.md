@@ -78,3 +78,10 @@ lan: CN
 总长度 22 miles, 没有爬坡。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/1547807c-7030-49c5-ae47-f04cf7c5014e?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 位于Fremont的trail，大平路，夏天会比较晒。适合住在东湾轻松骑的朋友。这条路线其实不推荐像图中这样骑loop，而是建议始终骑在Alameda Creek Trail上。
+
+### [远东 Iron Horse Trail 三谷铁马路](https://footpathapp.com/routes/07b-san-ramon-ironhosetrail-loop/74f8e1ab-ab52-4a1a-9855-9cf0809a8eba)
+总长度 20 miles，总爬升 800 feet。其实骑下来感觉基本无爬升。
+<div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/74f8e1ab-ab52-4a1a-9855-9cf0809a8eba?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
+[Iron Horse Trail](https://fastestknowntime.com/route/iron-horse-regional-trail-ca) 是一条位于湾区远东地区，南从Pleasanton(俗称三谷)起，北到Concord的一条穿越于社区的人行步道和骑行道。全程树荫遮蔽，有时穿过幽美的小镇比如Danville，只有在Dublin往南的那段会比较晒。
+<br/>
+这里我只选取了铁马路南从San Ramon起，北到Danville的一段，然后和Diablo(大菠萝山，下章会讲到) Creek形成一个loop。其实铁马路也非常适合单程来回的骑行。
