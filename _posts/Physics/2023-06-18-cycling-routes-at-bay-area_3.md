@@ -63,6 +63,9 @@ __[Palomares-Sunol loop](https://footpathapp.com/routes/06-palomares-sunol-loop/
 总长度 27.6 miles, 总爬升 1800 feet。主要是Palomares Rd的一个大坡 1000 feet，和高速580旁边的一个"长直晒"小坡。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/8054d34d-b489-4232-9e6b-566edf5a5a28?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 <br/>
+还有加长版 [Milk tea loop](https://www.strava.com/routes/3111012151059359592)(Milpitas - Fremont - Castro Valley - Dublin - Sunol)，总长度 58.7 miles，总爬升 3850 feet。
+<br/>
+
 __[三熊欢乐谷](https://footpathapp.com/routes/F2DD9ED0-B427-418D-ADEA-580E77CE940D)__
 <br/>
 总长度 48 miles, 总爬升 4100 feet。
