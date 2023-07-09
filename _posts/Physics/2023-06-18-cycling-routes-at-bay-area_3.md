@@ -84,12 +84,13 @@ __[三熊欢乐谷](https://footpathapp.com/routes/F2DD9ED0-B427-418D-ADEA-580E7
 ![Napa Valley 2](/images/cycling_routes/2021-07-02_Napa.png)
 <br/>
 
+### [Berkeley & The North]()
+Berkeley 和 Oakland 附近也有很多骑车路线，我只骑过一辆次。  <br/>
+骑过Richmond-San Rafael大桥就来到了北湾，也是一个期待探索的区域。
+<br/>
+
 ### [Santa Cruz，梦之地](https://footpathapp.com/routes/los-gatos-santa-cruz/46321c9f-63ad-45a5-8c44-96ffc0ed341e)
 总长度 75 miles, 总爬坡 5100 feet. 从Los Gatos一直到Santa Cruz。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/46321c9f-63ad-45a5-8c44-96ffc0ed341e?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 太多路线还未探索。
 <br/>
-
-### [Berkeley & The North]()
-Berkeley 和 Oakland 附近也有很多骑车路线，我只骑过一辆次。  <br/>
-骑过Richmond-San Rafael大桥就来到了北湾，也是一个期待探索的区域。
