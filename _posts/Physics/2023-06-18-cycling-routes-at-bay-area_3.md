@@ -62,8 +62,10 @@ __[Palomares-Sunol loop](https://footpathapp.com/routes/06-palomares-sunol-loop/
 <br/>
 总长度 27.6 miles, 总爬升 1800 feet。主要是Palomares Rd的一个大坡 1000 feet，和高速580旁边的一个"长直晒"小坡。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/8054d34d-b489-4232-9e6b-566edf5a5a28?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
+![Niles Canyon](/images/cycling_routes/2021-07-01_Niles_Canyon.png)
+图片是East Bay的一个一年一度的骑车活动，从Sunol小镇出发，会封闭Niles Canyon Rd不允许机动车通行。
 <br/>
-还有加长版 [Milk tea loop](https://www.strava.com/routes/3111012151059359592)(Milpitas - Fremont - Castro Valley - Dublin - Sunol)，总长度 58.7 miles，总爬升 3850 feet。
+类似的路线还有加长版 [Milk tea loop](https://www.strava.com/routes/3111012151059359592)(Milpitas - Fremont - Castro Valley - Dublin - Sunol)，总长度 58.7 miles，总爬升 3850 feet。
 <br/>
 
 __[三熊欢乐谷](https://footpathapp.com/routes/F2DD9ED0-B427-418D-ADEA-580E77CE940D)__
@@ -74,8 +76,12 @@ __[三熊欢乐谷](https://footpathapp.com/routes/F2DD9ED0-B427-418D-ADEA-580E7
 
 ## 去往更远的地方
 
-### [Napa，愿你能赶上最美的风景季]()
-因为比较远，我也基本没怎么去骑过几次。就简单推荐一条Napa的骑行路线。
+### [Napa，愿你能赶上最美的风景季](https://footpathapp.com/routes/3f180f85-6a58-4bc3-b4a5-b27e945dc2f3)
+总长度 51 miles, 总爬升 1390 feet。
+<div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/3f180f85-6a58-4bc3-b4a5-b27e945dc2f3?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
+因为比较远，我也基本没怎么去骑过几次。就简单推荐这一条Napa的骑行路线，从Napa的downtown出发，绕着山谷两边的大直路骑一个loop。可以加码两边的山坡和水库。
+![Napa Valley 1](/images/cycling_routes/2021-07-01_Napa.png)
+![Napa Valley 2](/images/cycling_routes/2021-07-02_Napa.png)
 <br/>
 
 ### [Santa Cruz，梦之地](https://footpathapp.com/routes/los-gatos-santa-cruz/46321c9f-63ad-45a5-8c44-96ffc0ed341e)
