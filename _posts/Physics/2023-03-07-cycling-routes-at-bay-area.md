@@ -55,6 +55,9 @@ lan: CN
 作为经典爬坡练习路线的OLH当然也可以有较短的路线可以选择 [OLH In&Out路线](https://footpathapp.com/routes/daf07457-329e-4691-9637-9d0b6b55b097)，总长度 17 miles, 总爬升 2300 feet，图就不贴了。
 <br/>
 
+![top of OLH](/images/cycling_routes/2022-08-21_OLH.png)
+这几个邮箱就是OLH的顶部。第一次跟着队伍骑OLH就了解到一个诀窍：如果要知道自己骑到OLH全程的 __几%__ 了就看路两边的房屋门牌号，从OLH山底到山顶总共700号。一开始房屋密集一些，大概到450号左右骑了一半坡度。
+
 ### [南湾西 Stevens Creek Trail](https://footpathapp.com/routes/0ce92534-c0d4-4c0b-bd33-86120f56ae71)
 总长度 12 miles, 没有爬坡。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/0ce92534-c0d4-4c0b-bd33-86120f56ae71?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
@@ -67,12 +70,15 @@ lan: CN
 总长度 12 miles, 总爬升 800 feet。如果想多练爬坡的话也可以选择左半部分的原路线来回。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/6cc86795-3a94-479d-ad5c-cb5f95977310?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 也有叫Stevens Canyon Rd的。隐匿在社区里的小爬坡路段，2022年前山脚下有一家挺有中古风的Cupertino Bike Shop，在疫情后关门了。
+
 ![Cupertino Bike Shop](/images/cycling_routes/2023-03-07_cupertino_bike_shop.png)
 
 ### [南湾东 蓝火车](https://footpathapp.com/routes/8ba56d9e-0aee-4fa0-b7ef-3da19091c9e4)
 总长度 22 miles, 总爬升 800 feet。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/8ba56d9e-0aee-4fa0-b7ef-3da19091c9e4?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 之所以叫“蓝火车”这个名字可能是因为附近有一条铁轨，会开过蓝色的火车吧。这条路线对于住在南San Jose的小伙伴会比较方便。在疫情前和我一起骑车的人群数日渐壮大，这里是一段我们[2019年骑蓝火车路线的视频](https://youtu.be/X20qNPlNcTc)。
+
+![Blue Train](/images/cycling_routes/2019-01-12_BlueTrain.png)
 
 ### [东湾 Alameda Creek Trail](https://footpathapp.com/routes/1547807c-7030-49c5-ae47-f04cf7c5014e)
 总长度 22 miles, 没有爬坡。
