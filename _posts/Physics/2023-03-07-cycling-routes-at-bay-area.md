@@ -77,10 +77,12 @@ lan: CN
 总长度 22 miles, 总爬升 800 feet。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/8ba56d9e-0aee-4fa0-b7ef-3da19091c9e4?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 之所以叫“蓝火车”这个名字可能是因为附近有一条铁轨，会开过蓝色的火车吧。这条路线对于住在南San Jose的小伙伴会比较方便。蓝火车是我团骑的朋友经常会刷的路线，可能生活在南湾的华人比较多的缘故吧。这里再提供一条[蓝火车的加长版路线](https://footpathapp.com/routes/434BC6F4-B9B2-4563-9521-C41826F09128)，总长度 49 miles，总爬升 1800 feet。
-<br/>
-在疫情前我加入团骑的人群数一开始骤降，后来随着疫情的恢复人数日渐壮大，这里是一段我们[2019年骑蓝火车路线的视频](https://youtu.be/X20qNPlNcTc)。
 
-![Blue Train](/images/cycling_routes/2019-01-12_BlueTrain.png)
+![Blue Train 2019](/images/cycling_routes/2019-01-12_BlueTrain.png)
+
+在疫情前我加入团骑的人群数一开始骤降，后来随着疫情的恢复人数日渐壮大，这里是一段我们[2019年骑蓝火车路线的视频](https://youtu.be/X20qNPlNcTc)。下图是2021年的一次团骑。
+
+![Blue Train 2021](/images/cycling_routes/2021-08-21_BlueTrain.png)
 
 ## [东湾 Alameda Creek Trail](https://footpathapp.com/routes/1547807c-7030-49c5-ae47-f04cf7c5014e)
 总长度 22 miles, 没有爬坡。
