@@ -73,6 +73,8 @@ lan: CN
 
 ![Cupertino Bike Shop](/images/cycling_routes/2023-03-07_cupertino_bike_shop.png)
 
+这条路线有一个更hard core的爬坡版[Montebello Road ](https://footpathapp.com/routes/01e-montebello-road-inout/627d69fd-b35e-4b12-8e67-6ac4e221a70c)，总长度 15 miles，总爬升 2700 feet。从水库转到Montebello Rd后的一开始一段坡度比较陡，上下坡都要小心。由于整条路两边都是居民区，所以车子也不少。这条路还有一个缺点是蚊虫比较多，因为属于山里的树荫湿气路段。
+
 ## [南湾东 蓝火车](https://footpathapp.com/routes/8ba56d9e-0aee-4fa0-b7ef-3da19091c9e4)
 总长度 22 miles, 总爬升 800 feet。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/8ba56d9e-0aee-4fa0-b7ef-3da19091c9e4?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
