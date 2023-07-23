@@ -38,7 +38,7 @@ lan: CN
 __骑车于我而言最特别的地方就是可以慢慢地去发掘不一样的景色、小路和小店。这些地方可能就在你平时生活的街道周围，也可能在你开车或hiking去过几次，却因为速度太快或者太慢的原因无法随时驻足或者没有探索得到。__  <br/>
 正好前段时间看到台湾一人气明星彭于晏也分享了类似的骑车心得，骑车可以带你到很多惊喜的小店。虽然想找的那个视频没找到，但是搜索的过程中发现了他还分享了很多喜欢骑车的心得，比如 [彭于晏到哪里都要带着自行车](https://v.douyin.com/y1Vok9x/)的采访。
 
-![Oh Raleigh! My Raleigh!](/images/cycling_routes/2019-05-25_Raleigh_Mt_Halmiton.png)
+![Oh Raleigh! My Raleigh!](/images/cycling_routes/2014-09-01_BlueWhite_bike_Berkeley.png)
 
 ## 280以西，238以东
 
