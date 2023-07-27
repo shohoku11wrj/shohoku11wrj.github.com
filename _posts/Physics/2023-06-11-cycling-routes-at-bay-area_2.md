@@ -32,8 +32,8 @@ lan: CN
 这是一条很有标志性的路线，山顶就是湾区著名的Lick Observatory天文台。也是在我湾区骑行学习过程中第一次真正体会到挑战的路段。
 <br/>
 如果第一次挑战全程没有信心，可以选择从中段的几个停车场开始。
+
 ![Mt. Halminton 2021-02-20](/images/cycling_routes/2021-02-20_Mt_Hamilton.png)
-<br/>
 
 ## [北山 Mt. Tamalpais](https://footpathapp.com/routes/mt-tam/342ee9e1-2351-4755-aad4-3733f2a68d46) 简称 Mt. Tam
 总长度 38 miles, 总爬升 4000 feet。
@@ -43,7 +43,6 @@ lan: CN
 从山腰的停车场到山顶的登顶段只有3 miles，爬升也不算特别多。有多条路来到达山腰的停车场，我这里选取的是从北湾的Mill Vally出发，<b>逆时针环形</b>一开始会经过一个有特色的小镇Fairfax，进入山中后会路过一个很漂亮的林中水库，然后豁然开朗来到西面背山面海的大直路，最后达到山腰登顶段。最后下坡的那段会有点抖要小心。
 
 ![Mt. Tam](/images/cycling_routes/2020-11-27_Mt_Tam.png)
-<br/>
 
 ## [西山 Mt. Umunhum](https://www.strava.com/routes/3103057035174580870) 又名 天姆山
 总长度 30 miles, 总爬升 3800 feet。爬坡路段单程长7 miles, 爬升3000 feet。
@@ -51,7 +50,6 @@ lan: CN
 一个路线不长，但需要全程输出功率的爬山路线。爬坡路段过程中几乎没有可以减速或者停下休息的缓坡，需要保持一个合适的功率才能比较顺利地骑完，太快可能会后劲不足，太慢可能会耗尽体力。
 <br/>
 本篇的湾区四大山图片就摄于此山山顶，位于一个战时的瞭望台前。这座山有很多骑友觉得是四山中难度最大的，而我本身觉得难度最大的是东山大菠萝。
-<br/>
 
 ## [东山 Mt. Diablo](https://footpathapp.com/routes/c71423e5-9213-4270-9f59-4006b2c4f422) 人称 大菠萝
 单程长度 11.2 miles, 单程爬升 3200 feet。回程很抖，一定要小心控制车速。
@@ -60,3 +58,7 @@ lan: CN
 由于这条路线全程都在上坡或者下坡，发车前检查刹车系统是非常必要的。
 
 ![Mt. Diablo](/images/cycling_routes/2019-12-15_Mt.Diablo.png)
+
+## 我最喜欢的是南山
+
+![Mt. Halminton 2020-04-20](https://dgtzuqphqg23d.cloudfront.net/2NFUVF-UwigBEHhq5xntU5LMNcwghxPdyDlDaoe2EeE-2048x933.jpg)
