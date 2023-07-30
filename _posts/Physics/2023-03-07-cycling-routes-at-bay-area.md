@@ -97,3 +97,5 @@ lan: CN
 [Iron Horse Trail](https://fastestknowntime.com/route/iron-horse-regional-trail-ca) 是一条位于湾区远东地区，南从Pleasanton(俗称三谷)起，北到Concord的一条穿越于社区的人行步道和骑行道。全程树荫遮蔽，有时穿过幽美的小镇比如Danville，只有在Dublin往南的那段会比较晒。
 <br/>
 这里我只选取了铁马路南从San Ramon起，北到Danville的一段，然后和Diablo(大菠萝山，下章会讲到) Creek形成一个loop。其实铁马路也非常适合单程来回的骑行。
+
+![Iron Horse Trail 2020](/images/cycling_routes/2020-12-12_IronHorseTrail.png)

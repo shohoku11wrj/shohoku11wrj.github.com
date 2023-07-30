@@ -737,7 +737,7 @@ li.footer-icon-item {
 
 .entry img {
     display:block;
-    margin:25px auto 26px;
+    /* margin:25px auto 26px; 图片居中 */ 
     padding:1px;
     background:black;
     max-width:590px;
