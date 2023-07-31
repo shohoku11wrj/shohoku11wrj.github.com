@@ -89,7 +89,9 @@ lan: CN
 ## [东湾 Alameda Creek Trail](https://footpathapp.com/routes/1547807c-7030-49c5-ae47-f04cf7c5014e)
 总长度 22 miles, 没有爬坡。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/1547807c-7030-49c5-ae47-f04cf7c5014e?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
-位于Fremont的trail，大平路，夏天会比较晒。适合住在东湾轻松骑的朋友。这条路线其实不推荐像图中这样骑loop，而是建议始终骑在[Alameda Creek Trail](https://www.ebparks.org/trails/interpark/alameda-creek)上。
+位于Fremont的trail，大平路，夏天会比较晒。适合住在东湾轻松骑的朋友。这条路线其实不推荐像图中这样骑loop，而是建议始终骑在[Alameda Creek Trail](https://www.ebparks.org/trails/interpark/alameda-creek)上。Trail旁边经常会看到放山羊的人。靠近海湾边的那段湾风会比较大，还有一点海潮味。
+
+![Alameda Creek Trail 2020](/images/cycling_routes/2020-08-01_AlamedaCreekTrail.png)
 
 ## [远东 Iron Horse Trail 三谷铁马路](https://footpathapp.com/routes/07b-san-ramon-ironhosetrail-loop/74f8e1ab-ab52-4a1a-9855-9cf0809a8eba)
 总长度 20 miles，总爬升 800 feet。其实骑下来感觉基本无爬升。
