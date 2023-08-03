@@ -145,7 +145,8 @@ a.external:hover {
 }
 
 h2 a.external, h3 a.external {
-    background: none;
+    padding-right: 16px;
+    background: url('/images/icons.gif') no-repeat right 10px;
 }
 
 .entry-title,.entry-title a {
