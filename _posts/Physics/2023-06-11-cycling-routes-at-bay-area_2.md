@@ -25,7 +25,7 @@ lan: CN
 * [第三章：宝藏骑行路线](/way/cycling-routes-at-bay-area_3)  <br/>
 当你有了一定的实力，才是探索的开始。
 
-## [南山 Mt. Halmiton](https://footpathapp.com/routes/04-mt-hamilton/f64c2da2-e871-4b26-9813-1d6d198f0b7f) 又名 火腿山
+## [南山 Mt. Hamilton](https://footpathapp.com/routes/04-mt-hamilton/f64c2da2-e871-4b26-9813-1d6d198f0b7f) 又名 火腿山
 单程长度 18.5 miles, 单程爬升 4300 feet。回程会比较轻松，但是要小心控制车速。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/04-mt-hamilton/f64c2da2-e871-4b26-9813-1d6d198f0b7f" width="100%" height="100%" frameborder="0"></iframe></div>
 
@@ -33,7 +33,7 @@ lan: CN
 <br/>
 如果第一次挑战全程没有信心，可以选择从中段的几个停车场开始。
 
-![Mt. Halminton 2021-02-20](/images/cycling_routes/2021-02-20_Mt_Hamilton.png)
+![Mt. Hamilton 2021-02-20](/images/cycling_routes/2021-02-20_Mt_Hamilton.png)
 
 ## [北山 Mt. Tamalpais](https://footpathapp.com/routes/mt-tam/342ee9e1-2351-4755-aad4-3733f2a68d46) 简称 Mt. Tam
 总长度 38 miles, 总爬升 4000 feet。
@@ -61,4 +61,6 @@ lan: CN
 
 ## 我最喜欢的是南山
 
-![Mt. Halminton 2020-04-20](https://dgtzuqphqg23d.cloudfront.net/2NFUVF-UwigBEHhq5xntU5LMNcwghxPdyDlDaoe2EeE-2048x933.jpg)
+![Mt. Hamilton 2020-04-20](https://dgtzuqphqg23d.cloudfront.net/2NFUVF-UwigBEHhq5xntU5LMNcwghxPdyDlDaoe2EeE-2048x933.jpg)
+
+![Mt. Hamilton 2021-01-02](/images/cycling_routes/2021-01-02_Mt.Hamilton.png)
