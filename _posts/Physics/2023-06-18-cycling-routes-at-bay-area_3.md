@@ -57,6 +57,10 @@ __骑车于我而言最特别的地方就是可以慢慢地去发掘不一样的
 这一路上有很多可以驻足休息的好玩的地方，像Pescadero小镇和San Gregorio小店，还有下图的 The Bike Hut。一路的风景也有很多令我初见惊艳的地方。期待您也去探索一番，发现不一样的景色。
 ![The Bike Hut](/images/cycling_routes/2018-08-01_bike_hut.png)
 
+这里更新两段2023年8月的一次大规模团骑，大约有30人。[小圈](https://www.strava.com/routes/3123865302742557914)即避暑路线，[大圈路线](https://www.strava.com/routes/3123848385780644284)是一小段Spectrum + 避暑路线。
+ * [Section 1: on Whiskey Hill Rd, from 北加州湾区“週末騎帥群”(原 山神庙)](https://www.youtube.com/watch?v=m7k4iUzOsiM)
+ * [Section 2: 老本田左右, from 北加州湾区“週末騎帥群”(原 山神庙)](https://www.youtube.com/watch?v=cYUkgxt_cXI)
+
 ### 东线，似平平无奇，却长骑长新
 位于远东地区的南起三谷以及北至Concord，是一个不太像湾区的地方，宁静的小镇和宽阔干净的街道。
 <br/>
