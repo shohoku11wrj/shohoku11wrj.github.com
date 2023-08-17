@@ -98,7 +98,7 @@ Berkeley 和 Oakland 附近也有很多骑车路线，我只骑过一辆次。  
 
 ![The North Tunnel](/images/cycling_routes/2020-11-27_the_north_tunnel.png)
 
-### [Santa Cruz，梦之地](https://footpathapp.com/routes/los-gatos-santa-cruz/46321c9f-63ad-45a5-8c44-96ffc0ed341e)
+### [Santa Cruz，南林夕宫](https://footpathapp.com/routes/los-gatos-santa-cruz/46321c9f-63ad-45a5-8c44-96ffc0ed341e)
 总长度 75 miles, 总爬坡 5100 feet. 从Los Gatos一直到Santa Cruz。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/46321c9f-63ad-45a5-8c44-96ffc0ed341e?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 太多路线还未探索。
