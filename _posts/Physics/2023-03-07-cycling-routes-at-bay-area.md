@@ -62,6 +62,9 @@ lan: CN
 总长度 12 miles, 没有爬坡。
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/0ce92534-c0d4-4c0b-bd33-86120f56ae71?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 一个简单轻松的上下班路线，可以从Mountain View downtown出发走一小段local上trail。Trail的两边都是Google campus (Googleplex, Bay View)和一些其他公司的building，比如微软的新campus。Trail的最北可以直达海湾旁边的Bay trail。Trail上有很多跑步的人，是一条很适合休闲锻炼的通勤路线。
+<br/>
+我自己会经常从Sunnyvale骑到Mountain View，途径NASA前的大直路，路线是[SVL-MTV北段](https://footpathapp.com/routes/f3dd889a-2f98-4763-a352-587ef00c3ceb)。
+<br/>
 和下一条路线的名字有点像，但其实是两条完全不同的路线。他们之间开车相差20分钟左右。
 
 ![Stevens Creek Trail](/images/cycling_routes/2023-03-07_stevens_creek_trail.jpg)
