@@ -8,7 +8,7 @@ layout: first
     <!-- Hello, I'm Ranger. Ranger's Way is my personal website. -->
 {% highlight ruby %}
 find_me = {
-  "email"    => "renjie[.]weng #gmail,
+  "email"    => "renjie[.]weng #gmail",
   "github"   => "@shohoku11wrj",
   "GPG"      => "1024R/619F54B5",
   "Bay Area" => "SEKA RDC 海墨绿, Suzuki SV650"
