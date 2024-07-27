@@ -1,35 +1,53 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strava Club Events</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #6d6d78;
+        }
         .event {
             border: 1px solid #ccc;
-            margin: 10px;
-            padding: 10px;
-            border-radius: 5px;
-            display: flex;
-            justify-content: space-between;
+            position: relative;
+            margin-bottom: 20px;
+            padding-left: 60px; /* Add padding to avoid overlap with date-box */
         }
         .event-section {
-            flex: 1;
-            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
         }
         .event-title {
             font-size: 1.2em;
             font-weight: bold;
         }
-        .event-description {
-            font-size: 1em;
+        .event-details {
+            display: flex;
+            flex-direction: column;
+        }
+        .date-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
         }
         .event-section:first-child {
             flex: 0 0 300px; /* Fixed width for the first column */
         }
         .event-section:nth-child(2) {
             flex: 0 0 450px; /* Fixed width for the second column */
+            max-width: 650px; /* Restrict maximum width */
+        }
+        .event-section:nth-child(3) {
+            display: flex;
+            flex-direction: column; /* Ensure row by row layout */
         }
         .date-box {
             min-width: 60px;
@@ -43,15 +61,29 @@
             font-size: 24px;
             line-height: 20px;
         }
-        .event-details {
-            display: flex;
-            align-items: center;
-        }
-        .event-details div {
-            margin-right: 10px;
-        }
         .meet-up {
             color: #6d6d78;
+        }
+        @media (min-width: 1440px) {
+            .event {
+                display: flex;
+                flex-direction: row;
+            }
+            .event-section {
+                flex-direction: column;
+                margin-bottom: 0;
+            }
+            .event-details {
+                flex-direction: row;
+            }
+            .date-box {
+                flex-direction: row;
+                align-items: flex-start;
+            }
+            .event-details div {
+                margin-right: 10px;
+                margin-bottom: 0;
+            }
         }
     </style>
 </head>
@@ -79,7 +111,7 @@
         
         <div class="event-section">
             <a href="https://www.strava.com/clubs/265/group_events/1727530 target="_blank">
-                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/7YQDC6I4NJANZV3QHOHBKLBSZARMLK3XV2FH7STFFDXQUVBCURTXT52ODDDKTIG4AC5QGVQXWVKSXJDABCRM546HPAAYYIUEYPKMPUQ=" alt="Route Image" width="100%">
+                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/YVMW4VS62OGTNTBTV5SAV73F6CQYVHPY2NUZ2VVARS754L3JHI6IAGUNGDY2HGCDUGO3LKZ4CDWFA47BSXOMJNLPYJZW3QSHU2VH6XI=" alt="Route Image" width="100%">
             </a>
         </div>
         <div class="event-section">
@@ -115,7 +147,7 @@
         
         <div class="event-section">
             <a href="https://www.strava.com/clubs/265/group_events/1728205 target="_blank">
-                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/E5YSSVPUVOB2C43GUOPXI4MJSLDCJ6RZET443GEL6XB7BEHYIOZRMTDA5263ET3QDJF44ATNCTA5OWLKA6HMXYXGNQUDOUA42CYLFKA=" alt="Route Image" width="100%">
+                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/N64JUNOZCOBIUXFOKRFHG4IXPJRBBTOIUN62RKY5N2H74YDPYIESPUH2S4KZFNGUSXDJORZAPY6RBYFHPZRGVKP6CG4YBQTYEVZSY4Q=" alt="Route Image" width="100%">
             </a>
         </div>
         <div class="event-section">
@@ -148,7 +180,7 @@
         
         <div class="event-section">
             <a href="https://www.strava.com/clubs/265/group_events/1728273 target="_blank">
-                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/NWXPKV4HXYAOOJ7HM35GUTCMLKS75DZTMAA6LOLSEQGEJP4KJGCKAZGJEG2MMFKRLSTM3CXKGVNAIQNIRF3CN57EHNNMLHODPIJVXNY=" alt="Route Image" width="100%">
+                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/E4EUHRGL3HR2QCK35MWNZZ75EJJ3N2XID246UU3UQBMUCXA4FKLFFGKQLACFHJFLRHRTCXXF7UDRGTQLDSFB3HN6LXWKQ4HHO3RO5QQ=" alt="Route Image" width="100%">
             </a>
         </div>
         <div class="event-section">
@@ -181,7 +213,7 @@
         
         <div class="event-section">
             <a href="https://www.strava.com/clubs/1157973/group_events/1726014 target="_blank">
-                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/IYYQBISWFENO7KFJBRVADNRQHUNEAVMEBRFTQAMJ3GRUUGAC47R5VNNPCCVC6BWXEOMFAZT7T5SW2XKWI6KECADUDZXXKNFGHDC57QA=" alt="Route Image" width="100%">
+                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/B4OKQLWQZNJ4A7LGEAKNBCCDDIR5CQ4YETWRSCDZXZYKYHOWYTIIXQYSQXFY6SESKBS6G5HXEJ7VIZ6GKPHHMB3UBPLZ5IRBLPWH64A=" alt="Route Image" width="100%">
             </a>
         </div>
         <div class="event-section">
@@ -220,7 +252,7 @@ Note:
         
         <div class="event-section">
             <a href="https://www.strava.com/clubs/265/group_events/1636084 target="_blank">
-                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/PGNKISVUC4QAGSHYVRAPKARDT3YHLLKYR6ASWGNR3AOGNRI4AVJW4I2VI2GYDFSR4ZFSWJSZWHW7LDWH4NJAAGPRNOIXQUGK6UXVN5A=" alt="Route Image" width="100%">
+                <img src="https://d3o5xota0a1fcr.cloudfront.net/v6/maps/LEUXFEADLWAJ6VNGQC4XBYYZJYJLEQMHCPRXOYFEHDYRE47MDDPHX4N7M423P6Z4W54TOCWOQFZEDNOZYT4IXOEPVC5MADOOHGUTYIA=" alt="Route Image" width="100%">
             </a>
         </div>
         <div class="event-section">
