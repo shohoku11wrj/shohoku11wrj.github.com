@@ -47,12 +47,12 @@ lan: CN
 <br/>
 
 ## [南湾西 Old La Honda 老本田](https://footpathapp.com/routes/7d81a3b4-c2f2-4e98-8a08-eee43d33e689)
-总长度 21 miles, 总爬升 2300 feet。
+总长度 21 miles, 总爬升 2300 feet。[Strava Route](https://www.strava.com/routes/3448817905980100724)
 <div style="width: 640px; height: 400px;"><iframe src="https://footpathapp.com/routes/7d81a3b4-c2f2-4e98-8a08-eee43d33e689?embed=1" width="100%" height="100%" frameborder="0"></iframe></div>
 <br/>
 (可能是最)经典爬坡路段。如果说上一条Spectrum Ride全程太长相对更适合aero bike和耐力练习，那么OLH就是更适合练习爬坡。这也是我开始湾区cycling，结交到一群喜欢骑车的华人朋友的入门路线。
 <br/>
-作为经典爬坡练习路线的OLH当然也可以有较短的路线可以选择 [OLH In&Out路线](https://footpathapp.com/routes/daf07457-329e-4691-9637-9d0b6b55b097)，总长度 17 miles, 总爬升 2300 feet，图就不贴了。
+作为经典爬坡练习路线的OLH当然也可以有较短的路线可以选择 __OLH In&Out路线__[footpath](https://footpathapp.com/routes/daf07457-329e-4691-9637-9d0b6b55b097) or [Strava Route](https://www.strava.com/routes/3448823949579714856)，总长度 17 miles, 总爬升 2300 feet，图就不贴了。
 <br/>
 
 ![top of OLH](/images/cycling_routes/2022-08-21_OLH.png)
